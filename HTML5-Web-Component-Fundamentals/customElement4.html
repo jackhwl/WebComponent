@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            var pluralSightCommentProto = Object.create(HTMLElement.prototype);
+            pluralSightCommentProto.createdCallback = function(){
+                this.innerHTML = "<h2>Pluralsight Comment</h2><textarea></textarea></br><input type='submit'>";
+            }
+
+            var pluralSightComment = document.registerElement('pluralsight-comment', {prototype: pluralSightCommentProto});
+            
+            // Option 4 
+            document.body.innerHTML = '<pluralsight-comment />';
+        </script>
+    </body>
+</html>
