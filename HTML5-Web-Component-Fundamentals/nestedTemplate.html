@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <template id="header">
+            <div>Header</div>
+            <template id="body">
+                <div>Body</div>
+            </template>
+        </template>
+    </head>
+    <body>
+        <script>
+            var template = document.querySelector('#header');
+            var clone = document.importNode(template.content, true);
+            document.body.appendChild(clone)
+            
+            var template = document.querySelector('#body');
+            var clone = document.importNode(template.content, true);
+            document.body.appendChild(clone)
+        </script>
+    </body>
+</html>
