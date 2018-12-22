@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <template>
+            <p>
+                This <span class="adjective"></span> template has been copied 
+                <span class="number-of-copies"></span> times.
+            </p>
+        </template>
+        <button onclick="copyTemplate()">Copy template</button>
+        <script>
+            var numberOfCopies = 0;
+            function copyTemplate(){
+                var template = document.querySelector('template');
+                var clone = document.importNode(template.content, true);
+
+                //replace placeholders
+                clone.querySelector('.adjective').textContent = "awesome";
+                clone.querySelector('.number-of-copies').textContent = ++numberOfCopies;
+
+                document.body.appendChild(clone)
+            }
+        </script>
+    </body>
+</html>
