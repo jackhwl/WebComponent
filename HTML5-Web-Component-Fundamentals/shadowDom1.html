@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div id="host"></div>
+        <script>
+            var host = document.getElementById('host');
+            var root = host.createShadowRoot();
+            root.innerHTML = "<h1>Hello world from shadow DOM</h1>";
+        </script>
+    </body>
+</html>
