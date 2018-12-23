@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            var proto = Object.create(HTMLButtonElement.prototype);
+            proto.createdCallback = function(){
+                this.innerHTML = "Pluralsight Button";
+                this.value = "Default value";
+                this.style.color = "orange";
+            }
+
+            var pluralsightButton = document.registerElement('pluralsight-button', {
+                prototype: proto,
+                extends: 'button'
+                });
+
+            document.body.appendChild(new pluralsightButton());
+        </script>
+    </body>
+</html>
