@@ -1,0 +1,16172 @@
+COURSES: 7092 results
+
+Android Apps with Kotlin: ViewModel and Lifecycle
+Jim Wilson
+·
+Advanced
+·
+Dec 20, 2018
+·
+2h 24m
+·
+
+
+
+
+React Native: The Big Picture
+Adhithi Ravichandran
+·
+Beginner
+·
+Dec 20, 2018
+·
+1h 7m
+·
+
+
+
+
+Managing the Modern Software Dependency Ecosystem
+Troy Hunt
+·
+Intermediate
+·
+Dec 20, 2018
+·
+30m
+·
+
+
+
+
+Angular Routing
+Deborah Kurata
+·
+Intermediate
+·
+Dec 19, 2018
+·
+4h 48m
+·
+(329)
+
+
+
+
+CentOS Enterprise Linux 7 Virtualization Management
+Andrew Mallett
+·
+Beginner
+·
+Dec 19, 2018
+·
+3h 12m
+·
+(17)
+
+
+
+
+Using Integrated Analytics in Tableau Desktop
+Ann Jackson
+·
+Beginner
+·
+Dec 19, 2018
+·
+1h 25m
+·
+
+
+
+
+Windows Installation, Updating, and Recovery Troubleshooting
+Mike Halsey
+·
+Beginner
+·
+Dec 19, 2018
+·
+1h 31m
+·
+
+
+
+
+Performing and Analyzing Network Reconnaissance
+Dale Meredith
+·
+Beginner
+·
+Dec 18, 2018
+·
+7h 24m
+·
+(14)
+
+
+
+
+Performing Incident Response and Handling
+Dale Meredith
+·
+Beginner
+·
+Dec 18, 2018
+·
+5h 19m
+·
+
+
+
+
+Secure Software Development
+Dale Meredith
+·
+Beginner
+·
+Dec 18, 2018
+·
+3h 15m
+·
+(45)
+
+
+
+
+Implementing and Performing Vulnerability Management
+Dale Meredith
+·
+Beginner
+·
+Dec 18, 2018
+·
+3h 19m
+·
+
+
+
+
+C# Interfaces
+Jeremy Clark
+·
+Intermediate
+·
+Dec 18, 2018
+·
+2h 23m
+·
+
+
+
+
+Learning RxJS Operators by Example Playbook
+David Mann
+·
+Intermediate
+·
+Dec 18, 2018
+·
+3h 48m
+·
+
+
+
+
+Life Beyond Business Analysis
+Casey Ayers
+·
+Beginner
+·
+Dec 17, 2018
+·
+1h 52m
+·
+
+
+
+
+Google Cloud Platform Fundamentals
+Howard Dierking
+·
+Beginner
+·
+Dec 17, 2018
+·
+2h 7m
+·
+(66)
+
+
+
+
+Secure Coding: Identifying and Mitigating XML External Entity (XXE)
+Peter Mosmans
+·
+Intermediate
+·
+Dec 17, 2018
+·
+1h 7m
+·
+
+
+
+
+Hunting for Fileless Malware
+Aaron Rosenmund and Tyler Hudak
+·
+Intermediate
+·
+Dec 17, 2018
+·
+1h 40m
+·
+
+
+
+
+Introduction to .NET Testing with NUnit 3
+Jason Roberts
+·
+Intermediate
+·
+Dec 16, 2018
+·
+2h 6m
+·
+
+
+
+
+Streamlining Your Incident Response Process with Splunk
+Ryan Chapman and Aaron Rosenmund
+·
+Beginner
+·
+Dec 16, 2018
+·
+1h 13m
+·
+
+
+
+
+Adobe XD CC Fundamentals
+William Everhart
+·
+Beginner
+·
+Dec 13, 2018
+·
+2h 9m
+·
+
+
+
+
+Refactoring an App to Microsoft Azure Apps
+Michael Teske
+·
+Intermediate
+·
+Dec 13, 2018
+·
+1h 8m
+·
+
+
+
+
+Microsoft Azure Developer: Identifying an Appropriate Integration Solution
+Mick Badran
+·
+Intermediate
+·
+Dec 13, 2018
+·
+1h 43m
+·
+
+
+
+
+Microsoft Azure Developer: Developing for Autoscaling
+Nikola Milanovic
+·
+Advanced
+·
+Dec 13, 2018
+·
+1h 44m
+·
+
+
+
+
+Designing a Microsoft Azure Messaging Architecture
+Tim Warner
+·
+Intermediate
+·
+Dec 13, 2018
+·
+1h 39m
+·
+
+
+
+
+Microsoft Azure Developer: Troubleshooting Using Microsoft Azure Portal
+Robert Lindley
+·
+Intermediate
+·
+Dec 13, 2018
+·
+1h 51m
+·
+
+
+
+
+Architecting Serverless Big Data Solutions Using Google Dataflow
+Janani Ravi
+·
+Beginner
+·
+Dec 13, 2018
+·
+2h 15m
+·
+
+
+
+
+Monitoring Microsoft Azure Resources and Workloads
+Tim Warner
+·
+Intermediate
+·
+Dec 13, 2018
+·
+2h 0m
+·
+
+
+
+
+Creating Microsoft Azure Stack Development Environments
+Jason Helmick
+·
+Intermediate
+·
+Dec 13, 2018
+·
+1h 0m
+·
+
+
+
+
+Unity 2018 Fundamentals
+Joshua Kinney
+·
+Beginner
+·
+Dec 13, 2018
+·
+4h 59m
+·
+
+
+
+
+Microsoft Azure Developer: Choosing an Appropriate Compute Solution
+Matt Milner
+·
+Beginner
+·
+Dec 12, 2018
+·
+2h 9m
+·
+
+
+
+
+Microsoft Azure Developer: Creating IoT Solutions
+Matt Honeycutt
+·
+Beginner
+·
+Dec 12, 2018
+·
+1h 57m
+·
+
+
+
+
+Microsoft Azure Developer: Managing Azure SQL Database
+Jeff Hopper
+·
+Intermediate
+·
+Dec 12, 2018
+·
+2h 6m
+·
+
+
+
+
+Gathering Non-functional Requirements for Microsoft Azure
+Harry Mumford-Turner
+·
+Beginner
+·
+Dec 12, 2018
+·
+1h 2m
+·
+
+
+
+
+Implementing Managed Identities for Microsoft Azure Resources
+Manoj Nair
+·
+Beginner
+·
+Dec 12, 2018
+·
+1h 27m
+·
+
+
+
+
+Analyzing Microsoft Azure Subscription Resource Utilization
+June Cho
+·
+Beginner
+·
+Dec 12, 2018
+·
+1h 16m
+·
+
+
+
+
+Information Security Manager: Information Security Program Management
+Bobby Rogers
+·
+Intermediate
+·
+Dec 11, 2018
+·
+4h 12m
+·
+
+
+
+
+Microsoft Azure Developer: Monitoring Performance
+Fabien Ruffin
+·
+Beginner
+·
+Dec 11, 2018
+·
+1h 10m
+·
+
+
+
+
+Managing Microsoft Azure Role Based Access Control
+Orin Thomas
+·
+Advanced
+·
+Dec 11, 2018
+·
+1h 39m
+·
+
+
+
+
+Managing Microsoft Azure Security
+Ned Bellavance
+·
+Advanced
+·
+Dec 11, 2018
+·
+2h 29m
+·
+
+
+
+
+Troubleshooting Layer 2 Technologies with ArubaOS-Switch
+Leigh Bogardis
+·
+Beginner
+·
+Dec 11, 2018
+·
+1h 20m
+·
+
+
+
+
+Microsoft Azure Developer: Implementing Data Lake Storage Gen2
+Xavier Morera
+·
+Intermediate
+·
+Dec 10, 2018
+·
+1h 8m
+·
+
+
+
+
+Microsoft Azure Developer: Enterprise Messaging and Eventing
+Stephen W. Thomas
+·
+Intermediate
+·
+Dec 10, 2018
+·
+2h 27m
+·
+
+
+
+
+Increasing Productivity by Beating Procrastination
+Stephen Haunts
+·
+Beginner
+·
+Dec 10, 2018
+·
+1h 43m
+·
+(13)
+
+
+
+
+Identifying Existing Products, Services, and Technologies in Use for ...
+Jared Rhodes
+·
+Intermediate
+·
+Dec 10, 2018
+·
+1h 2m
+·
+
+
+
+
+Evaluating Your Organization’s Security Posture
+Paul Mealus
+·
+Intermediate
+·
+Dec 10, 2018
+·
+3h 23m
+·
+
+
+
+
+Cleaning Data: Python Data Playbook
+Chris Achard
+·
+Beginner
+·
+Dec 09, 2018
+·
+1h 8m
+·
+
+
+
+
+Deploying Enterprise Voicemail with Cisco Unity Connection
+Sean Douglas
+·
+Intermediate
+·
+Dec 09, 2018
+·
+2h 25m
+·
+
+
+
+
+Embracing Change: Staying Agile in the Midst of Change
+Alice Meredith
+·
+Beginner
+·
+Dec 09, 2018
+·
+58m
+·
+
+
+
+
+Estimating One-time and Recurring Costs for Microsoft Azure
+Phil Evershed
+·
+Intermediate
+·
+Dec 09, 2018
+·
+1h 37m
+·
+
+
+
+
+Microsoft Azure Developer: Designing a Test Strategy
+Scott Tate
+·
+Advanced
+·
+Dec 09, 2018
+·
+3h 23m
+·
+
+
+
+
+Administering Amazon Aurora on Amazon RDS
+Aaron Medacco
+·
+Intermediate
+·
+Dec 09, 2018
+·
+3h 25m
+·
+
+
+
+
+Identify Information Architecture Requirements with Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Dec 09, 2018
+·
+1h 11m
+·
+
+
+
+
+Android: Room Fundamentals
+Annapurna Agrawal
+·
+Beginner
+·
+Dec 06, 2018
+·
+2h 26m
+·
+
+
+
+
+Data Transactions with Spring
+Kesha Williams
+·
+Intermediate
+·
+Dec 06, 2018
+·
+56m
+·
+
+
+
+
+Microsoft Azure Developer: Implementing File Storage
+Jeremy Foster
+·
+Advanced
+·
+Dec 06, 2018
+·
+1h 13m
+·
+
+
+
+
+AR Interactions and Worldspace UI in Unity
+Harrison Hutcheon
+·
+Intermediate
+·
+Dec 06, 2018
+·
+2h 25m
+·
+
+
+
+
+Developing Applications on Ethereum Blockchain
+Ivan Mushketyk
+·
+Beginner
+·
+Dec 06, 2018
+·
+5h 15m
+·
+(10)
+
+
+
+
+Designing a Data Archiving Strategy on Microsoft Azure
+Mike Pfeiffer
+·
+Advanced
+·
+Dec 06, 2018
+·
+56m
+·
+
+
+
+
+Administering Microsoft SQL Server Availability Groups
+Russ Thomas
+·
+Intermediate
+·
+Dec 06, 2018
+·
+3h 3m
+·
+
+
+
+
+Micro Frontends Architecture
+Rag Dhiman
+·
+Beginner
+·
+Dec 06, 2018
+·
+1h 42m
+·
+(13)
+
+
+
+
+What's New for IT Pros in Windows Server 2019
+Greg Shields
+·
+Beginner
+·
+Dec 05, 2018
+·
+27m
+·
+
+
+
+
+Access Control and Identity Management
+Kevin Henry
+·
+Intermediate
+·
+Dec 05, 2018
+·
+1h 43m
+·
+
+
+
+
+Developing .NET Core Applications with DynamoDB on AWS
+Daniel Donbavand
+·
+Beginner
+·
+Dec 04, 2018
+·
+3h 3m
+·
+
+
+
+
+Microsoft Azure Developer: Advanced Troubleshooting
+Nikola Milanovic
+·
+Advanced
+·
+Dec 04, 2018
+·
+2h 8m
+·
+
+
+
+
+Serilog Enrichers: Getting Common Information into Log Entries
+Erik Dahl
+·
+Intermediate
+·
+Dec 04, 2018
+·
+33m
+·
+
+
+
+
+Extending the Unity Editor with Custom Windows
+Michael Taylor
+·
+Intermediate
+·
+Dec 04, 2018
+·
+1h 6m
+·
+
+
+
+
+How to Have Difficult Conversations
+Jason Alba
+·
+Beginner
+·
+Dec 04, 2018
+·
+1h 36m
+·
+
+
+
+
+Architecting Event-driven Serverless Solutions Using Google Cloud Functions
+Janani Ravi
+·
+Beginner
+·
+Dec 03, 2018
+·
+2h 5m
+·
+
+
+
+
+Creating & Deploying Microsoft Azure Machine Learning Studio Solutions
+Shawn Hainsworth
+·
+Advanced
+·
+Dec 03, 2018
+·
+2h 19m
+·
+
+
+
+
+Architecting Big Data Solutions Using Google Bigtable
+Janani Ravi
+·
+Beginner
+·
+Dec 03, 2018
+·
+2h 2m
+·
+
+
+
+
+After Effects CC Puppet Tool
+Jason Cox
+·
+Intermediate
+·
+Dec 02, 2018
+·
+2h 13m
+·
+
+
+
+
+Managing and Securing Windows Server with Puppet
+Russell Smith
+·
+Intermediate
+·
+Dec 02, 2018
+·
+3h 49m
+·
+
+
+
+
+Technical Tips and Tricks for Game Artists
+Zaheer Mukhtar
+·
+Intermediate
+·
+Dec 02, 2018
+·
+2h 9m
+·
+
+
+
+
+Ethical Hacking: Cryptography
+Dale Meredith
+·
+Beginner
+·
+Dec 02, 2018
+·
+2h 28m
+·
+
+
+
+
+Microsoft Azure Developer: Performing Automated End-to-end Testing
+Phil Jirsa
+·
+Advanced
+·
+Nov 29, 2018
+·
+1h 40m
+·
+
+
+
+
+Designing a Monitoring Strategy for the Microsoft Azure Data Platform
+William Myers
+·
+Intermediate
+·
+Nov 29, 2018
+·
+39m
+·
+
+
+
+
+Securing React Apps with Auth0
+Cory House
+·
+Intermediate
+·
+Nov 29, 2018
+·
+3h 18m
+·
+(16)
+
+
+
+
+Fundamentals of Mongoose for Node and MongoDB
+Mark Scott
+·
+Intermediate
+·
+Nov 28, 2018
+·
+1h 54m
+·
+
+
+
+
+Designing a Monitoring Strategy for a Solution in Microsoft Azure
+Brian Harrison
+·
+Intermediate
+·
+Nov 28, 2018
+·
+3h 19m
+·
+
+
+
+
+Razor Pages in ASP.NET Core: Getting Started
+Alex Wolf
+·
+Beginner
+·
+Nov 28, 2018
+·
+2h 42m
+·
+
+
+
+
+Troubleshooting with Cisco Collaboration Support Tools and Call Control 
+Sean Douglas
+·
+Intermediate
+·
+Nov 28, 2018
+·
+2h 16m
+·
+
+
+
+
+Rigging a 2D Character in Unity Using IK
+Shane Whelan
+·
+Intermediate
+·
+Nov 28, 2018
+·
+1h 57m
+·
+
+
+
+
+Getting Started with D3
+Chris Behrens
+·
+Beginner
+·
+Nov 28, 2018
+·
+2h 47m
+·
+
+
+
+
+Plan for Data Warehousing with Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Nov 28, 2018
+·
+1h 16m
+·
+
+
+
+
+Microsoft Azure Developer: Performing Data Integrity Testing
+Aram Koukia
+·
+Advanced
+·
+Nov 27, 2018
+·
+1h 3m
+·
+
+
+
+
+Pluralsight LIVE 2018: Get Your Geek On (Data & Analytics)
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+7h 39m
+·
+
+
+
+
+Pluralsight LIVE 2018: Get Your Geek On (Design)
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+3h 19m
+·
+
+
+
+
+Pluralsight LIVE 2018: Get Your Geek On (IT Operations)
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+1h 29m
+·
+
+
+
+
+Pluralsight LIVE 2018: Get Your Geek On (Leadership/Business Strategy)
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+2h 11m
+·
+
+
+
+
+Pluralsight LIVE 2018: Level-up Your Leadership
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+11h 58m
+·
+
+
+
+
+Pluralsight LIVE 2018: Get Your Geek On (Security)
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+4h 9m
+·
+
+
+
+
+Pluralsight LIVE 2018: Get Your Geek On (Software Development)
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+11h 45m
+·
+
+
+
+
+Pluralsight LIVE 2018: Power to the Platform
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+4h 38m
+·
+
+
+
+
+Pluralsight LIVE 2018: Mainstage
+Pluralsight Live
+·
+Beginner
+·
+Nov 27, 2018
+·
+4h 3m
+·
+
+
+
+
+Blockchain Fundamentals
+Jan-Erik Sandberg
+·
+Beginner
+·
+Nov 26, 2018
+·
+2h 20m
+·
+(298)
+
+
+
+
+Design and Document Data Flows with Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Nov 26, 2018
+·
+1h 15m
+·
+
+
+
+
+Validating Proposed Solution with Relevant Parties for Microsoft Azure
+William Myers
+·
+Intermediate
+·
+Nov 26, 2018
+·
+1h 0m
+·
+
+
+
+
+Microsoft Azure Developer: Enabling Search of Textual Content
+Sahil Malik
+·
+Intermediate
+·
+Nov 26, 2018
+·
+1h 29m
+·
+
+
+
+
+Performing OSINT Gathering on Employee Targets
+Jerod Brennen
+·
+Intermediate
+·
+Nov 26, 2018
+·
+3h 57m
+·
+
+
+
+
+Microsoft Dynamics 365 for Customer Service
+Amber Israelsen
+·
+Beginner
+·
+Nov 26, 2018
+·
+1h 33m
+·
+
+
+
+
+VMware Cloud on AWS Fundamentals
+David Davis
+·
+Intermediate
+·
+Nov 26, 2018
+·
+1h 42m
+·
+
+
+
+
+Design a Data Protection Strategy with Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Nov 25, 2018
+·
+1h 32m
+·
+
+
+
+
+Functional Programming: The Big Picture
+Nate Taylor
+·
+Beginner
+·
+Nov 20, 2018
+·
+1h 12m
+·
+(31)
+
+
+
+
+Designing an API Management Strategy for Microsoft Azure
+Reza Salehi
+·
+Advanced
+·
+Nov 20, 2018
+·
+2h 34m
+·
+(10)
+
+
+
+
+Secure Network Design
+Kevin Henry
+·
+Intermediate
+·
+Nov 20, 2018
+·
+2h 19m
+·
+
+
+
+
+Managing IT: Metrics and Measurements
+Kevin Miller
+·
+Intermediate
+·
+Nov 19, 2018
+·
+2h 35m
+·
+
+
+
+
+ng-bootstrap Playbook
+Steve Michelotti
+·
+Beginner
+·
+Nov 19, 2018
+·
+2h 48m
+·
+(14)
+
+
+
+
+Building Image Processing Applications Using scikit-image
+Janani Ravi
+·
+Beginner
+·
+Nov 19, 2018
+·
+1h 49m
+·
+
+
+
+
+Building Machine Learning Models in SQL Using BigQuery ML
+Janani Ravi
+·
+Beginner
+·
+Nov 19, 2018
+·
+1h 27m
+·
+
+
+
+
+SCCM Current Branch: Support Intune and Co-management
+Greg Shields
+·
+Intermediate
+·
+Nov 18, 2018
+·
+2h 2m
+·
+
+
+
+
+Beautiful C++: Updating Legacy Code
+Kate Gregory
+·
+Intermediate
+·
+Nov 18, 2018
+·
+5h 2m
+·
+
+
+
+
+Deploying Hyperledger Fabric with AWS Blockchain Templates
+Janani Ravi
+·
+Intermediate
+·
+Nov 18, 2018
+·
+1h 49m
+·
+
+
+
+
+Importing Data: Python Data Playbook
+Xavier Morera
+·
+Beginner
+·
+Nov 16, 2018
+·
+1h 35m
+·
+
+
+
+
+Unity Audio Fundamentals
+Dano Kablamo
+·
+Beginner
+·
+Nov 16, 2018
+·
+1h 55m
+·
+
+
+
+
+Deploying Ethereum with AWS Blockchain Templates
+Janani Ravi
+·
+Intermediate
+·
+Nov 16, 2018
+·
+1h 51m
+·
+
+
+
+
+Data Science: Executive Briefing
+Matthew Renze
+·
+Beginner
+·
+Nov 15, 2018
+·
+27m
+·
+(20)
+
+
+
+
+Building Games with Unity Services: Monetization & Analytics
+Harrison Ferrone
+·
+Intermediate
+·
+Nov 15, 2018
+·
+1h 21m
+·
+
+
+
+
+Building Statistical Models Using StatsModels
+Janani Ravi
+·
+Beginner
+·
+Nov 15, 2018
+·
+2h 9m
+·
+
+
+
+
+Android Threads: Getting Started
+Mitch Tabian
+·
+Intermediate
+·
+Nov 14, 2018
+·
+2h 19m
+·
+
+
+
+
+Microsoft Azure Batch: Getting Started
+Alan Smith
+·
+Beginner
+·
+Nov 14, 2018
+·
+2h 34m
+·
+
+
+
+
+Microsoft Azure Developer: Performing Load Testing
+Mick Badran
+·
+Beginner
+·
+Nov 14, 2018
+·
+1h 17m
+·
+
+
+
+
+Getting Started with TestNG
+Andrejs Doronins
+·
+Beginner
+·
+Nov 14, 2018
+·
+1h 42m
+·
+
+
+
+
+macOS Support: System Management
+Herta Nava
+·
+Intermediate
+·
+Nov 12, 2018
+·
+1h 44m
+·
+
+
+
+
+Microsoft Azure Developer: Choosing a Storage Solution
+Jeremy Foster
+·
+Beginner
+·
+Nov 12, 2018
+·
+2h 24m
+·
+
+
+
+
+Troubleshooting Cisco Collaboration Mobility and Media Resources
+Sean Douglas
+·
+Intermediate
+·
+Nov 12, 2018
+·
+2h 56m
+·
+
+
+
+
+Monitoring Microsoft Azure Hybrid Cloud Networks
+Tim Warner
+·
+Advanced
+·
+Nov 12, 2018
+·
+1h 50m
+·
+
+
+
+
+Microsoft Azure Developer: Performing Unit Testing & Integration Testing
+Rusty Divine
+·
+Intermediate
+·
+Nov 11, 2018
+·
+1h 24m
+·
+
+
+
+
+AEM Building Full Stack Components
+Tyler Maynard
+·
+Intermediate
+·
+Nov 11, 2018
+·
+2h 5m
+·
+
+
+
+
+Rehosting Workloads to Microsoft Azure
+Michael Teske
+·
+Intermediate
+·
+Nov 11, 2018
+·
+1h 17m
+·
+
+
+
+
+Design a Data Management Strategy for Microsoft Azure
+John Savill
+·
+Beginner
+·
+Nov 11, 2018
+·
+1h 36m
+·
+
+
+
+
+Android Apps with Kotlin: RecyclerView and Navigation Drawer
+Jim Wilson
+·
+Intermediate
+·
+Nov 08, 2018
+·
+2h 45m
+·
+
+
+
+
+Managing Microsoft Azure App Service Plan
+Neil Morrissey
+·
+Beginner
+·
+Nov 08, 2018
+·
+3h 21m
+·
+
+
+
+
+Angular: Getting Started
+Deborah Kurata
+·
+Beginner
+·
+Nov 07, 2018
+·
+5h 41m
+·
+(3027)
+
+
+
+
+SCCM Current Branch: Support Internet-based Clients and On-premises MDM
+Greg Shields
+·
+Intermediate
+·
+Nov 07, 2018
+·
+2h 11m
+·
+
+
+
+
+Groovy: Getting Started
+Jeremy Jarrell
+·
+Beginner
+·
+Nov 07, 2018
+·
+1h 18m
+·
+
+
+
+
+Play by Play: Supercharge your Lightning Component Development with ...
+Don Robins and Adam Daw
+·
+Intermediate
+·
+Nov 07, 2018
+·
+1h 38m
+·
+
+
+
+
+Getting Started Unit Testing with JUnit 5
+Jim Weaver
+·
+Beginner
+·
+Nov 07, 2018
+·
+1h 27m
+·
+
+
+
+
+Microsoft Azure Developer: Implementing Application Logging with Diagnostic 
+Jeff Hopper
+·
+Intermediate
+·
+Nov 06, 2018
+·
+1h 34m
+·
+
+
+
+
+Microsoft Azure Cognitive Services: Custom Vision API
+Andy Butland
+·
+Beginner
+·
+Nov 06, 2018
+·
+1h 32m
+·
+
+
+
+
+Play by Play: Building Salesforce Apps with Base Lightning Components
+Don Robins and Peter Knolle
+·
+Intermediate
+·
+Nov 06, 2018
+·
+2h 11m
+·
+
+
+
+
+Internal Footprinting: Reconnaissance and Mapping
+Gus Khawaja
+·
+Intermediate
+·
+Nov 06, 2018
+·
+1h 40m
+·
+
+
+
+
+Angular Reactive Forms
+Deborah Kurata
+·
+Intermediate
+·
+Nov 05, 2018
+·
+3h 52m
+·
+(424)
+
+
+
+
+Microsoft Azure Developer: Deploying and Managing Containers
+Mark Heath
+·
+Intermediate
+·
+Nov 05, 2018
+·
+3h 12m
+·
+(15)
+
+
+
+
+Microsoft Azure Developer: Creating a Detailed Design for Your Solution
+Barry Luijbregts
+·
+Advanced
+·
+Nov 05, 2018
+·
+3h 0m
+·
+
+
+
+
+Ethical Hacking: Hacking the Internet of Things (IoT)
+Dale Meredith
+·
+Beginner
+·
+Nov 04, 2018
+·
+2h 44m
+·
+
+
+
+
+RHCSA for Red Hat OpenStack - Using OpenStack (Storage and Orchestration)
+Bernd Bausch
+·
+Intermediate
+·
+Nov 01, 2018
+·
+3h 5m
+·
+
+
+
+
+What Is DevOps: Executive Briefing
+Wes Higbee
+·
+Beginner
+·
+Nov 01, 2018
+·
+22m
+·
+(23)
+
+
+
+
+Modern Java: The Big Picture
+Sander Mak
+·
+Beginner
+·
+Nov 01, 2018
+·
+1h 58m
+·
+(59)
+
+
+
+
+Unity GameObject Singletons: Best Practices
+Ava Pek
+·
+Intermediate
+·
+Nov 01, 2018
+·
+27m
+·
+
+
+
+
+VR Interaction Fundamentals
+Eric Weiss
+·
+Intermediate
+·
+Nov 01, 2018
+·
+1h 59m
+·
+
+
+
+
+Getting Started with MariaDB
+Pinal Dave
+·
+Beginner
+·
+Nov 01, 2018
+·
+2h 23m
+·
+
+
+
+
+Angular Crash Course
+Joe Eames
+·
+Intermediate
+·
+Oct 31, 2018
+·
+58m
+·
+(26)
+
+
+
+
+Databases: Executive Briefing
+Simon Allardice
+·
+Beginner
+·
+Oct 31, 2018
+·
+48m
+·
+(28)
+
+
+
+
+Architecting Big Data Solutions Using Google Dataproc
+Janani Ravi
+·
+Beginner
+·
+Oct 31, 2018
+·
+2h 17m
+·
+
+
+
+
+Building Blockchains with Hyperledger
+Janani Ravi
+·
+Intermediate
+·
+Oct 31, 2018
+·
+2h 16m
+·
+
+
+
+
+AWS Developer: Serverless Architecture and Monitoring
+Ryan Lewis
+·
+Intermediate
+·
+Oct 30, 2018
+·
+1h 36m
+·
+
+
+
+
+Chatbots in the Call Center: AWS Lex and Connect
+Craig Golightly
+·
+Beginner
+·
+Oct 30, 2018
+·
+26m
+·
+
+
+
+
+Designing for High Availability on Microsoft Azure
+Mike Pfeiffer
+·
+Intermediate
+·
+Oct 30, 2018
+·
+2h 15m
+·
+
+
+
+
+Civil 3D Assemblies & Corridor Modeling Fundamentals
+Curtis Smith
+·
+Beginner
+·
+Oct 29, 2018
+·
+3h 49m
+·
+
+
+
+
+SCCM Current Branch: Deploy and Maintain Operating Systems
+Greg Shields
+·
+Intermediate
+·
+Oct 28, 2018
+·
+4h 15m
+·
+
+
+
+
+Getting Started with Analyzing Network Traffic Using Wireshark
+Ross Bagurdes
+·
+Intermediate
+·
+Oct 28, 2018
+·
+3h 17m
+·
+
+
+
+
+Microsoft Azure Developer: Implementing Blob Storage
+Thomas Claudius Huber
+·
+Intermediate
+·
+Oct 28, 2018
+·
+3h 57m
+·
+
+
+
+
+Building and Implementing a Security Awareness Training Program
+Jeremy Turner
+·
+Beginner
+·
+Oct 25, 2018
+·
+2h 34m
+·
+
+
+
+
+Java Fundamentals: The Regular Expressions Playbook
+Victor Grazi
+·
+Beginner
+·
+Oct 23, 2018
+·
+1h 32m
+·
+
+
+
+
+Culture of Learning: Executive Briefing
+Dan Appleman
+·
+Beginner
+·
+Oct 22, 2018
+·
+29m
+·
+(22)
+
+
+
+
+Operationalizing Cyber Threat Intel: Pivoting & Hunting
+Ryan Chapman
+·
+Intermediate
+·
+Oct 21, 2018
+·
+2h 34m
+·
+
+
+
+
+Unity AR: Ground Plane Tools
+Rich Fiore
+·
+Intermediate
+·
+Oct 21, 2018
+·
+1h 4m
+·
+
+
+
+
+Enabling Load Balancing with Citrix NetScaler® 12
+Jo Harder
+·
+Intermediate
+·
+Oct 18, 2018
+·
+1h 24m
+·
+
+
+
+
+Building AI-driven Characters Using Playmaker in Unity
+Shane Whelan
+·
+Intermediate
+·
+Oct 18, 2018
+·
+3h 1m
+·
+
+
+
+
+Designing and Implementing Solutions Using Google Machine Learning APIs
+Janani Ravi
+·
+Beginner
+·
+Oct 18, 2018
+·
+1h 37m
+·
+
+
+
+
+Android Security: Effective Permission Handling
+Nitin Singh
+·
+Intermediate
+·
+Oct 17, 2018
+·
+59m
+·
+
+
+
+
+Inventor Essentials: Design Changes and Errors
+Mark Mason
+·
+Beginner
+·
+Oct 17, 2018
+·
+1h 0m
+·
+
+
+
+
+Troubleshooting Cisco Collaboration Multisite Calling Issues
+Sean Douglas
+·
+Intermediate
+·
+Oct 16, 2018
+·
+2h 59m
+·
+
+
+
+
+Creature Rigging for Games
+Jeremy Ernst
+·
+Beginner
+·
+Oct 16, 2018
+·
+6h 21m
+·
+(10)
+
+
+
+
+InDesign CC 2019 New Features
+Pariah Burke
+·
+Intermediate
+·
+Oct 15, 2018
+·
+25m
+·
+
+
+
+
+Microsoft Azure Developer: Managing Code Reviews with VSTS
+Patrick Neborg
+·
+Beginner
+·
+Oct 15, 2018
+·
+2h 13m
+·
+(10)
+
+
+
+
+Deploying and Publishing Power BI Reports
+Eugene Meidinger
+·
+Intermediate
+·
+Oct 15, 2018
+·
+1h 45m
+·
+
+
+
+
+Architecting Data Warehousing Solutions Using Google BigQuery
+Janani Ravi
+·
+Beginner
+·
+Oct 14, 2018
+·
+2h 48m
+·
+
+
+
+
+Advanced Data and Stream Processing with Microsoft TPL Dataflow
+Szymon Warda
+·
+Advanced
+·
+Oct 14, 2018
+·
+2h 54m
+·
+(13)
+
+
+
+
+Premiere Pro CC 2019 New Features
+Jason Cox
+·
+Intermediate
+·
+Oct 14, 2018
+·
+38m
+·
+
+
+
+
+SOLIDWORKS Essentials - Sheet Metal 101
+Mike Thomas
+·
+Beginner
+·
+Oct 14, 2018
+·
+1h 42m
+·
+
+
+
+
+Working with Files and Streams in C#
+Jason Roberts
+·
+Intermediate
+·
+Oct 11, 2018
+·
+3h 13m
+·
+(18)
+
+
+
+
+Microsoft Azure for .NET Developers - Building Secure Services and Applications
+Scott Allen
+·
+Advanced
+·
+Oct 11, 2018
+·
+3h 15m
+·
+(114)
+
+
+
+
+Microsoft Azure Developer: Implementing CDNs for Storage
+Kamran Ayub
+·
+Advanced
+·
+Oct 11, 2018
+·
+1h 28m
+·
+
+
+
+
+OnShape - Patterns and Symmetry
+Matt Perez
+·
+Beginner
+·
+Oct 11, 2018
+·
+39m
+·
+
+
+
+
+Designing and Implementing Solutions Using Google Cloud AutoML
+Janani Ravi
+·
+Beginner
+·
+Oct 11, 2018
+·
+1h 41m
+·
+
+
+
+
+Building Deep Learning Models Using PyTorch
+Janani Ravi
+·
+Beginner
+·
+Oct 11, 2018
+·
+3h 18m
+·
+
+
+
+
+Enterprise Data Modeling: Getting Started
+Joseph Cline
+·
+Beginner
+·
+Oct 10, 2018
+·
+1h 38m
+·
+(18)
+
+
+
+
+Android Apps with Kotlin: Notifications and App Widgets
+Brendan Wanlass
+·
+Beginner
+·
+Oct 10, 2018
+·
+1h 28m
+·
+
+
+
+
+Automating AWS Operations with the AWS CLI
+David Clinton
+·
+Beginner
+·
+Oct 10, 2018
+·
+39m
+·
+
+
+
+
+CQRS in Practice
+Vladimir Khorikov
+·
+Intermediate
+·
+Oct 10, 2018
+·
+4h 22m
+·
+(91)
+
+
+
+
+Managing Microsoft Azure Information Protection
+Ned Bellavance
+·
+Intermediate
+·
+Oct 10, 2018
+·
+1h 39m
+·
+
+
+
+
+Modeling and Texturing Animals for Games
+Micah Masbaum
+·
+Intermediate
+·
+Oct 10, 2018
+·
+3h 7m
+·
+
+
+
+
+Providing Secure Cloud Applications
+Kevin Jackson
+·
+Intermediate
+·
+Oct 10, 2018
+·
+2h 17m
+·
+
+
+
+
+Microsoft Azure Developer: Integrating an App or Service with Microsoft Graph
+Jeff Hopper
+·
+Beginner
+·
+Oct 09, 2018
+·
+1h 9m
+·
+
+
+
+
+Microsoft Azure Developer: Configuring CORS Access for Storage
+Kamran Ayub
+·
+Advanced
+·
+Oct 09, 2018
+·
+1h 0m
+·
+
+
+
+
+Spring REST: Getting Started
+peter van rijn
+·
+Intermediate
+·
+Oct 09, 2018
+·
+1h 11m
+·
+(28)
+
+
+
+
+IoT Device Security: Executive Briefing
+Jeremy Willden
+·
+Beginner
+·
+Oct 08, 2018
+·
+23m
+·
+
+
+
+
+Entity Framework Core 2.1: What's New Playbook
+Julie Lerman
+·
+Intermediate
+·
+Oct 08, 2018
+·
+3h 22m
+·
+(22)
+
+
+
+
+Building Cross-platform Mobile Apps in C# with Xamarin and Azure
+Matt Milner
+·
+Beginner
+·
+Oct 08, 2018
+·
+4h 8m
+·
+
+
+
+
+Pandas Playbook: Visualization
+Reindert-Jan Ekker
+·
+Intermediate
+·
+Oct 08, 2018
+·
+2h 11m
+·
+
+
+
+
+Documenting Detailed Solution Design for Microsoft Azure
+Chris Behrens
+·
+Intermediate
+·
+Oct 08, 2018
+·
+1h 6m
+·
+
+
+
+
+Designing, Implementing, and Maintaining a Business Continuity Plan
+Christopher Rees
+·
+Beginner
+·
+Oct 08, 2018
+·
+2h 10m
+·
+
+
+
+
+Scrum Essentials Exam Prep
+William Davis
+·
+Intermediate
+·
+Oct 07, 2018
+·
+3h 7m
+·
+(10)
+
+
+
+
+Introduction to Data Structures and Algorithms in C++
+Giovanni Dicanio
+·
+Intermediate
+·
+Oct 07, 2018
+·
+3h 29m
+·
+(10)
+
+
+
+
+Migrating to Office 365 SharePoint Online
+Vlad Catrinescu
+·
+Intermediate
+·
+Oct 05, 2018
+·
+2h 0m
+·
+(16)
+
+
+
+
+Getting Started with Nmap
+Matt Glass
+·
+Beginner
+·
+Oct 04, 2018
+·
+1h 26m
+·
+(11)
+
+
+
+
+General Data Protection Regulation (GDPR): Executive Briefing
+John Elliott
+·
+Beginner
+·
+Oct 04, 2018
+·
+23m
+·
+(12)
+
+
+
+
+So You Want to Be a Business Analyst
+Casey Ayers
+·
+Beginner
+·
+Oct 04, 2018
+·
+1h 50m
+·
+
+
+
+
+Implementing Windows 10
+Glenn Weadock
+·
+Intermediate
+·
+Oct 03, 2018
+·
+2h 51m
+·
+
+
+
+
+Configuring Windows 10 Core Services
+Glenn Weadock
+·
+Intermediate
+·
+Oct 03, 2018
+·
+3h 17m
+·
+
+
+
+
+Installing and Configuring Windows 10
+Andrew Bettany
+·
+Intermediate
+·
+Oct 03, 2018
+·
+1h 43m
+·
+
+
+
+
+Managing and Maintaining Windows 10
+Glenn Weadock
+·
+Intermediate
+·
+Oct 03, 2018
+·
+3h 17m
+·
+
+
+
+
+Recovering from Trouble
+Daniel Lachance
+·
+Intermediate
+·
+Oct 02, 2018
+·
+1h 30m
+·
+
+
+
+
+Setting up a Cloud Solution Environment on Google Cloud
+James Wilson
+·
+Beginner
+·
+Oct 02, 2018
+·
+1h 30m
+·
+
+
+
+
+Determining Feasibility and Refining Requirements for Microsoft Azure
+Chris Behrens
+·
+Intermediate
+·
+Oct 02, 2018
+·
+1h 2m
+·
+
+
+
+
+Preparing Wireless Site Surveys
+Andrew Crouthamel
+·
+Intermediate
+·
+Oct 02, 2018
+·
+43m
+·
+
+
+
+
+Wear OS Fundamentals: Watch Face
+Vladimir Jovanovic
+·
+Beginner
+·
+Oct 02, 2018
+·
+1h 16m
+·
+
+
+
+
+Data Storytelling: Moving Beyond Static Data Visualizations
+Troy Kranendonk
+·
+Intermediate
+·
+Oct 02, 2018
+·
+45m
+·
+(17)
+
+
+
+
+Performing Threat Modeling with the Microsoft Threat Modeling Methodology
+Justin Boyer
+·
+Intermediate
+·
+Oct 01, 2018
+·
+1h 46m
+·
+
+
+
+
+Saving Persistent Player Data in Unity
+Michael Baker
+·
+Intermediate
+·
+Sep 30, 2018
+·
+37m
+·
+
+
+
+
+Multi-pass Rendering with V-Ray and Maya
+Daniel Miller
+·
+Beginner
+·
+Sep 27, 2018
+·
+3h 55m
+·
+
+
+
+
+Ethical Hacking: Enumeration
+Dale Meredith
+·
+Beginner
+·
+Sep 27, 2018
+·
+3h 12m
+·
+(156)
+
+
+
+
+Microsoft Azure Developer: Connecting to Storage
+Warner Chaves
+·
+Beginner
+·
+Sep 27, 2018
+·
+1h 8m
+·
+
+
+
+
+Fundamentals of V-Ray for Maya
+Dariush Derakhshani
+·
+Beginner
+·
+Sep 26, 2018
+·
+3h 49m
+·
+
+
+
+
+RxJS: Getting Started
+Brice Wilson
+·
+Intermediate
+·
+Sep 26, 2018
+·
+3h 4m
+·
+(55)
+
+
+
+
+How Power BI Users Can Talk to Data Engineers
+Ben Howard
+·
+Beginner
+·
+Sep 26, 2018
+·
+55m
+·
+
+
+
+
+Ethical Hacking: Vulnerability Analysis
+Dale Meredith
+·
+Intermediate
+·
+Sep 26, 2018
+·
+3h 14m
+·
+
+
+
+
+Getting Started with Endpoint Log Analysis
+Joe Abraham
+·
+Beginner
+·
+Sep 26, 2018
+·
+1h 54m
+·
+
+
+
+
+Salesforce Sharing and Security Fundamentals
+Scott Lee
+·
+Intermediate
+·
+Sep 25, 2018
+·
+2h 23m
+·
+
+
+
+
+Asynchronous Messaging with RabbitMQ and EasyNetQ
+Stephen Haunts
+·
+Intermediate
+·
+Sep 25, 2018
+·
+1h 50m
+·
+(25)
+
+
+
+
+Debugging Your Website with Fiddler and Chrome DevTools
+Robert Boedigheimer
+·
+Intermediate
+·
+Sep 25, 2018
+·
+2h 12m
+·
+(26)
+
+
+
+
+Troubleshooting Cisco SIP Trunks, CUBEs, and URI Dial Plans
+Sean Douglas
+·
+Intermediate
+·
+Sep 24, 2018
+·
+3h 12m
+·
+
+
+
+
+Quantum Computing: The Big Picture
+Chuck Bates
+·
+Beginner
+·
+Sep 24, 2018
+·
+30m
+·
+(53)
+
+
+
+
+SCCM Current Branch: Deploy and Manage Applications
+Greg Shields
+·
+Intermediate
+·
+Sep 23, 2018
+·
+3h 52m
+·
+
+
+
+
+GitHub Fundamentals
+Gill Cleeren
+·
+Beginner
+·
+Sep 23, 2018
+·
+4h 16m
+·
+(32)
+
+
+
+
+Architecting Google Cloud Storage Configurations
+Janani Ravi
+·
+Beginner
+·
+Sep 23, 2018
+·
+1h 50m
+·
+
+
+
+
+Creating and Administering Google Cloud SQL Instances
+Janani Ravi
+·
+Beginner
+·
+Sep 23, 2018
+·
+2h 29m
+·
+
+
+
+
+Caffe2: Getting Started
+Janani Ravi
+·
+Beginner
+·
+Sep 21, 2018
+·
+2h 1m
+·
+
+
+
+
+After Effects CC Color Grading
+Jeff Hurd
+·
+Intermediate
+·
+Sep 20, 2018
+·
+1h 22m
+·
+
+
+
+
+Enterprise Skills in Hortonworks Data Platform
+Thomas Henson
+·
+Intermediate
+·
+Sep 20, 2018
+·
+1h 37m
+·
+
+
+
+
+Securing Java Web Applications Through Authentication
+Josh Cummings
+·
+Intermediate
+·
+Sep 20, 2018
+·
+2h 21m
+·
+
+
+
+
+Deploying Serverless Applications in AWS Using the Serverless Application Model
+Mark Hatch
+·
+Intermediate
+·
+Sep 20, 2018
+·
+1h 28m
+·
+(14)
+
+
+
+
+Cloud-native Architecture: The Big Picture
+Richard Seroter
+·
+Beginner
+·
+Sep 19, 2018
+·
+51m
+·
+(36)
+
+
+
+
+Planning, Deploying, and Maintaining QRadar
+Ricardo Reimao
+·
+Intermediate
+·
+Sep 19, 2018
+·
+2h 50m
+·
+
+
+
+
+CloudKit Fundamentals
+Andrew Bancroft
+·
+Beginner
+·
+Sep 19, 2018
+·
+3h 31m
+·
+
+
+
+
+Deploying, Administering, and Securing Palo Alto Firewalls
+Craig Stansbury
+·
+Beginner
+·
+Sep 19, 2018
+·
+2h 30m
+·
+(11)
+
+
+
+
+Threat Modeling with the Microsoft Threat Modeling Tool
+Lee Allen
+·
+Intermediate
+·
+Sep 19, 2018
+·
+2h 13m
+·
+
+
+
+
+Design Eye-catching UI in Unity
+Lisa Walkosz-Migliacio
+·
+Beginner
+·
+Sep 19, 2018
+·
+2h 30m
+·
+
+
+
+
+State of Blockchain: Executive Briefing
+Stephen Haunts
+·
+Beginner
+·
+Sep 18, 2018
+·
+18m
+·
+(34)
+
+
+
+
+Using Azure Service Fabric in Production
+Ivan Gavryliuk
+·
+Intermediate
+·
+Sep 18, 2018
+·
+3h 28m
+·
+
+
+
+
+Less: Getting Started
+Shawn Wildermuth
+·
+Intermediate
+·
+Sep 18, 2018
+·
+1h 11m
+·
+(10)
+
+
+
+
+Adapting Your Processes and Planning with ICAgile
+Tommy van Schaik
+·
+Intermediate
+·
+Sep 17, 2018
+·
+1h 39m
+·
+
+
+
+
+Microsoft Azure Developer: Refactoring Code
+Steve Smith
+·
+Beginner
+·
+Sep 17, 2018
+·
+1h 50m
+·
+
+
+
+
+Microsoft Azure Developer: Aligning Functional and Non-functional Requirements
+Simon Allardice
+·
+Beginner
+·
+Sep 17, 2018
+·
+1h 20m
+·
+
+
+
+
+Microsoft Azure Stack Development: Getting Started
+Jason Helmick
+·
+Beginner
+·
+Sep 17, 2018
+·
+1h 12m
+·
+
+
+
+
+Gathering Information About Existing Enterprise Architecture in Microsoft Azure
+Chris Behrens
+·
+Beginner
+·
+Sep 17, 2018
+·
+1h 22m
+·
+
+
+
+
+Communications and Network Security
+Kevin Henry
+·
+Intermediate
+·
+Sep 17, 2018
+·
+2h 59m
+·
+
+
+
+
+Swords and Shovels: Closing the Loop
+Marc Gilbert
+·
+Intermediate
+·
+Sep 16, 2018
+·
+2h 40m
+·
+
+
+
+
+Building Deep Learning Models Using Apache MXNet
+Janani Ravi
+·
+Beginner
+·
+Sep 16, 2018
+·
+2h 3m
+·
+
+
+
+
+Microsoft Azure Developer: Web Jobs
+Matt Milner
+·
+Intermediate
+·
+Sep 14, 2018
+·
+50m
+·
+(15)
+
+
+
+
+What’s New in Java 11: Long-term Support
+Sander Mak
+·
+Intermediate
+·
+Sep 13, 2018
+·
+1h 10m
+·
+(23)
+
+
+
+
+Managing Microsoft Azure App Services
+Neil Morrissey
+·
+Beginner
+·
+Sep 13, 2018
+·
+1h 56m
+·
+(13)
+
+
+
+
+Configuring Virtual Machines in Microsoft Azure
+Tim Warner
+·
+Beginner
+·
+Sep 13, 2018
+·
+1h 42m
+·
+
+
+
+
+Connecting Microsoft Azure Virtual Networks
+Tim Warner
+·
+Intermediate
+·
+Sep 13, 2018
+·
+1h 2m
+·
+(10)
+
+
+
+
+Optimizing Consumption Strategy in Microsoft Azure
+James Bannan
+·
+Intermediate
+·
+Sep 13, 2018
+·
+2h 53m
+·
+
+
+
+
+Deploying Multiple Virtual Machines in Microsoft Azure
+Tim Warner
+·
+Advanced
+·
+Sep 13, 2018
+·
+1h 20m
+·
+
+
+
+
+Managing Microsoft Azure Virtual Networks
+Tim Warner
+·
+Beginner
+·
+Sep 13, 2018
+·
+1h 39m
+·
+(14)
+
+
+
+
+Managing Public Networking in Microsoft Azure
+Tim Warner
+·
+Intermediate
+·
+Sep 13, 2018
+·
+1h 11m
+·
+
+
+
+
+Managing Network Load Balancing in Microsoft Azure
+Tim Warner
+·
+Advanced
+·
+Sep 13, 2018
+·
+1h 2m
+·
+
+
+
+
+Connecting On-premises Networks with Azure Virtual Networks
+Tim Warner
+·
+Advanced
+·
+Sep 13, 2018
+·
+53m
+·
+
+
+
+
+Backing Up Virtual Machines in Microsoft Azure
+Tim Warner
+·
+Beginner
+·
+Sep 13, 2018
+·
+1h 8m
+·
+
+
+
+
+Provisioning Microsoft Azure Virtual Machines
+Anthony Nocentino
+·
+Beginner
+·
+Sep 13, 2018
+·
+3h 10m
+·
+(10)
+
+
+
+
+Getting Started with OAuth 2.0
+Scott Brady
+·
+Intermediate
+·
+Sep 13, 2018
+·
+1h 43m
+·
+(42)
+
+
+
+
+Deploying a Virtual Machine in Microsoft Azure
+Tim Warner
+·
+Beginner
+·
+Sep 13, 2018
+·
+1h 16m
+·
+(11)
+
+
+
+
+Managing Microsoft Azure App Service Protection
+Benjamin Culbertson
+·
+Intermediate
+·
+Sep 12, 2018
+·
+1h 34m
+·
+
+
+
+
+Microsoft Azure Developer: Implementing Table Storage
+Filip Ekberg
+·
+Intermediate
+·
+Sep 12, 2018
+·
+1h 31m
+·
+(11)
+
+
+
+
+Microsoft Azure Authentication Scenarios for Developers
+Sahil Malik
+·
+Intermediate
+·
+Sep 12, 2018
+·
+2h 52m
+·
+
+
+
+
+Implementing Microsoft Azure Backup
+Gary Grudzinskas
+·
+Intermediate
+·
+Sep 12, 2018
+·
+1h 55m
+·
+(11)
+
+
+
+
+Configuring Serverless Computing in Microsoft Azure
+Sahil Malik
+·
+Advanced
+·
+Sep 12, 2018
+·
+2h 0m
+·
+
+
+
+
+Continuously Deliver IIS-based .NET Applications
+Erik Dahl
+·
+Intermediate
+·
+Sep 11, 2018
+·
+1h 43m
+·
+(11)
+
+
+
+
+Microsoft Azure Developer: Creating Enterprise Logic Apps
+Stephen W. Thomas
+·
+Beginner
+·
+Sep 11, 2018
+·
+2h 15m
+·
+
+
+
+
+Implementing Microsoft Azure Marketplace Tools & Resources
+Sahil Malik
+·
+Beginner
+·
+Sep 11, 2018
+·
+52m
+·
+
+
+
+
+Designing a Disaster Recovery Strategy on Microsoft Azure
+Mike Pfeiffer
+·
+Beginner
+·
+Sep 11, 2018
+·
+1h 38m
+·
+
+
+
+
+Identifying Roles and Responsibilities in Microsoft Azure
+Jason Edleman
+·
+Beginner
+·
+Sep 11, 2018
+·
+31m
+·
+
+
+
+
+Choosing and Implementing Google Cloud Compute Engine Solutions
+Janani Ravi
+·
+Beginner
+·
+Sep 10, 2018
+·
+1h 58m
+·
+
+
+
+
+Microsoft Azure Developer: Ensuring Configurability
+Matt Honeycutt
+·
+Beginner
+·
+Sep 10, 2018
+·
+1h 30m
+·
+
+
+
+
+Node.js: Getting Started
+Samer Buna
+·
+Beginner
+·
+Sep 10, 2018
+·
+3h 29m
+·
+(76)
+
+
+
+
+Building Interactive Visualizations Using Bokeh
+Janani Ravi
+·
+Beginner
+·
+Sep 10, 2018
+·
+1h 47m
+·
+
+
+
+
+Managing SharePoint 2016 with PowerShell
+Liam Cleary
+·
+Intermediate
+·
+Sep 10, 2018
+·
+2h 57m
+·
+
+
+
+
+Import and Export Data to Microsoft Azure
+Robert McMillen
+·
+Advanced
+·
+Sep 10, 2018
+·
+1h 6m
+·
+
+
+
+
+Assessing and Planning Microsoft Azure Migration
+Michael Teske
+·
+Intermediate
+·
+Sep 10, 2018
+·
+1h 13m
+·
+
+
+
+
+Getting Started with Web API Test Automation in Java
+Andrejs Doronins
+·
+Beginner
+·
+Sep 09, 2018
+·
+1h 58m
+·
+(18)
+
+
+
+
+Real-time Strategies for Identifying and Mitigating Project Risk
+Milena Pajic
+·
+Beginner
+·
+Sep 09, 2018
+·
+1h 36m
+·
+
+
+
+
+Implementing Microsoft Azure Privileged Identity Management
+Ammar Hasayen
+·
+Intermediate
+·
+Sep 09, 2018
+·
+1h 30m
+·
+(10)
+
+
+
+
+Microsoft Azure Developer: Securing Data
+Reza Salehi
+·
+Advanced
+·
+Sep 06, 2018
+·
+2h 8m
+·
+(13)
+
+
+
+
+Service Transitions for ITIL®
+Brad Utterback
+·
+Intermediate
+·
+Sep 06, 2018
+·
+5h 46m
+·
+
+
+
+
+Interactive Sound Design with Wwise for Unity
+Beatrix Moersch
+·
+Intermediate
+·
+Sep 06, 2018
+·
+3h 11m
+·
+
+
+
+
+Developing Applications with AWS Rekognition
+Alan Jones
+·
+Beginner
+·
+Sep 06, 2018
+·
+1h 27m
+·
+
+
+
+
+Cyber Security: Executive Briefing
+John Elliott
+·
+Beginner
+·
+Sep 06, 2018
+·
+24m
+·
+(11)
+
+
+
+
+Managing IT Services with ITIL®: Executive Briefing
+Chris Ward
+·
+Beginner
+·
+Sep 06, 2018
+·
+15m
+·
+(10)
+
+
+
+
+Virtualization in the Real World
+David Davis
+·
+Beginner
+·
+Sep 05, 2018
+·
+1h 9m
+·
+
+
+
+
+Unit Testing in Angular
+Joe Eames
+·
+Beginner
+·
+Sep 05, 2018
+·
+3h 20m
+·
+(91)
+
+
+
+
+Architecting for Security on AWS
+Ben Piper
+·
+Intermediate
+·
+Sep 05, 2018
+·
+4h 8m
+·
+(14)
+
+
+
+
+Design for Risk Prevention in Microsoft Azure
+John Savill
+·
+Advanced
+·
+Sep 05, 2018
+·
+2h 19m
+·
+
+
+
+
+Adapting to the New Normal: Embracing a Security Culture of Continual Change
+Troy Hunt
+·
+Beginner
+·
+Sep 05, 2018
+·
+37m
+·
+(23)
+
+
+
+
+Security Event Triage: Detecting Network Anomalies with Behavioral Analysis
+Aaron Rosenmund
+·
+Advanced
+·
+Sep 05, 2018
+·
+2h 1m
+·
+
+
+
+
+Firebase Hosting: Fundamentals
+Ervis Trupja
+·
+Intermediate
+·
+Sep 04, 2018
+·
+1h 12m
+·
+(14)
+
+
+
+
+Introduction to Sequelize ORM for Node.js
+Patrick Schroeder
+·
+Intermediate
+·
+Sep 04, 2018
+·
+2h 27m
+·
+
+
+
+
+Unity VR Locomotion Fundamentals
+Harrison Ferrone
+·
+Intermediate
+·
+Sep 04, 2018
+·
+1h 4m
+·
+
+
+
+
+Design a Monitoring Strategy for Identity and Security in Microsoft Azure
+John Savill
+·
+Advanced
+·
+Sep 04, 2018
+·
+1h 31m
+·
+
+
+
+
+Designing a Site Recovery Strategy on Microsoft Azure
+Mike Pfeiffer
+·
+Beginner
+·
+Sep 04, 2018
+·
+1h 57m
+·
+
+
+
+
+Junos OS and High Availability
+Martin Brown
+·
+Intermediate
+·
+Sep 03, 2018
+·
+2h 27m
+·
+
+
+
+
+Microsoft Azure Developer: Implementing Azure Cache
+Barry Luijbregts
+·
+Intermediate
+·
+Sep 03, 2018
+·
+1h 2m
+·
+(18)
+
+
+
+
+Microsoft Azure for .NET Developers - Cloud Patterns and Architecture
+Scott Allen
+·
+Advanced
+·
+Sep 03, 2018
+·
+3h 20m
+·
+(125)
+
+
+
+
+Angular CLI
+John Papa
+·
+Beginner
+·
+Aug 30, 2018
+·
+3h 22m
+·
+(407)
+
+
+
+
+JavaFX Playbook: Controls with Data Model
+Buddha Jyothiprasad
+·
+Intermediate
+·
+Aug 30, 2018
+·
+2h 58m
+·
+
+
+
+
+Nutanix: The Big Picture
+Peter Grant
+·
+Beginner
+·
+Aug 30, 2018
+·
+2h 11m
+·
+
+
+
+
+Vue.js: Big Picture
+Daniel Stern
+·
+Beginner
+·
+Aug 30, 2018
+·
+1h 6m
+·
+(82)
+
+
+
+
+Microsoft Azure Developer: Create Serverless Functions
+Mark Heath
+·
+Beginner
+·
+Aug 29, 2018
+·
+2h 33m
+·
+(25)
+
+
+
+
+Troubleshooting User, Gateway, and Endpoint Registration Issues
+Sean Douglas
+·
+Intermediate
+·
+Aug 29, 2018
+·
+2h 50m
+·
+
+
+
+
+Mutation Testing in Java with Pitest
+Esteban Herrera
+·
+Intermediate
+·
+Aug 29, 2018
+·
+2h 0m
+·
+
+
+
+
+Android Apps with Kotlin: Tools and Testing
+Jim Wilson
+·
+Beginner
+·
+Aug 29, 2018
+·
+3h 42m
+·
+
+
+
+
+Intro to the Certified Business Analysis Professional™ (CBAP®) Certification
+Jamie Champagne
+·
+Beginner
+·
+Aug 29, 2018
+·
+1h 34m
+·
+
+
+
+
+Creating and Configuring Microsoft Azure Storage Accounts
+Neil Morrissey
+·
+Intermediate
+·
+Aug 29, 2018
+·
+3h 20m
+·
+
+
+
+
+Deploying Web Applications or Services in Microsoft Azure
+Chris Behrens
+·
+Advanced
+·
+Aug 29, 2018
+·
+1h 2m
+·
+
+
+
+
+Eliminating Security Vulnerabilities with NPM Audit
+Joe Eames
+·
+Intermediate
+·
+Aug 29, 2018
+·
+1h 9m
+·
+
+
+
+
+Getting Started with Reverse Engineering
+Josh Stroschein
+·
+Beginner
+·
+Aug 28, 2018
+·
+3h 40m
+·
+(13)
+
+
+
+
+Illustrator CC Creating a Poster
+Myra Ferguson
+·
+Beginner
+·
+Aug 28, 2018
+·
+2h 17m
+·
+
+
+
+
+Design Auditing for Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Aug 28, 2018
+·
+2h 34m
+·
+
+
+
+
+Google Cloud Functions Fundamentals
+James Wilson
+·
+Intermediate
+·
+Aug 27, 2018
+·
+4h 52m
+·
+
+
+
+
+MongoDB Change Streams: Driving Real Time Events and Streaming Applications
+Nuri Halperin
+·
+Intermediate
+·
+Aug 26, 2018
+·
+2h 19m
+·
+
+
+
+
+Using Microsoft Azure Resource Groups
+Gary Grudzinskas
+·
+Beginner
+·
+Aug 26, 2018
+·
+1h 26m
+·
+(13)
+
+
+
+
+Using Microsoft Teams
+Heather Fitzpatrick
+·
+Beginner
+·
+Aug 23, 2018
+·
+1h 7m
+·
+(17)
+
+
+
+
+Design Authorization for Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Aug 23, 2018
+·
+2h 16m
+·
+
+
+
+
+Using Office 365 Groups
+Heather Fitzpatrick
+·
+Beginner
+·
+Aug 23, 2018
+·
+30m
+·
+
+
+
+
+Using OneDrive for Business
+Heather Fitzpatrick
+·
+Beginner
+·
+Aug 23, 2018
+·
+41m
+·
+
+
+
+
+Designing Migrations for Microsoft Azure
+Greg Shields
+·
+Advanced
+·
+Aug 22, 2018
+·
+1h 27m
+·
+
+
+
+
+Practical Encryption and Cryptography Using Python
+Gus Khawaja
+·
+Intermediate
+·
+Aug 22, 2018
+·
+2h 24m
+·
+(11)
+
+
+
+
+Flutter: Getting Started
+Simone Alessandria
+·
+Beginner
+·
+Aug 21, 2018
+·
+2h 46m
+·
+(26)
+
+
+
+
+Java: JSON Databinding with Jackson
+Jean-Marc Julien
+·
+Intermediate
+·
+Aug 19, 2018
+·
+24m
+·
+(17)
+
+
+
+
+Building a Web App with ASP.NET Core, MVC, Entity Framework Core, ...
+Shawn Wildermuth
+·
+Beginner
+·
+Aug 16, 2018
+·
+9h 58m
+·
+(368)
+
+
+
+
+Installing and Configuring IIS Servers
+Jeremy Morgan
+·
+Intermediate
+·
+Aug 16, 2018
+·
+1h 42m
+·
+
+
+
+
+Design a Networking Strategy for Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Aug 16, 2018
+·
+2h 56m
+·
+(12)
+
+
+
+
+Simulating Production Workloads with SQL Server Distributed Replay
+Gail Shaw
+·
+Intermediate
+·
+Aug 16, 2018
+·
+59m
+·
+
+
+
+
+Implementing Citrix NetScaler 12 High Availability
+Jo Harder
+·
+Intermediate
+·
+Aug 15, 2018
+·
+1h 21m
+·
+
+
+
+
+Design Authentication for Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Aug 15, 2018
+·
+2h 55m
+·
+
+
+
+
+Configuring a Deployment Environment in Microsoft Azure
+Chris Behrens
+·
+Intermediate
+·
+Aug 14, 2018
+·
+1h 7m
+·
+(10)
+
+
+
+
+Introduction to Information Security
+Keith Watson
+·
+Beginner
+·
+Aug 13, 2018
+·
+2h 53m
+·
+
+
+
+
+Building an Async API with ASP.NET Core
+Kevin Dockx
+·
+Intermediate
+·
+Aug 13, 2018
+·
+2h 42m
+·
+(77)
+
+
+
+
+Empowering Your Team with ICAgile
+Jeremy Jarrell
+·
+Intermediate
+·
+Aug 13, 2018
+·
+2h 4m
+·
+
+
+
+
+Unity 2D Fundamentals - Obstacles and Enemies
+Brian Sinasac
+·
+Beginner
+·
+Aug 13, 2018
+·
+2h 30m
+·
+
+
+
+
+Building Data Visualizations Using Matplotlib
+Janani Ravi
+·
+Beginner
+·
+Aug 13, 2018
+·
+2h 8m
+·
+
+
+
+
+Design Identity Management in Microsoft Azure
+John Savill
+·
+Beginner
+·
+Aug 13, 2018
+·
+2h 40m
+·
+
+
+
+
+Azure Kubernetes Service (AKS) – The Big Picture
+Manoj Nair
+·
+Beginner
+·
+Aug 12, 2018
+·
+1h 34m
+·
+(59)
+
+
+
+
+Instrument Microsoft Azure Application Insights in a Web Application
+Jeff Hopper
+·
+Intermediate
+·
+Aug 12, 2018
+·
+50m
+·
+(23)
+
+
+
+
+Designing Deployments in Microsoft Azure
+Greg Shields
+·
+Intermediate
+·
+Aug 12, 2018
+·
+1h 25m
+·
+
+
+
+
+Kotlin: Using Coroutines
+Kevin Jones
+·
+Advanced
+·
+Aug 09, 2018
+·
+3h 50m
+·
+(10)
+
+
+
+
+RapidMiner: Getting Started
+Justin Flett
+·
+Beginner
+·
+Aug 09, 2018
+·
+1h 23m
+·
+
+
+
+
+Managing Microsoft Azure Subscriptions
+Daniel Lachance
+·
+Beginner
+·
+Aug 09, 2018
+·
+1h 58m
+·
+(12)
+
+
+
+
+Building Data Visualizations Using Plotly
+Janani Ravi
+·
+Beginner
+·
+Aug 09, 2018
+·
+2h 11m
+·
+
+
+
+
+Prepare for the ARE Vol. 4: Project Planning & Design
+Kevin Griendling
+·
+Beginner
+·
+Aug 08, 2018
+·
+7h 40m
+·
+
+
+
+
+Configuring and Using Microsoft Azure Blob Storage
+Neil Morrissey
+·
+Beginner
+·
+Aug 08, 2018
+·
+2h 27m
+·
+(17)
+
+
+
+
+Data Wrangling with Pandas for Machine Learning Engineers
+Mike West
+·
+Beginner
+·
+Aug 08, 2018
+·
+1h 0m
+·
+(19)
+
+
+
+
+Surviving a SaaS Crisis
+Sonia Cuff
+·
+Intermediate
+·
+Aug 08, 2018
+·
+49m
+·
+
+
+
+
+Monitoring Containerized Application Health with Docker
+Elton Stoneman
+·
+Intermediate
+·
+Aug 07, 2018
+·
+2h 43m
+·
+(22)
+
+
+
+
+High-performance Data Warehousing with Amazon Redshift
+Russ Thomas
+·
+Intermediate
+·
+Aug 07, 2018
+·
+2h 34m
+·
+
+
+
+
+Migrating Physical and Virtual Servers to Microsoft Azure
+Tim Warner
+·
+Advanced
+·
+Aug 06, 2018
+·
+1h 51m
+·
+
+
+
+
+Preparing to Migrate to Office 365
+Paul Cunningham
+·
+Beginner
+·
+Aug 05, 2018
+·
+2h 32m
+·
+(22)
+
+
+
+
+Physical Security
+Kevin Henry
+·
+Intermediate
+·
+Aug 05, 2018
+·
+1h 19m
+·
+
+
+
+
+Error Handling in C# with Exceptions
+Jason Roberts
+·
+Intermediate
+·
+Aug 05, 2018
+·
+1h 37m
+·
+(40)
+
+
+
+
+Managing Identities in Microsoft Azure Active Directory
+Ned Bellavance
+·
+Intermediate
+·
+Aug 05, 2018
+·
+2h 7m
+·
+(19)
+
+
+
+
+Building a Cisco VCS Control Dial Plan and Expressway Remote Access Solution
+Sean Douglas
+·
+Intermediate
+·
+Aug 02, 2018
+·
+2h 12m
+·
+
+
+
+
+Modern Browser Security Reports
+Troy Hunt and Scott Helme
+·
+Beginner
+·
+Aug 02, 2018
+·
+57m
+·
+(18)
+
+
+
+
+Cryptography Application
+Kevin Henry
+·
+Intermediate
+·
+Aug 02, 2018
+·
+2h 22m
+·
+
+
+
+
+SCCM Current Branch: Deploy Clients and Manage Inventory
+Greg Shields
+·
+Intermediate
+·
+Aug 02, 2018
+·
+3h 15m
+·
+(11)
+
+
+
+
+SCCM Current Branch: Install, Configure, and Maintain a Primary Site
+Greg Shields
+·
+Intermediate
+·
+Aug 02, 2018
+·
+3h 57m
+·
+(14)
+
+
+
+
+SCCM Current Branch: Introduction
+Greg Shields
+·
+Intermediate
+·
+Aug 02, 2018
+·
+58m
+·
+(14)
+
+
+
+
+Preventing Switching Loops and Configuring Complex Technologies on 
+Leigh Bogardis
+·
+Intermediate
+·
+Aug 02, 2018
+·
+1h 37m
+·
+
+
+
+
+PouchDB Playbook: Simplify Offline Web Application Storage
+Paul D. Sheriff
+·
+Intermediate
+·
+Aug 02, 2018
+·
+1h 24m
+·
+
+
+
+
+Stylized Forest Sculpting in ZBrush
+Alex Jerjomin
+·
+Intermediate
+·
+Aug 02, 2018
+·
+3h 15m
+·
+
+
+
+
+Design a Monitoring Strategy for Infrastructure in Microsoft Azure
+John Savill
+·
+Advanced
+·
+Aug 02, 2018
+·
+1h 56m
+·
+(11)
+
+
+
+
+Global Behaviors Post-GDPR: Executive Briefing
+John Elliott and Troy Hunt
+·
+Beginner
+·
+Aug 01, 2018
+·
+27m
+·
+(16)
+
+
+
+
+Improving .NET Core MVC Apps Using Extension Points
+Alex Wolf
+·
+Intermediate
+·
+Aug 01, 2018
+·
+3h 41m
+·
+(23)
+
+
+
+
+Global Impacts of GDPR: Executive Briefing
+Troy Hunt and John Elliott
+·
+Beginner
+·
+Aug 01, 2018
+·
+10m
+·
+(14)
+
+
+
+
+Managing Privileged Identities in Windows Server 2016
+Aaron Sampson
+·
+Intermediate
+·
+Aug 01, 2018
+·
+3h 52m
+·
+
+
+
+
+Play by Play: Implementing Sustainable and Scalable Salesforce Governance
+Patrick Watkins and Don Robins
+·
+Intermediate
+·
+Aug 01, 2018
+·
+2h 37m
+·
+
+
+
+
+Configure Microsoft Azure Files
+John Savill
+·
+Beginner
+·
+Aug 01, 2018
+·
+2h 2m
+·
+(10)
+
+
+
+
+Ethical Hacking: Understanding Ethical Hacking
+Dale Meredith
+·
+Beginner
+·
+Jul 31, 2018
+·
+7h 37m
+·
+(1091)
+
+
+
+
+Field Guide to Binary
+Tod Gentille
+·
+Beginner
+·
+Jul 31, 2018
+·
+21m
+·
+(25)
+
+
+
+
+Progressive Web Apps: Sensor Integrations
+Glen Smith
+·
+Intermediate
+·
+Jul 31, 2018
+·
+1h 56m
+·
+
+
+
+
+Getting Started with Tilemap in Unity
+Michael Taylor
+·
+Beginner
+·
+Jul 31, 2018
+·
+58m
+·
+
+
+
+
+IT Outsourcing - Dealing with Outsourcing Risks
+Tommy van Schaik
+·
+Beginner
+·
+Jul 31, 2018
+·
+55m
+·
+
+
+
+
+Specifying Deployment Requirements in Microsoft Azure
+Chris Behrens
+·
+Beginner
+·
+Jul 31, 2018
+·
+1h 10m
+·
+(15)
+
+
+
+
+Cloud Technologies: Executive Briefing
+Dan Appleman
+·
+Beginner
+·
+Jul 30, 2018
+·
+31m
+·
+(21)
+
+
+
+
+Salesforce Accidental Admin: Reports & Dashboards in Classic and Lightning
+Jeff Susich
+·
+Beginner
+·
+Jul 30, 2018
+·
+2h 5m
+·
+
+
+
+
+Texturing Enemy Creatures for Games in Substance Painter
+Dan John Cox
+·
+Intermediate
+·
+Jul 30, 2018
+·
+2h 45m
+·
+
+
+
+
+Web Development: Executive Briefing
+Brice Wilson
+·
+Beginner
+·
+Jul 30, 2018
+·
+30m
+·
+(29)
+
+
+
+
+Java Fundamentals: Asynchronous Programming Using CompletionStage
+Jose Paumard
+·
+Intermediate
+·
+Jul 29, 2018
+·
+3h 4m
+·
+(12)
+
+
+
+
+Java: JSON Fundamentals
+Richard Warburton
+·
+Beginner
+·
+Jul 29, 2018
+·
+2h 29m
+·
+(10)
+
+
+
+
+Play by Play: Understanding Apex Enterprise Patterns and Separation of ...
+Don Robins and Peter Tempfli
+·
+Intermediate
+·
+Jul 29, 2018
+·
+1h 40m
+·
+
+
+
+
+Design a Storage Strategy for Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Jul 29, 2018
+·
+3h 16m
+·
+(11)
+
+
+
+
+Securing Angular Apps with OpenID Connect and OAuth2
+Brian Noyes
+·
+Intermediate
+·
+Jul 26, 2018
+·
+2h 30m
+·
+(73)
+
+
+
+
+Containerizing Angular Applications with Docker
+Dan Wahlin
+·
+Intermediate
+·
+Jul 25, 2018
+·
+1h 55m
+·
+(31)
+
+
+
+
+Defending Against JavaScript Keylogger Attacks on Payment Card Information
+John Elliott and Troy Hunt
+·
+Beginner
+·
+Jul 25, 2018
+·
+1h 3m
+·
+(26)
+
+
+
+
+JavaScript Fundamentals
+Mark Zamoyta
+·
+Intermediate
+·
+Jul 25, 2018
+·
+3h 0m
+·
+(119)
+
+
+
+
+Microsoft Azure Batch: Fundamentals
+Gerald Ho
+·
+Intermediate
+·
+Jul 24, 2018
+·
+1h 49m
+·
+(10)
+
+
+
+
+Managing Cisco® Networking on VMware and Microsoft VM Platforms
+Greg Dickinson
+·
+Intermediate
+·
+Jul 24, 2018
+·
+2h 2m
+·
+
+
+
+
+RHCSA for Red Hat OpenStack: Using OpenStack (Compute and Network Services)
+Bernd Bausch
+·
+Intermediate
+·
+Jul 24, 2018
+·
+2h 39m
+·
+
+
+
+
+Secure Coding: Preventing Insufficient Logging and Monitoring
+Peter Mosmans
+·
+Intermediate
+·
+Jul 24, 2018
+·
+1h 23m
+·
+(13)
+
+
+
+
+Design a Compute Strategy for Microsoft Azure
+John Savill
+·
+Intermediate
+·
+Jul 24, 2018
+·
+3h 40m
+·
+(10)
+
+
+
+
+Illustrator CC Pixels to Vectors
+Pariah Burke
+·
+Intermediate
+·
+Jul 22, 2018
+·
+1h 15m
+·
+
+
+
+
+Programming with Dates and Times in Java 8
+Maurice Naftalin
+·
+Intermediate
+·
+Jul 22, 2018
+·
+2h 12m
+·
+
+
+
+
+TDD with JUnit 5
+Catalin Tudose
+·
+Intermediate
+·
+Jul 22, 2018
+·
+1h 17m
+·
+(25)
+
+
+
+
+Docker for Web Developers
+Dan Wahlin
+·
+Beginner
+·
+Jul 19, 2018
+·
+5h 41m
+·
+(451)
+
+
+
+
+Getting Your Customers Involved with ICAgile
+Milena Pajic
+·
+Intermediate
+·
+Jul 19, 2018
+·
+1h 2m
+·
+
+
+
+
+Achieving an Agile Mindset with ICAgile
+Jeremy Jarrell
+·
+Beginner
+·
+Jul 19, 2018
+·
+1h 50m
+·
+
+
+
+
+Delivering Value Quickly with ICAgile
+Casey Ayers
+·
+Intermediate
+·
+Jul 19, 2018
+·
+2h 36m
+·
+
+
+
+
+Game Prop Texturing Fundamentals
+Dan John Cox
+·
+Beginner
+·
+Jul 19, 2018
+·
+4h 2m
+·
+
+
+
+
+Iterative Level Design in Unity
+Rich Fiore
+·
+Intermediate
+·
+Jul 19, 2018
+·
+1h 14m
+·
+(12)
+
+
+
+
+SQL Server 2017: Diagnosing Configuration Issues with DMVs
+Glenn Berry
+·
+Intermediate
+·
+Jul 18, 2018
+·
+1h 46m
+·
+(12)
+
+
+
+
+Swords and Shovels: Designing Modular Sets
+Michael Baker
+·
+Intermediate
+·
+Jul 18, 2018
+·
+1h 13m
+·
+
+
+
+
+Swords and Shovels: Post Processing and Polish
+Michael Baker
+·
+Intermediate
+·
+Jul 18, 2018
+·
+54m
+·
+
+
+
+
+Liaising with SaaS Users and Vendors
+Sonia Cuff
+·
+Intermediate
+·
+Jul 18, 2018
+·
+1h 0m
+·
+
+
+
+
+Play by Play: Bug Bounties for Researchers
+Troy Hunt and Casey Ellis
+·
+Beginner
+·
+Jul 18, 2018
+·
+36m
+·
+(11)
+
+
+
+
+Kotlin on Android: Managing Preferences and Settings
+Mitch Tabian
+·
+Intermediate
+·
+Jul 17, 2018
+·
+1h 21m
+·
+
+
+
+
+Building Business Applications with Vue.js and MongoDB
+Mark Scott
+·
+Intermediate
+·
+Jul 16, 2018
+·
+3h 18m
+·
+(27)
+
+
+
+
+Prototyping Game Systems for Swords and Shovels
+MJ Johns
+·
+Intermediate
+·
+Jul 16, 2018
+·
+2h 26m
+·
+
+
+
+
+Cinematic Design in Unity with Cinemachine and Timeline
+Joy Horvath
+·
+Intermediate
+·
+Jul 16, 2018
+·
+1h 47m
+·
+(10)
+
+
+
+
+Understanding Genetic Algorithms and Genetic Programming
+Greg Sommerville
+·
+Beginner
+·
+Jul 16, 2018
+·
+3h 15m
+·
+(14)
+
+
+
+
+The State of GDPR: Common Questions and Misperceptions
+John Elliott and Troy Hunt
+·
+Beginner
+·
+Jul 12, 2018
+·
+1h 24m
+·
+(48)
+
+
+
+
+Game Design Fundamentals
+Joshua Kinney and Thomas Winkley
+·
+Beginner
+·
+Jul 11, 2018
+·
+1h 26m
+·
+(31)
+
+
+
+
+Fundamentals of Network Virtualization
+David Davis
+·
+Beginner
+·
+Jul 11, 2018
+·
+50m
+·
+(12)
+
+
+
+
+Advanced Pandas
+Paweł Kordek
+·
+Intermediate
+·
+Jul 11, 2018
+·
+2h 30m
+·
+(14)
+
+
+
+
+WebAssembly: The Big Picture
+Barry Luijbregts
+·
+Beginner
+·
+Jul 10, 2018
+·
+42m
+·
+(82)
+
+
+
+
+Getting Started with Building Bots with Microsoft's Bot Framework
+Matthew Kruczek
+·
+Intermediate
+·
+Jul 10, 2018
+·
+2h 29m
+·
+(30)
+
+
+
+
+Game Mechanic Design Fundamentals
+Thomas Winkley and Joshua Kinney
+·
+Intermediate
+·
+Jul 10, 2018
+·
+44m
+·
+(11)
+
+
+
+
+Security Engineering
+Kevin Henry
+·
+Intermediate
+·
+Jul 10, 2018
+·
+53m
+·
+(11)
+
+
+
+
+Building a Voice-enabled Serverless Website with AWS Polly
+Raluca Bolovan
+·
+Intermediate
+·
+Jul 09, 2018
+·
+1h 46m
+·
+
+
+
+
+Troubleshooting Wireless Client Connectivity
+Andrew Crouthamel
+·
+Intermediate
+·
+Jul 09, 2018
+·
+1h 5m
+·
+
+
+
+
+Modern C++ Secure Coding Practices: Const Correctness
+Nick Cano
+·
+Intermediate
+·
+Jul 09, 2018
+·
+42m
+·
+(10)
+
+
+
+
+SVG Animation with JavaScript
+Eva Ferreira
+·
+Intermediate
+·
+Jul 08, 2018
+·
+54m
+·
+(15)
+
+
+
+
+Extracting Structured Data from the Web Using Scrapy
+Janani Ravi
+·
+Beginner
+·
+Jul 05, 2018
+·
+1h 52m
+·
+(20)
+
+
+
+
+Understanding Algorithms for Reinforcement Learning
+Janani Ravi
+·
+Beginner
+·
+Jul 05, 2018
+·
+2h 7m
+·
+(14)
+
+
+
+
+Building a Cisco SIP URI-based Dial Plan with ILS, SME, and Unified Mobility
+Sean Douglas
+·
+Intermediate
+·
+Jul 04, 2018
+·
+2h 56m
+·
+
+
+
+
+Managing Scope Creep
+Lars Klint
+·
+Beginner
+·
+Jul 04, 2018
+·
+1h 22m
+·
+(21)
+
+
+
+
+Angular Fundamentals
+Jim Cooper and Joe Eames
+·
+Intermediate
+·
+Jul 02, 2018
+·
+9h 35m
+·
+(615)
+
+
+
+
+Getting Started with NetScaler 12 Essentials
+Jo Harder
+·
+Intermediate
+·
+Jul 02, 2018
+·
+2h 13m
+·
+
+
+
+
+Rewriting Git History
+Brad Bow
+·
+Intermediate
+·
+Jul 02, 2018
+·
+1h 3m
+·
+(40)
+
+
+
+
+Configuring, Managing, & Monitoring Mobile Devices Using MDM Solutions
+Simon Binder
+·
+Intermediate
+·
+Jul 02, 2018
+·
+2h 26m
+·
+
+
+
+
+Starting with Oracle Big Data
+Mohamad Halabi
+·
+Beginner
+·
+Jul 02, 2018
+·
+3h 35m
+·
+
+
+
+
+AWS Developer: Lambda Deep Dive
+Dror Helper
+·
+Intermediate
+·
+Jul 01, 2018
+·
+3h 18m
+·
+(20)
+
+
+
+
+SinonJS Fundamentals
+Nate Taylor
+·
+Intermediate
+·
+Jul 01, 2018
+·
+2h 22m
+·
+
+
+
+
+Building a REST API Using Python and Flask
+Sanjay Rai
+·
+Intermediate
+·
+Jul 01, 2018
+·
+1h 57m
+·
+(52)
+
+
+
+
+Flowtype Fundamentals
+Jake Trent
+·
+Intermediate
+·
+Jun 28, 2018
+·
+1h 45m
+·
+(10)
+
+
+
+
+Building and Deploying Keras Models in a Multi-cloud Environment
+Janani Ravi
+·
+Beginner
+·
+Jun 28, 2018
+·
+2h 56m
+·
+
+
+
+
+ASP.NET Core 2 Razor Playbook
+Chris Behrens
+·
+Intermediate
+·
+Jun 26, 2018
+·
+2h 16m
+·
+(27)
+
+
+
+
+Preparing Existing .NET Applications for Continuous Delivery
+Erik Dahl
+·
+Beginner
+·
+Jun 25, 2018
+·
+2h 34m
+·
+(13)
+
+
+
+
+Network Security Monitoring (NSM) with Security Onion
+Guillaume Ross
+·
+Beginner
+·
+Jun 25, 2018
+·
+2h 19m
+·
+
+
+
+
+Windows Network Troubleshooting
+Mike Halsey
+·
+Intermediate
+·
+Jun 25, 2018
+·
+1h 46m
+·
+
+
+
+
+Angular NgRx: Getting Started
+Deborah Kurata and Duncan Hunter
+·
+Beginner
+·
+Jun 24, 2018
+·
+4h 4m
+·
+(143)
+
+
+
+
+Building an Enterprise Mobile Application with Xamarin.Forms
+Gill Cleeren
+·
+Intermediate
+·
+Jun 24, 2018
+·
+3h 1m
+·
+(90)
+
+
+
+
+Structured Streaming in Apache Spark 2
+Janani Ravi
+·
+Beginner
+·
+Jun 21, 2018
+·
+2h 11m
+·
+(14)
+
+
+
+
+Getting Started with ASP.NET Core SignalR
+Roland Guijt
+·
+Beginner
+·
+Jun 21, 2018
+·
+1h 11m
+·
+(61)
+
+
+
+
+Working with Multidimensional Data Using NumPy
+Janani Ravi
+·
+Beginner
+·
+Jun 21, 2018
+·
+1h 43m
+·
+(15)
+
+
+
+
+Microsoft Azure Cognitive Services: Face API
+Steve Michelotti
+·
+Beginner
+·
+Jun 20, 2018
+·
+1h 31m
+·
+(11)
+
+
+
+
+Power BI Playbook: Securing Shared Data with Power BI
+Alexander Arvidsson
+·
+Beginner
+·
+Jun 20, 2018
+·
+1h 6m
+·
+
+
+
+
+Securing ASP.NET Core 2 with OAuth2 and OpenID Connect
+Kevin Dockx
+·
+Intermediate
+·
+Jun 20, 2018
+·
+3h 22m
+·
+(75)
+
+
+
+
+Vue.js Fundamentals
+Jim Cooper
+·
+Intermediate
+·
+Jun 20, 2018
+·
+5h 5m
+·
+(100)
+
+
+
+
+React Fundamentals
+Liam McLennan
+·
+Intermediate
+·
+Jun 20, 2018
+·
+4h 13m
+·
+(109)
+
+
+
+
+Securing the Docker Platform
+Nigel Brown
+·
+Beginner
+·
+Jun 20, 2018
+·
+4h 6m
+·
+(11)
+
+
+
+
+React Native: Getting Started
+Hendrik Swanepoel
+·
+Beginner
+·
+Jun 19, 2018
+·
+1h 49m
+·
+(37)
+
+
+
+
+Bootstrap 4 for the Developer
+Mario Duilio Macari
+·
+Intermediate
+·
+Jun 19, 2018
+·
+4h 5m
+·
+(71)
+
+
+
+
+Kusto Query Language (KQL) from Scratch
+Robert Cain
+·
+Beginner
+·
+Jun 19, 2018
+·
+4h 33m
+·
+(17)
+
+
+
+
+C# Attributes: Power and Flexibility for Your Code
+Jason Roberts
+·
+Intermediate
+·
+Jun 18, 2018
+·
+1h 11m
+·
+(33)
+
+
+
+
+Building Machine Learning Models in Spark 2
+Janani Ravi
+·
+Intermediate
+·
+Jun 18, 2018
+·
+3h 27m
+·
+(14)
+
+
+
+
+IOTA Fundamentals
+Jan-Erik Sandberg
+·
+Beginner
+·
+Jun 18, 2018
+·
+1h 35m
+·
+(14)
+
+
+
+
+Security Architecture
+Kevin Henry
+·
+Intermediate
+·
+Jun 18, 2018
+·
+1h 27m
+·
+
+
+
+
+Identifying SaaS Operational Challenges for IT
+Sonia Cuff
+·
+Beginner
+·
+Jun 17, 2018
+·
+1h 19m
+·
+
+
+
+
+React Native Fundamentals
+Reggie Dawson
+·
+Intermediate
+·
+Jun 17, 2018
+·
+2h 38m
+·
+(28)
+
+
+
+
+Maximizing Quality with Visual Studio Team Services Test Hub
+Scott Tate
+·
+Beginner
+·
+Jun 13, 2018
+·
+3h 13m
+·
+
+
+
+
+Improving Azure Data Lake Performance
+Mike McQuillan
+·
+Intermediate
+·
+Jun 12, 2018
+·
+1h 39m
+·
+
+
+
+
+Business Continuity Management
+Kevin Henry
+·
+Intermediate
+·
+Jun 12, 2018
+·
+1h 35m
+·
+
+
+
+
+Investigations and Incident Management
+Kevin Henry
+·
+Intermediate
+·
+Jun 12, 2018
+·
+1h 3m
+·
+
+
+
+
+Security Architecture and Design: The Big Picture
+Christopher Rees
+·
+Beginner
+·
+Jun 12, 2018
+·
+4h 24m
+·
+
+
+
+
+Ionic CLI
+Michael Callaghan
+·
+Beginner
+·
+Jun 12, 2018
+·
+2h 24m
+·
+(10)
+
+
+
+
+Building Microservices REST APIs Using Spring Data REST
+Kesha Williams
+·
+Intermediate
+·
+Jun 12, 2018
+·
+1h 22m
+·
+(26)
+
+
+
+
+Animate CC Building Custom HTML5 Components
+Joseph Labrecque
+·
+Intermediate
+·
+Jun 10, 2018
+·
+1h 10m
+·
+
+
+
+
+PayPal Integration Using Node.js and Express
+Dallas Lones
+·
+Beginner
+·
+Jun 10, 2018
+·
+1h 53m
+·
+
+
+
+
+Communicating and Documenting Security Incidents
+Richard Harpur
+·
+Beginner
+·
+Jun 07, 2018
+·
+1h 1m
+·
+
+
+
+
+Play by Play: Strategies for Successful Salesforce DX Migration and Adoption
+Don Robins and Scott Wells
+·
+Intermediate
+·
+Jun 07, 2018
+·
+2h 8m
+·
+
+
+
+
+Swords and Shovels: Combat System
+Marc Gilbert and Alexander Gilbert
+·
+Intermediate
+·
+Jun 07, 2018
+·
+1h 44m
+·
+(13)
+
+
+
+
+Test-driven Development Using React
+Chris Minnick
+·
+Beginner
+·
+Jun 07, 2018
+·
+1h 54m
+·
+(62)
+
+
+
+
+Photoshop CC Fundamentals
+Matthew Pizzi
+·
+Beginner
+·
+Jun 06, 2018
+·
+6h 39m
+·
+(169)
+
+
+
+
+Configuring Windows 10 Devices: Configure Networking
+Glenn Weadock and Mark Wilkins
+·
+Intermediate
+·
+Jun 06, 2018
+·
+3h 53m
+·
+
+
+
+
+Configuring Windows 10 Devices: Plan Desktop and Device Deployment
+Glenn Weadock
+·
+Intermediate
+·
+Jun 06, 2018
+·
+2h 57m
+·
+
+
+
+
+Unity World Space UI in VR
+Lawrence Brown
+·
+Intermediate
+·
+Jun 06, 2018
+·
+55m
+·
+
+
+
+
+Windows 10 Configuring and Managing Applications
+Mark Wilkins
+·
+Intermediate
+·
+Jun 06, 2018
+·
+2h 41m
+·
+
+
+
+
+Configuring Windows 10 Devices: Configure Storage
+Glenn Weadock and Mark Wilkins
+·
+Intermediate
+·
+Jun 06, 2018
+·
+4h 21m
+·
+
+
+
+
+Configuring Windows 10 Devices: Manage Data Access and Protection
+Mark Wilkins and Glenn Weadock
+·
+Intermediate
+·
+Jun 06, 2018
+·
+2h 41m
+·
+
+
+
+
+Configuring Windows 10 Devices: Manage Updates and Recovery
+Glenn Weadock and Mark Wilkins
+·
+Intermediate
+·
+Jun 06, 2018
+·
+2h 45m
+·
+
+
+
+
+Windows 10 Configuring: Plan and Implement Microsoft Intune
+Mark Wilkins
+·
+Intermediate
+·
+Jun 06, 2018
+·
+1h 39m
+·
+
+
+
+
+Configuring Windows 10 Devices: Manage Identity
+Glenn Weadock
+·
+Intermediate
+·
+Jun 06, 2018
+·
+2h 22m
+·
+
+
+
+
+Configuring Windows 10 Devices: Manage Remote Access
+Glenn Weadock
+·
+Intermediate
+·
+Jun 06, 2018
+·
+2h 12m
+·
+
+
+
+
+Android Apps with Kotlin: Build Your First App
+Jim Wilson
+·
+Beginner
+·
+Jun 06, 2018
+·
+4h 15m
+·
+(24)
+
+
+
+
+Azure Container Instances: Getting Started
+Mark Heath
+·
+Beginner
+·
+Jun 06, 2018
+·
+1h 43m
+·
+(18)
+
+
+
+
+Play by Play: Get Paid with .NET Core and Modern Payment Gateways
+Ben Cull and Lars Klint
+·
+Beginner
+·
+Jun 06, 2018
+·
+1h 12m
+·
+(14)
+
+
+
+
+Visualizing Statistical Data Using Seaborn
+Janani Ravi
+·
+Beginner
+·
+Jun 06, 2018
+·
+1h 43m
+·
+
+
+
+
+Security Controls and Control Frameworks
+Kevin Henry
+·
+Intermediate
+·
+Jun 06, 2018
+·
+59m
+·
+
+
+
+
+Citrix XenDesktop 7.15 LTSR: Director
+Greg Shields
+·
+Intermediate
+·
+Jun 05, 2018
+·
+47m
+·
+
+
+
+
+HTML5 Animations Made Easy with Animate.css
+Jeff Batt
+·
+Beginner
+·
+Jun 05, 2018
+·
+2h 16m
+·
+(10)
+
+
+
+
+macOS Support: Network Services
+Herta Nava
+·
+Intermediate
+·
+Jun 05, 2018
+·
+2h 5m
+·
+
+
+
+
+Automating Cloud Operations with AWS Tools for Windows PowerShell
+Adam Platt
+·
+Intermediate
+·
+Jun 05, 2018
+·
+1h 48m
+·
+
+
+
+
+Citrix XenDesktop 7.15 LTSR: Citrix Policies, User Profiles, and Workspace ...
+Greg Shields
+·
+Intermediate
+·
+Jun 04, 2018
+·
+5h 10m
+·
+
+
+
+
+Implementing a Self-hosted Docker Registry
+Wes Higbee
+·
+Intermediate
+·
+Jun 04, 2018
+·
+4h 8m
+·
+(12)
+
+
+
+
+Building Command Line Applications in Node.js
+Paul O'Fallon
+·
+Intermediate
+·
+Jun 04, 2018
+·
+3h 2m
+·
+(13)
+
+
+
+
+Product Design: Introduction to Ergonomic Considerations
+Robert Murdock
+·
+Beginner
+·
+Jun 04, 2018
+·
+1h 18m
+·
+
+
+
+
+Play by Play: Authenticating External App and Service Integrations with 
+Don Robins and Chuck Liddell
+·
+Intermediate
+·
+Jun 03, 2018
+·
+2h 6m
+·
+
+
+
+
+Using Office 365 People
+Patricia Ciszek
+·
+Beginner
+·
+Jun 03, 2018
+·
+34m
+·
+
+
+
+
+Functional JavaScript Libraries Playbook
+David Mann
+·
+Intermediate
+·
+May 31, 2018
+·
+2h 59m
+·
+(15)
+
+
+
+
+Play by Play: Debugging and Troubleshooting Salesforce Lightning Components
+Don Robins and Mike Topalovich
+·
+Intermediate
+·
+May 31, 2018
+·
+2h 0m
+·
+
+
+
+
+Advanced Troubleshooting Techniques for Windows Server
+Bruce Mackenzie-Low
+·
+Advanced
+·
+May 31, 2018
+·
+4h 43m
+·
+
+
+
+
+What's New in Python 3.7
+Anthony Shaw
+·
+Intermediate
+·
+May 31, 2018
+·
+56m
+·
+(21)
+
+
+
+
+GDPR: The Big Picture
+John Elliott
+·
+Beginner
+·
+May 30, 2018
+·
+3h 7m
+·
+(41)
+
+
+
+
+Networking Tunnels in Junos OS
+Martin Brown
+·
+Intermediate
+·
+May 30, 2018
+·
+59m
+·
+
+
+
+
+Play by Play: Crafting Audience Experience with Salesforce Communities
+Don Robins and Phil Weinmeister
+·
+Intermediate
+·
+May 30, 2018
+·
+1h 59m
+·
+
+
+
+
+Play by Play: Fundamentals of Angular Testing
+Duncan Hunter and Lars Klint
+·
+Intermediate
+·
+May 30, 2018
+·
+1h 57m
+·
+(33)
+
+
+
+
+Connecting On-prem Resources to Your AWS Infrastructure
+David Clinton
+·
+Intermediate
+·
+May 30, 2018
+·
+47m
+·
+
+
+
+
+Best Practices for Responsive Web-forms
+Paul Cheney
+·
+Beginner
+·
+May 30, 2018
+·
+1h 10m
+·
+(18)
+
+
+
+
+Configuring Cisco SRST and Enhanced Call Admission Control
+Sean Douglas
+·
+Intermediate
+·
+May 29, 2018
+·
+2h 55m
+·
+
+
+
+
+Maya Facial Rigging Fundamentals
+Carla Heinzel
+·
+Beginner
+·
+May 29, 2018
+·
+3h 41m
+·
+(13)
+
+
+
+
+Photoshop CC Creating Social Media Graphics
+Melissa Piccone
+·
+Beginner
+·
+May 29, 2018
+·
+1h 19m
+·
+
+
+
+
+Azure IoT Hub for Developers: Getting Started
+Matt Honeycutt
+·
+Beginner
+·
+May 28, 2018
+·
+2h 41m
+·
+(35)
+
+
+
+
+Fundamentals of Storage Virtualization
+David Davis
+·
+Beginner
+·
+May 28, 2018
+·
+1h 16m
+·
+
+
+
+
+SIEM Administration with QRadar
+Ricardo Reimao
+·
+Intermediate
+·
+May 28, 2018
+·
+3h 10m
+·
+(10)
+
+
+
+
+Getting Started with Git
+Aaron Stewart
+·
+Beginner
+·
+May 28, 2018
+·
+2h 22m
+·
+(61)
+
+
+
+
+3ds Max Rigging Fundamentals
+Stewart Jones
+·
+Beginner
+·
+May 24, 2018
+·
+4h 47m
+·
+
+
+
+
+Play by Play: Build and Deploy Angular to the Cloud
+Simona Cotin and John Papa
+·
+Intermediate
+·
+May 24, 2018
+·
+1h 1m
+·
+(36)
+
+
+
+
+Android Fundamentals: ConstraintLayout
+Rebecca Franks
+·
+Beginner
+·
+May 23, 2018
+·
+1h 25m
+·
+(53)
+
+
+
+
+Optimized Game Character Modeling
+Dan John Cox
+·
+Intermediate
+·
+May 23, 2018
+·
+3h 52m
+·
+
+
+
+
+Getting Started with Packet Analysis
+Joe Abraham
+·
+Beginner
+·
+May 23, 2018
+·
+2h 17m
+·
+
+
+
+
+Pandas Playbook: Manipulating Data
+Reindert-Jan Ekker
+·
+Intermediate
+·
+May 23, 2018
+·
+2h 15m
+·
+(17)
+
+
+
+
+PowerShell Playbook: Office 365
+Vlad Catrinescu
+·
+Intermediate
+·
+May 23, 2018
+·
+4h 24m
+·
+(17)
+
+
+
+
+Risk Assessment and Management
+Kevin Henry
+·
+Intermediate
+·
+May 23, 2018
+·
+2h 33m
+·
+
+
+
+
+SAP ABAP Objects: Advanced Programming Techniques
+Dorian Salmon
+·
+Advanced
+·
+May 23, 2018
+·
+2h 58m
+·
+
+
+
+
+Photoshop CC Mastering Compositing
+Jesús Ramirez
+·
+Intermediate
+·
+May 22, 2018
+·
+2h 1m
+·
+(10)
+
+
+
+
+Writing Purely Functional Code in C#
+Zoran Horvat
+·
+Advanced
+·
+May 22, 2018
+·
+4h 14m
+·
+(55)
+
+
+
+
+Building a Website with React and ASP.NET Core
+Peter Kellner
+·
+Intermediate
+·
+May 21, 2018
+·
+3h 19m
+·
+(44)
+
+
+
+
+Play by Play: Building Enterprise Angular Apps with Nx
+Duncan Hunter and Lars Klint
+·
+Intermediate
+·
+May 21, 2018
+·
+1h 31m
+·
+(20)
+
+
+
+
+Getting Started with Hortonworks Data Platform
+Thomas Henson
+·
+Beginner
+·
+May 21, 2018
+·
+2h 2m
+·
+
+
+
+
+Microsoft Azure for Node.js Developers - Cloud Patterns and Architecture
+Simon Allardice
+·
+Advanced
+·
+May 20, 2018
+·
+3h 23m
+·
+(21)
+
+
+
+
+Unit Testing Legacy Code in Java
+Jim Weaver
+·
+Intermediate
+·
+May 20, 2018
+·
+2h 8m
+·
+(10)
+
+
+
+
+Cloud Patterns and Architecture for Microsoft Azure Developers
+Simon Allardice
+·
+Advanced
+·
+May 20, 2018
+·
+3h 23m
+·
+(68)
+
+
+
+
+LFCE: Linux Service Management - Advanced Email Services
+Anthony Nocentino
+·
+Intermediate
+·
+May 18, 2018
+·
+1h 28m
+·
+
+
+
+
+AWS Networking Deep Dive: Route 53 DNS
+Ben Piper
+·
+Intermediate
+·
+May 17, 2018
+·
+4h 10m
+·
+(20)
+
+
+
+
+Managing Data in the Cloud
+Kevin Jackson
+·
+Intermediate
+·
+May 17, 2018
+·
+2h 45m
+·
+
+
+
+
+Automated Testing with MSTest V2
+Jason Roberts
+·
+Intermediate
+·
+May 17, 2018
+·
+2h 2m
+·
+(34)
+
+
+
+
+Operational Support and Analysis for ITIL®
+Chris Ward
+·
+Intermediate
+·
+May 17, 2018
+·
+3h 57m
+·
+
+
+
+
+SQL Server Application Development Best Practices
+Rudi Bruchez
+·
+Intermediate
+·
+May 17, 2018
+·
+3h 29m
+·
+(16)
+
+
+
+
+Azure Durable Functions Fundamentals
+Mark Heath
+·
+Beginner
+·
+May 15, 2018
+·
+2h 50m
+·
+(29)
+
+
+
+
+Demand and Work Management: A Practical Guide
+Michael Krasowski
+·
+Beginner
+·
+May 15, 2018
+·
+4h 5m
+·
+
+
+
+
+Entity Framework Core 2: Mappings
+Julie Lerman
+·
+Intermediate
+·
+May 15, 2018
+·
+1h 59m
+·
+(44)
+
+
+
+
+Firebase on Android: Cloud Firestore
+Mitch Tabian
+·
+Intermediate
+·
+May 15, 2018
+·
+2h 14m
+·
+(13)
+
+
+
+
+Getting Started with Power BI for Business Professionals
+Ben Howard
+·
+Beginner
+·
+May 15, 2018
+·
+3h 14m
+·
+(32)
+
+
+
+
+Houdini: VEX Fundamentals
+David Kahl
+·
+Beginner
+·
+May 15, 2018
+·
+7h 27m
+·
+(13)
+
+
+
+
+Play by Play: Bug Bounties for Companies
+Troy Hunt and Casey Ellis
+·
+Beginner
+·
+May 15, 2018
+·
+48m
+·
+
+
+
+
+Getting Started with Spark 2
+Janani Ravi
+·
+Beginner
+·
+May 15, 2018
+·
+2h 16m
+·
+(30)
+
+
+
+
+Swords and Shovels Character Controller and AI
+Michael Baker
+·
+Intermediate
+·
+May 15, 2018
+·
+54m
+·
+(35)
+
+
+
+
+Swords and Shovels: Character Inventory System
+Christopher Pellow
+·
+Intermediate
+·
+May 15, 2018
+·
+1h 42m
+·
+(28)
+
+
+
+
+Swords and Shovels: Character Stat System
+Christopher Pellow
+·
+Intermediate
+·
+May 15, 2018
+·
+1h 23m
+·
+(34)
+
+
+
+
+Swords and Shovels: Loot System
+Christopher Pellow
+·
+Intermediate
+·
+May 15, 2018
+·
+1h 31m
+·
+(20)
+
+
+
+
+Architecting for Reliability on AWS
+Mike Pfeiffer
+·
+Intermediate
+·
+May 15, 2018
+·
+3h 34m
+·
+(13)
+
+
+
+
+Oracle 12.2 Upgrade
+Tim Boles
+·
+Intermediate
+·
+May 15, 2018
+·
+2h 9m
+·
+
+
+
+
+Implementing Threat Detection Solutions in Windows Server 2016
+Robert McMillen
+·
+Intermediate
+·
+May 14, 2018
+·
+1h 7m
+·
+
+
+
+
+Play by Play: Visual Studio Code Can Do That
+Burke Holland and John Papa
+·
+Beginner
+·
+May 14, 2018
+·
+1h 29m
+·
+(59)
+
+
+
+
+SOLIDWORKS: Saving Time with Component Patterns in Assemblies
+Ben Walker
+·
+Beginner
+·
+May 14, 2018
+·
+1h 21m
+·
+
+
+
+
+Spring: The Big Picture
+Dustin Schultz
+·
+Beginner
+·
+May 14, 2018
+·
+1h 15m
+·
+(152)
+
+
+
+
+Architecting for High Availability in Microsoft Azure
+Richard Seroter
+·
+Intermediate
+·
+May 14, 2018
+·
+4h 6m
+·
+
+
+
+
+The Role of Shadow IT and How to Bring it out of the Darkness
+Troy Hunt
+·
+Beginner
+·
+May 14, 2018
+·
+39m
+·
+(28)
+
+
+
+
+Developing with .NET on Microsoft Azure - Getting Started
+Scott Allen
+·
+Beginner
+·
+May 13, 2018
+·
+4h 50m
+·
+(433)
+
+
+
+
+Developing with Node.js on Microsoft Azure - Getting Started
+Scott Allen
+·
+Beginner
+·
+May 13, 2018
+·
+4h 33m
+·
+(57)
+
+
+
+
+Routing for CCNA Data Center (200-150/200-155)
+Greg Dickinson
+·
+Intermediate
+·
+May 13, 2018
+·
+2h 1m
+·
+
+
+
+
+Selecting and Setting up the Right Aruba Switch
+Leigh Bogardis
+·
+Beginner
+·
+May 13, 2018
+·
+1h 58m
+·
+
+
+
+
+.NET Standard: Getting Started
+Thomas Claudius Huber
+·
+Intermediate
+·
+May 13, 2018
+·
+2h 44m
+·
+(69)
+
+
+
+
+InDesign CC Print Production
+Shannon Mashek
+·
+Beginner
+·
+May 13, 2018
+·
+1h 33m
+·
+
+
+
+
+Play by Play: OWASP Top 10 2017
+Troy Hunt and Andrew van der Stock
+·
+Beginner
+·
+May 13, 2018
+·
+1h 12m
+·
+(53)
+
+
+
+
+Authenticating Users with Firebase Authentication Service Playbook
+Todd Shelton
+·
+Intermediate
+·
+May 13, 2018
+·
+3h 39m
+·
+
+
+
+
+Introduction to Spring Cloud Contract
+Andrew Morgan
+·
+Beginner
+·
+May 13, 2018
+·
+3h 4m
+·
+(10)
+
+
+
+
+Salesforce Process Builder: Getting Started
+Scott Lee
+·
+Beginner
+·
+May 10, 2018
+·
+1h 38m
+·
+(11)
+
+
+
+
+Citrix XenDesktop 7.15 LTSR: StoreFront, Receiver, and NetScaler Gateway
+Greg Shields
+·
+Intermediate
+·
+May 10, 2018
+·
+3h 34m
+·
+
+
+
+
+Microsoft Azure Developer: Creating and Integrating AI with Azure Services
+Sahil Malik
+·
+Beginner
+·
+May 10, 2018
+·
+1h 21m
+·
+(15)
+
+
+
+
+JavaFX Playbook - Labeled and Text Controls
+Buddha Jyothiprasad
+·
+Intermediate
+·
+May 10, 2018
+·
+2h 20m
+·
+
+
+
+
+Swords and Shovels: Game Managers, Loaders, and the Game Loop
+Jon McElroy
+·
+Intermediate
+·
+May 10, 2018
+·
+2h 4m
+·
+(44)
+
+
+
+
+IT Outsourcing - Running an Outsourcing Initiative
+Tommy van Schaik
+·
+Beginner
+·
+May 10, 2018
+·
+1h 20m
+·
+
+
+
+
+Testing React Applications with Jest
+Daniel Stern
+·
+Intermediate
+·
+May 10, 2018
+·
+3h 36m
+·
+(71)
+
+
+
+
+PMI-ACP®: Final Preparations for PMI-ACP® Certification (11 of 11)
+Chuck Cobb
+·
+Intermediate
+·
+May 09, 2018
+·
+2h 42m
+·
+
+
+
+
+SharePoint Security Fundamentals
+Liam Cleary
+·
+Intermediate
+·
+May 07, 2018
+·
+2h 1m
+·
+
+
+
+
+Getting Started with SOLIDWORKS Visualize
+Michael Herbet
+·
+Beginner
+·
+May 07, 2018
+·
+1h 37m
+·
+
+
+
+
+Configuring and Managing Office 365 Security
+Paul Cunningham
+·
+Intermediate
+·
+May 07, 2018
+·
+6h 23m
+·
+(28)
+
+
+
+
+Performing Network Vulnerability Scanning with Nexpose
+Kevin Cardwell
+·
+Intermediate
+·
+May 06, 2018
+·
+2h 13m
+·
+
+
+
+
+Getting Started with Spring Batch
+Michael Hoffman
+·
+Beginner
+·
+May 06, 2018
+·
+1h 45m
+·
+(17)
+
+
+
+
+Managing Infrastructure with Microsoft Azure - Getting Started
+Tim Warner
+·
+Beginner
+·
+May 03, 2018
+·
+5h 40m
+·
+(199)
+
+
+
+
+Program Management: Sustaining Your Program’s Benefits After Delivery
+Jeremy Jarrell
+·
+Beginner
+·
+May 03, 2018
+·
+1h 7m
+·
+
+
+
+
+An Immortal Design: Character Design Theory and Development
+Jonah Lobe
+·
+Intermediate
+·
+May 02, 2018
+·
+3h 14m
+·
+(40)
+
+
+
+
+SharePoint at Work: Using Delve with SharePoint
+Bill Kulterman
+·
+Beginner
+·
+May 02, 2018
+·
+1h 49m
+·
+
+
+
+
+Developing Spark Applications Using Scala & Cloudera
+Xavier Morera
+·
+Beginner
+·
+May 02, 2018
+·
+5h 42m
+·
+(19)
+
+
+
+
+Line of Business (LOB) Apps with Canvas PowerApps and Flow
+Vishwas Lele
+·
+Intermediate
+·
+May 02, 2018
+·
+1h 59m
+·
+(35)
+
+
+
+
+Fostering Effective Team Collaboration and Communication
+Shelley Benhoff
+·
+Intermediate
+·
+May 02, 2018
+·
+2h 4m
+·
+(13)
+
+
+
+
+Play by Play: JavaScript Security
+Troy Hunt and Aaron Powell
+·
+Beginner
+·
+May 01, 2018
+·
+1h 13m
+·
+(38)
+
+
+
+
+Scala: The Big Picture
+Harit Himanshu
+·
+Beginner
+·
+May 01, 2018
+·
+2h 16m
+·
+(30)
+
+
+
+
+Microsoft Dynamics 365 for Sales
+Amber Israelsen
+·
+Beginner
+·
+Apr 30, 2018
+·
+1h 20m
+·
+
+
+
+
+Getting Started with Visual Studio Team Services (2018)
+Benjamin Day
+·
+Beginner
+·
+Apr 30, 2018
+·
+4h 13m
+·
+(39)
+
+
+
+
+Play by Play: Developing Microservices and Mobile Apps with JHipster
+Matt Raible and Michael Hoffman
+·
+Intermediate
+·
+Apr 29, 2018
+·
+2h 17m
+·
+(16)
+
+
+
+
+Play by Play: Extending the Browser
+Brian Clark and John Papa
+·
+Beginner
+·
+Apr 29, 2018
+·
+38m
+·
+(21)
+
+
+
+
+Building Machine Learning Models in Python with scikit-learn
+Janani Ravi
+·
+Beginner
+·
+Apr 29, 2018
+·
+3h 13m
+·
+(51)
+
+
+
+
+Deploying TensorFlow Models to AWS, Azure, and the GCP
+Janani Ravi
+·
+Intermediate
+·
+Apr 29, 2018
+·
+2h 11m
+·
+
+
+
+
+Adobe Experience Manager Advanced Dialogs with Granite UI
+Tyler Maynard
+·
+Intermediate
+·
+Apr 26, 2018
+·
+2h 58m
+·
+
+
+
+
+Learning Azure Cosmos DB
+Leonard Lobel
+·
+Intermediate
+·
+Apr 26, 2018
+·
+6h 6m
+·
+(52)
+
+
+
+
+Microsoft Operating System Fundamentals
+Tim Warner
+·
+Beginner
+·
+Apr 26, 2018
+·
+11h 5m
+·
+
+
+
+
+Zend Expressive Essentials
+Matthew Setter
+·
+Intermediate
+·
+Apr 26, 2018
+·
+2h 2m
+·
+
+
+
+
+Configuration and Deployment for the Cloud
+Sean Wilkins
+·
+Beginner
+·
+Apr 25, 2018
+·
+3h 16m
+·
+
+
+
+
+Maintenance in the Cloud
+Sean Wilkins
+·
+Beginner
+·
+Apr 25, 2018
+·
+1h 15m
+·
+
+
+
+
+Security in the Cloud
+Sean Wilkins
+·
+Beginner
+·
+Apr 25, 2018
+·
+1h 2m
+·
+
+
+
+
+Basic Management Principles in a Cloud Environment
+Sean Wilkins
+·
+Beginner
+·
+Apr 25, 2018
+·
+1h 9m
+·
+
+
+
+
+Fundamental Virtualization and Cloud Troubleshooting Scenarios
+Sean Wilkins
+·
+Beginner
+·
+Apr 25, 2018
+·
+1h 44m
+·
+
+
+
+
+Aligning IT and Business Strategies
+Casey Ayers
+·
+Beginner
+·
+Apr 25, 2018
+·
+1h 31m
+·
+(11)
+
+
+
+
+Citrix XenDesktop 7.15 LTSR: Provisioning Services
+Greg Shields
+·
+Intermediate
+·
+Apr 24, 2018
+·
+3h 10m
+·
+
+
+
+
+Information Classification
+Kevin Henry
+·
+Intermediate
+·
+Apr 24, 2018
+·
+1h 39m
+·
+(10)
+
+
+
+
+Building Business Applications with Angular and ASP.NET Core
+Kevin Dockx
+·
+Intermediate
+·
+Apr 23, 2018
+·
+4h 26m
+·
+(67)
+
+
+
+
+Deploying Databases with Octopus
+Chris Behrens
+·
+Intermediate
+·
+Apr 23, 2018
+·
+1h 42m
+·
+
+
+
+
+Android Keyboard Inputs: Getting Started
+Mitch Tabian
+·
+Beginner
+·
+Apr 22, 2018
+·
+1h 58m
+·
+
+
+
+
+HTML, CSS, and JavaScript: The Big Picture
+Barry Luijbregts
+·
+Beginner
+·
+Apr 22, 2018
+·
+1h 28m
+·
+(308)
+
+
+
+
+Building Your First App with Spring Boot and Angular
+Dan Bunker
+·
+Intermediate
+·
+Apr 22, 2018
+·
+2h 21m
+·
+(45)
+
+
+
+
+Enrolling, Securing, and Managing Devices with Microsoft Intune
+Andrew Bettany
+·
+Beginner
+·
+Apr 22, 2018
+·
+2h 27m
+·
+(28)
+
+
+
+
+Motivating and Optimizing Team Performance
+Ron Schindler
+·
+Beginner
+·
+Apr 22, 2018
+·
+1h 51m
+·
+(18)
+
+
+
+
+A Practical Start with React
+Roland Guijt
+·
+Beginner
+·
+Apr 20, 2018
+·
+1h 28m
+·
+(91)
+
+
+
+
+Networking Concepts and Protocols
+Ross Bagurdes
+·
+Beginner
+·
+Apr 19, 2018
+·
+5h 26m
+·
+(120)
+
+
+
+
+Introduction to Enterprise Network Infrastructure
+Ross Bagurdes
+·
+Beginner
+·
+Apr 19, 2018
+·
+2h 58m
+·
+(27)
+
+
+
+
+Network Management and Operations
+Ross Bagurdes
+·
+Beginner
+·
+Apr 19, 2018
+·
+2h 30m
+·
+(15)
+
+
+
+
+Creating a Cisco +E.164 Dial Plan for Multisite Deployments
+Sean Douglas
+·
+Intermediate
+·
+Apr 19, 2018
+·
+2h 46m
+·
+
+
+
+
+Network Security Basics
+Ross Bagurdes
+·
+Beginner
+·
+Apr 19, 2018
+·
+2h 16m
+·
+(17)
+
+
+
+
+Network Troubleshooting and Tools
+Ross Bagurdes
+·
+Beginner
+·
+Apr 19, 2018
+·
+2h 54m
+·
+(15)
+
+
+
+
+Creating Your First Android App with Android Studio and Firebase
+Simone Alessandria
+·
+Beginner
+·
+Apr 19, 2018
+·
+2h 15m
+·
+(15)
+
+
+
+
+Delivering Real-time Data with Azure and Power BI Streaming
+Warner Chaves
+·
+Intermediate
+·
+Apr 19, 2018
+·
+1h 59m
+·
+(10)
+
+
+
+
+Azure Logic Apps: Fundamentals
+Stephen W. Thomas
+·
+Intermediate
+·
+Apr 17, 2018
+·
+2h 45m
+·
+(21)
+
+
+
+
+Play by Play: Modern Web Security Patterns
+Lars Klint and Troy Hunt
+·
+Beginner
+·
+Apr 17, 2018
+·
+1h 24m
+·
+(45)
+
+
+
+
+Getting Started with Python on SQL Server
+Gerald Britton
+·
+Intermediate
+·
+Apr 17, 2018
+·
+1h 25m
+·
+(10)
+
+
+
+
+Analyzing Malware for .NET and Java Binaries
+Josh Stroschein
+·
+Intermediate
+·
+Apr 16, 2018
+·
+1h 42m
+·
+(13)
+
+
+
+
+Troubleshooting Security and Active Directory Issues with Sysinternals Tools
+Sami Laiho
+·
+Beginner
+·
+Apr 16, 2018
+·
+1h 3m
+·
+(12)
+
+
+
+
+Building an IT Strategic Plan
+Jason Edleman
+·
+Intermediate
+·
+Apr 15, 2018
+·
+1h 20m
+·
+(19)
+
+
+
+
+Microservices: The Big Picture
+Antonio Goncalves
+·
+Beginner
+·
+Apr 15, 2018
+·
+1h 45m
+·
+(135)
+
+
+
+
+Identifying SaaS Operational Challenges for the Business
+Sonia Cuff
+·
+Beginner
+·
+Apr 15, 2018
+·
+1h 22m
+·
+
+
+
+
+Visual Studio for Mac
+Jesse Liberty
+·
+Beginner
+·
+Apr 15, 2018
+·
+1h 19m
+·
+
+
+
+
+Testing Precompiled Azure Functions: Deep Dive
+Jason Roberts
+·
+Intermediate
+·
+Apr 12, 2018
+·
+1h 31m
+·
+(14)
+
+
+
+
+Security Management
+Kevin Henry
+·
+Intermediate
+·
+Apr 12, 2018
+·
+1h 29m
+·
+(13)
+
+
+
+
+Personnel Security
+Kevin Henry
+·
+Intermediate
+·
+Apr 12, 2018
+·
+1h 19m
+·
+
+
+
+
+Microsoft Azure IaaS Monitoring and Management - Getting Started
+Tim Warner
+·
+Intermediate
+·
+Apr 09, 2018
+·
+1h 24m
+·
+(47)
+
+
+
+
+Elm
+Richard Feldman
+·
+Intermediate
+·
+Apr 09, 2018
+·
+8h 45m
+·
+(12)
+
+
+
+
+Play by Play: Build a Serverless Node Web API
+Simona Cotin and John Papa
+·
+Intermediate
+·
+Apr 08, 2018
+·
+1h 16m
+·
+(30)
+
+
+
+
+Fundamentals of Server Virtualization
+David Davis
+·
+Beginner
+·
+Apr 08, 2018
+·
+2h 1m
+·
+
+
+
+
+Using Office 365 Calendar
+Patricia Ciszek
+·
+Beginner
+·
+Apr 08, 2018
+·
+39m
+·
+
+
+
+
+Asynchronous Programming in JavaScript (with Rx.js Observables)
+Jafar Husain
+·
+Intermediate
+·
+Apr 05, 2018
+·
+9h 39m
+·
+(59)
+
+
+
+
+Play by Play: Obliterate the Tedium - Practical VBA for the Excel Practitioner
+Don Robins and Ryan Hinkle
+·
+Beginner
+·
+Apr 05, 2018
+·
+2h 8m
+·
+(21)
+
+
+
+
+Microsoft Hybrid Identity - Overview
+Gary Grudzinskas
+·
+Intermediate
+·
+Apr 04, 2018
+·
+2h 56m
+·
+(24)
+
+
+
+
+API Design in Node.js Featuring Express & Mongo
+Scott Moss
+·
+Intermediate
+·
+Apr 04, 2018
+·
+10h 32m
+·
+(42)
+
+
+
+
+Eclipse for Java Developers
+Jose Paumard
+·
+Intermediate
+·
+Apr 04, 2018
+·
+3h 22m
+·
+(15)
+
+
+
+
+Configuration of Client Connectivity for Cisco WIFUND (200-355)
+Andrew Crouthamel
+·
+Intermediate
+·
+Apr 03, 2018
+·
+58m
+·
+
+
+
+
+Play by Play: Salesforce Survival Tools for the Accidental Admin
+Jeff Susich and Don Robins
+·
+Beginner
+·
+Apr 03, 2018
+·
+2h 15m
+·
+
+
+
+
+Deep Learning Using TensorFlow and Apache MXNet on AWS Sagemaker
+Janani Ravi
+·
+Intermediate
+·
+Apr 03, 2018
+·
+2h 21m
+·
+
+
+
+
+UI Best Practices Playbook for ASP.NET MVC
+Dino Esposito
+·
+Intermediate
+·
+Apr 02, 2018
+·
+2h 42m
+·
+(13)
+
+
+
+
+AWS Developer: Migrating Your Applications to the Cloud
+Fabien Ruffin
+·
+Intermediate
+·
+Apr 02, 2018
+·
+2h 43m
+·
+
+
+
+
+Protocol Deep Dive: Address Resolution Protocol (ARP)
+Jim Rizzo
+·
+Intermediate
+·
+Apr 02, 2018
+·
+4h 36m
+·
+
+
+
+
+Advanced Unit Testing with Swift iOS Through Mocks and Stubs
+Brett Romero
+·
+Intermediate
+·
+Apr 02, 2018
+·
+1h 35m
+·
+
+
+
+
+Angular Security Using JSON Web Tokens
+Paul D. Sheriff
+·
+Intermediate
+·
+Apr 01, 2018
+·
+2h 50m
+·
+(56)
+
+
+
+
+Designing with Photogrammetry Data in Civil 3D and InfraWorks 360
+Jason Thomas
+·
+Intermediate
+·
+Apr 01, 2018
+·
+1h 14m
+·
+
+
+
+
+Play by Play: Getting Started with Programming
+Jesse Liberty and John Papa
+·
+Beginner
+·
+Apr 01, 2018
+·
+1h 41m
+·
+(13)
+
+
+
+
+Building Trust and Commitment on Your Team
+Dan Appleman
+·
+Beginner
+·
+Apr 01, 2018
+·
+1h 2m
+·
+(27)
+
+
+
+
+Preparing for an ISACA® Certification Examination
+Kevin Henry
+·
+Intermediate
+·
+Mar 30, 2018
+·
+16m
+·
+
+
+
+
+Preparing for an (ISC)2® Certification Exam
+Kevin Henry
+·
+Intermediate
+·
+Mar 30, 2018
+·
+17m
+·
+(19)
+
+
+
+
+Blender Fundamentals
+Mark Masters
+·
+Beginner
+·
+Mar 29, 2018
+·
+9h 21m
+·
+(35)
+
+
+
+
+Language Modeling with Recurrent Neural Networks in TensorFlow
+Janani Ravi
+·
+Intermediate
+·
+Mar 29, 2018
+·
+2h 35m
+·
+(10)
+
+
+
+
+Continuous Delivery and DevOps with TFS and VSTS 2018, Release Management
+Marcel de Vries
+·
+Beginner
+·
+Mar 29, 2018
+·
+1h 52m
+·
+(18)
+
+
+
+
+Microsoft Azure Development for AWS Developers with Node.js
+Jonathan Mills
+·
+Beginner
+·
+Mar 28, 2018
+·
+1h 30m
+·
+
+
+
+
+Motion Design with CSS
+Rachel Nabors
+·
+Beginner
+·
+Mar 28, 2018
+·
+4h 2m
+·
+
+
+
+
+Network Monitoring and Analysis
+Daniel Lachance
+·
+Intermediate
+·
+Mar 27, 2018
+·
+1h 27m
+·
+
+
+
+
+Planning and Managing SharePoint 2016 Productivity Solutions
+Liam Cleary
+·
+Intermediate
+·
+Mar 27, 2018
+·
+3h 37m
+·
+
+
+
+
+Android Gestures: Getting Started
+Mitch Tabian
+·
+Beginner
+·
+Mar 27, 2018
+·
+2h 18m
+·
+(11)
+
+
+
+
+Play by Play: Denormalize Your Thinking About Salesforce Data Modeling
+Mike Topalovich and Don Robins
+·
+Intermediate
+·
+Mar 27, 2018
+·
+2h 10m
+·
+(17)
+
+
+
+
+Play by Play: Salesforce Integration on a Budget
+Matt Kaufman and Don Robins
+·
+Intermediate
+·
+Mar 27, 2018
+·
+1h 29m
+·
+
+
+
+
+SOLIDWORKS Consumer Products: Electro-mechanical Design
+Justin Flett
+·
+Intermediate
+·
+Mar 27, 2018
+·
+1h 24m
+·
+
+
+
+
+Statistics Foundations: Understanding Probability and Distributions
+Dmitri Nesteruk
+·
+Beginner
+·
+Mar 27, 2018
+·
+4h 24m
+·
+(26)
+
+
+
+
+Xamarin: The Big Picture
+Gill Cleeren
+·
+Beginner
+·
+Mar 27, 2018
+·
+2h 15m
+·
+(34)
+
+
+
+
+Getting Started with DAX Formulas in Power BI, Power Pivot, and SSAS
+Eugene Meidinger
+·
+Beginner
+·
+Mar 27, 2018
+·
+2h 58m
+·
+(35)
+
+
+
+
+Implementing Microsoft Azure Networking
+Tim Warner
+·
+Intermediate
+·
+Mar 27, 2018
+·
+4h 4m
+·
+(39)
+
+
+
+
+Microsoft Azure Security - Getting Started
+Tim Warner
+·
+Intermediate
+·
+Mar 27, 2018
+·
+1h 35m
+·
+(34)
+
+
+
+
+Domain-Driven Design: Working with Legacy Projects
+Vladimir Khorikov
+·
+Intermediate
+·
+Mar 26, 2018
+·
+3h 51m
+·
+(34)
+
+
+
+
+Building UIs with the Web Animations API
+Leon Revill
+·
+Beginner
+·
+Mar 26, 2018
+·
+2h 41m
+·
+
+
+
+
+InDesign CC Developing Long Documents, Books, and Manuals
+Pariah Burke
+·
+Intermediate
+·
+Mar 25, 2018
+·
+3h 21m
+·
+
+
+
+
+ZBrush FiberMesh Fundamentals
+Stephen Wells
+·
+Beginner
+·
+Mar 25, 2018
+·
+1h 58m
+·
+
+
+
+
+Advanced SVG Animation
+Sarah Drasner
+·
+Intermediate
+·
+Mar 25, 2018
+·
+2h 56m
+·
+(12)
+
+
+
+
+Automation with PowerShell Scripts
+Jeff Hicks
+·
+Beginner
+·
+Mar 25, 2018
+·
+2h 55m
+·
+(22)
+
+
+
+
+IT Outsourcing - Vendor Selection and Contracting
+Tommy van Schaik
+·
+Beginner
+·
+Mar 25, 2018
+·
+1h 32m
+·
+
+
+
+
+Deep Learning with Keras
+Jerry Kurata
+·
+Intermediate
+·
+Mar 25, 2018
+·
+2h 33m
+·
+(36)
+
+
+
+
+Building Web Applications with Node.js and Express 4.0 (UPDATE)
+Jonathan Mills
+·
+Intermediate
+·
+Mar 22, 2018
+·
+5h 12m
+·
+(117)
+
+
+
+
+Managing Load Balancing and Scale in Docker Swarm Mode Clusters
+Elton Stoneman
+·
+Intermediate
+·
+Mar 22, 2018
+·
+1h 58m
+·
+(10)
+
+
+
+
+Building Progressive Web Apps with the App Shell Model
+Nik Molnar
+·
+Intermediate
+·
+Mar 22, 2018
+·
+1h 45m
+·
+
+
+
+
+Developing with the SharePoint Framework and AngularJS
+Joseph L. Jorden
+·
+Intermediate
+·
+Mar 22, 2018
+·
+2h 49m
+·
+
+
+
+
+Big Picture: Enterprise Data Management
+Joseph Cline
+·
+Beginner
+·
+Mar 21, 2018
+·
+1h 12m
+·
+(54)
+
+
+
+
+Indexing Data in Elasticsearch
+Janani Ravi
+·
+Intermediate
+·
+Mar 21, 2018
+·
+2h 46m
+·
+(18)
+
+
+
+
+Studio Lighting Techniques with 3ds Max and V-Ray
+Nejc Kilar
+·
+Intermediate
+·
+Mar 20, 2018
+·
+3h 16m
+·
+
+
+
+
+DynamoDB Playbook: In Production
+Abhaya Chauhan
+·
+Intermediate
+·
+Mar 20, 2018
+·
+2h 13m
+·
+
+
+
+
+Animating a Walk Cycle in Maya
+Brett Vanderkist
+·
+Beginner
+·
+Mar 20, 2018
+·
+3h 33m
+·
+
+
+
+
+Secure Coding: Preventing Insecure Deserialization
+Peter Mosmans
+·
+Intermediate
+·
+Mar 20, 2018
+·
+1h 2m
+·
+(12)
+
+
+
+
+Debugging and Monitoring TensorFlow Programs
+Janani Ravi
+·
+Intermediate
+·
+Mar 20, 2018
+·
+2h 17m
+·
+
+
+
+
+Illustrator CC for UX Design
+William Everhart
+·
+Intermediate
+·
+Mar 19, 2018
+·
+3h 56m
+·
+
+
+
+
+Preparing for and Executing Incident Recovery
+Dale Meredith
+·
+Beginner
+·
+Mar 18, 2018
+·
+3h 24m
+·
+
+
+
+
+Introduction to Project Management & the PMP® Exam
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+2h 20m
+·
+(27)
+
+
+
+
+Organizational Influences & Project Management Lifecycle
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+1h 13m
+·
+(19)
+
+
+
+
+Game Environment Concept Design
+Alex Stead
+·
+Intermediate
+·
+Mar 18, 2018
+·
+3h 26m
+·
+(15)
+
+
+
+
+Developing Project Schedules
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+2h 18m
+·
+
+
+
+
+Earning and Retaining Your PMP® Certification
+Casey Ayers
+·
+Beginner
+·
+Mar 18, 2018
+·
+2h 17m
+·
+
+
+
+
+Project Communications Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+2h 34m
+·
+
+
+
+
+Project Cost Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+2h 45m
+·
+
+
+
+
+Project Integration Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+3h 44m
+·
+
+
+
+
+Project Procurement Management
+Casey Ayers
+·
+Beginner
+·
+Mar 18, 2018
+·
+2h 23m
+·
+
+
+
+
+Project Quality Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+2h 8m
+·
+
+
+
+
+Project Resource Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+3h 51m
+·
+
+
+
+
+Project Risk Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+3h 40m
+·
+
+
+
+
+Project Schedule Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+2h 47m
+·
+
+
+
+
+Project Scope Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+3h 46m
+·
+
+
+
+
+Project Stakeholder Management
+Casey Ayers
+·
+Intermediate
+·
+Mar 18, 2018
+·
+2h 10m
+·
+
+
+
+
+What's New in Java 10: Local-variable Type Inference
+Sander Mak
+·
+Intermediate
+·
+Mar 18, 2018
+·
+1h 0m
+·
+(26)
+
+
+
+
+CSSLP®: Supply Chain and Software Acquisition
+Kevin Henry
+·
+Intermediate
+·
+Mar 18, 2018
+·
+45m
+·
+
+
+
+
+CSSLP®: Software Deployment, Operations, and Maintenance
+Kevin Henry
+·
+Intermediate
+·
+Mar 16, 2018
+·
+2h 27m
+·
+
+
+
+
+PRINCE2® - The Business Case Theme
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+2h 34m
+·
+
+
+
+
+PRINCE2® - The Change Theme
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+1h 18m
+·
+
+
+
+
+PRINCE2® - The Progress Theme
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+1h 5m
+·
+
+
+
+
+PRINCE2® - Tailoring a Project
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+1h 29m
+·
+
+
+
+
+PRINCE2® - Introducing the Value and Fundamentals
+Tommy van Schaik
+·
+Beginner
+·
+Mar 15, 2018
+·
+3h 19m
+·
+(15)
+
+
+
+
+PRINCE2® - The Organization Theme
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+2h 50m
+·
+
+
+
+
+PRINCE2® - The Plans Theme
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+1h 59m
+·
+
+
+
+
+PRINCE2® - Project Processes
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+2h 18m
+·
+
+
+
+
+PRINCE2® - The Quality Theme
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+2h 38m
+·
+
+
+
+
+PRINCE2® - The Risk Theme
+Tommy van Schaik
+·
+Intermediate
+·
+Mar 15, 2018
+·
+1h 53m
+·
+
+
+
+
+PMI-ACP®: Applied Agile Project Management (10 of 11)
+Chuck Cobb
+·
+Intermediate
+·
+Mar 15, 2018
+·
+2h 35m
+·
+
+
+
+
+Getting Started with Google Play Services
+Javon Davis
+·
+Beginner
+·
+Mar 15, 2018
+·
+57m
+·
+
+
+
+
+Microsoft Azure Cognitive Services: Speaker Recognition and Bing Speech API
+Matthew Kruczek
+·
+Beginner
+·
+Mar 15, 2018
+·
+1h 52m
+·
+
+
+
+
+Play by Play: Evaluating Lightning Migration for Your Salesforce Org
+Adam Olshansky and Don Robins
+·
+Intermediate
+·
+Mar 15, 2018
+·
+1h 23m
+·
+
+
+
+
+Internet of Things (IoT) Security: The Big Picture
+Cristian Pascariu
+·
+Beginner
+·
+Mar 15, 2018
+·
+1h 33m
+·
+(23)
+
+
+
+
+Shading and Texturing Interior Architecture with Substance Painter and ...
+Kyle Jones
+·
+Intermediate
+·
+Mar 15, 2018
+·
+3h 40m
+·
+
+
+
+
+Android Data Binding: Getting Started
+Mitch Tabian
+·
+Intermediate
+·
+Mar 14, 2018
+·
+2h 7m
+·
+(25)
+
+
+
+
+Firebase Firestore: Getting Started
+Ervis Trupja
+·
+Beginner
+·
+Mar 14, 2018
+·
+1h 24m
+·
+(47)
+
+
+
+
+Getting Started with Jupyter Notebook and Python
+Douglas Starnes
+·
+Beginner
+·
+Mar 14, 2018
+·
+2h 14m
+·
+(22)
+
+
+
+
+UV Mapping Game Characters in Maya
+Eddie Russell
+·
+Intermediate
+·
+Mar 14, 2018
+·
+3h 23m
+·
+(21)
+
+
+
+
+Texturing Game Characters in Substance Painter
+Eddie Russell
+·
+Intermediate
+·
+Mar 14, 2018
+·
+4h 45m
+·
+(19)
+
+
+
+
+Creating Game Environment Textures with Substance Suite
+Dan John Cox
+·
+Intermediate
+·
+Mar 14, 2018
+·
+3h 25m
+·
+(10)
+
+
+
+
+Creating Game Environments in Unity and Maya
+Dan John Cox
+·
+Beginner
+·
+Mar 14, 2018
+·
+2h 28m
+·
+(10)
+
+
+
+
+Game Character Animation in Unity and Maya
+Mark Butler
+·
+Beginner
+·
+Mar 14, 2018
+·
+2h 45m
+·
+(13)
+
+
+
+
+Reactive Programming with RxAndroid and Kotlin
+Brendan Wanlass
+·
+Intermediate
+·
+Mar 14, 2018
+·
+1h 30m
+·
+(17)
+
+
+
+
+Citrix XenDesktop 7.15 LTSR: Delivery Controller
+Greg Shields
+·
+Intermediate
+·
+Mar 13, 2018
+·
+3h 16m
+·
+(14)
+
+
+
+
+Citrix XenDesktop 7.15 LTSR: Introduction
+Greg Shields
+·
+Intermediate
+·
+Mar 13, 2018
+·
+41m
+·
+(15)
+
+
+
+
+Citrix XenDesktop 7.15 LTSR: Machine Creation Services
+Greg Shields
+·
+Intermediate
+·
+Mar 13, 2018
+·
+2h 56m
+·
+
+
+
+
+Retopologizing Game Characters in Maya
+Justin Marshall
+·
+Beginner
+·
+Mar 13, 2018
+·
+2h 47m
+·
+(13)
+
+
+
+
+Play by Play: Understanding Salesforce Einstein Analytics
+Carl Brundage and Don Robins
+·
+Intermediate
+·
+Mar 13, 2018
+·
+1h 57m
+·
+
+
+
+
+Microservices Architectural Design Patterns Playbook
+Rag Dhiman
+·
+Intermediate
+·
+Mar 13, 2018
+·
+8h 40m
+·
+(62)
+
+
+
+
+Continual Service Improvement for ITIL®
+Terry Decker
+·
+Intermediate
+·
+Mar 12, 2018
+·
+4h 27m
+·
+
+
+
+
+Getting Started with Amazon Lex
+Mike Erickson
+·
+Beginner
+·
+Mar 12, 2018
+·
+1h 57m
+·
+(13)
+
+
+
+
+VPNs and Wireless Networks
+Daniel Lachance
+·
+Intermediate
+·
+Mar 11, 2018
+·
+1h 38m
+·
+
+
+
+
+Developing Custom Shaders in Unity
+Claudia Doppioslash
+·
+Beginner
+·
+Mar 11, 2018
+·
+1h 28m
+·
+(12)
+
+
+
+
+Adobe Analytics Implementation Fundamentals
+Adobe Digital Learning Services and Jaekob Chenina
+·
+Beginner
+·
+Mar 08, 2018
+·
+1h 15m
+·
+
+
+
+
+Android: Image Processing with Picasso
+Alex Wolf
+·
+Beginner
+·
+Mar 08, 2018
+·
+1h 57m
+·
+
+
+
+
+ASP.NET Core Identity Deep Dive
+Scott Brady
+·
+Intermediate
+·
+Mar 08, 2018
+·
+2h 31m
+·
+(71)
+
+
+
+
+Implement and Manage Identities Using Azure AD Connect for Office 365
+Brian Alderman
+·
+Intermediate
+·
+Mar 08, 2018
+·
+1h 6m
+·
+(19)
+
+
+
+
+Managing Cloud Identities in Office 365
+Brian Alderman
+·
+Intermediate
+·
+Mar 08, 2018
+·
+42m
+·
+(15)
+
+
+
+
+Monitoring and Troubleshooting Office 365 Availability and Usage
+Brian Alderman
+·
+Intermediate
+·
+Mar 08, 2018
+·
+1h 1m
+·
+
+
+
+
+Provisioning Office 365
+Jeff Adkin
+·
+Beginner
+·
+Mar 08, 2018
+·
+1h 36m
+·
+(36)
+
+
+
+
+
+Planning and Implementing Networking and Security in Office 365
+Brian Alderman
+·
+Intermediate
+·
+Mar 08, 2018
+·
+1h 3m
+·
+(20)
+
+
+
+
+Implementing and Managing Federated Identities for SSO
+Brian Alderman
+·
+Intermediate
+·
+Mar 08, 2018
+·
+58m
+·
+(17)
+
+
+
+
+Building Your First Amazon Redshift Data Warehouse
+Russ Thomas
+·
+Intermediate
+·
+Mar 08, 2018
+·
+2h 40m
+·
+(20)
+
+
+
+
+Angular HTTP Communication
+Brice Wilson
+·
+Intermediate
+·
+Mar 08, 2018
+·
+2h 27m
+·
+(99)
+
+
+
+
+Web Application Penetration Testing: Session Management Testing
+Clark Voss
+·
+Intermediate
+·
+Mar 07, 2018
+·
+2h 1m
+·
+
+
+
+
+Getting Started with R in the Microsoft Data Platform
+Stacia Misner Varga
+·
+Intermediate
+·
+Mar 07, 2018
+·
+2h 53m
+·
+(13)
+
+
+
+
+Troubleshooting for Cisco CICD 210-060
+Josh Kittle
+·
+Beginner
+·
+Mar 06, 2018
+·
+3h 2m
+·
+
+
+
+
+Linux: System Security (LPIC-2)
+Andrew Mallett
+·
+Intermediate
+·
+Mar 06, 2018
+·
+3h 6m
+·
+
+
+
+
+Zero to Production Node.js on Amazon Web Services
+Kevin Whinnery
+·
+Intermediate
+·
+Mar 06, 2018
+·
+6h 32m
+·
+
+
+
+
+Good Parts of JavaScript and the Web
+Douglas Crockford
+·
+Intermediate
+·
+Mar 06, 2018
+·
+10h 55m
+·
+(43)
+
+
+
+
+AWS Developer: Deployment and Security
+Ryan Lewis
+·
+Advanced
+·
+Mar 05, 2018
+·
+2h 32m
+·
+
+
+
+
+C++ Fundamentals Including C++ 17
+Kate Gregory
+·
+Beginner
+·
+Mar 05, 2018
+·
+5h 48m
+·
+(92)
+
+
+
+
+Building Conferences with Telepresence and Managing Media Resources for ...
+Sean Douglas
+·
+Intermediate
+·
+Mar 05, 2018
+·
+3h 3m
+·
+
+
+
+
+Switch to Kotlin from Java for Android Development
+Sriyank Siddhartha
+·
+Beginner
+·
+Mar 04, 2018
+·
+3h 53m
+·
+(22)
+
+
+
+
+Parallel-friendly Rigging in Maya 2018
+Joshua Gaines
+·
+Intermediate
+·
+Mar 04, 2018
+·
+1h 44m
+·
+
+
+
+
+Premiere Pro CC Essential Graphics
+Kelsey Brannan
+·
+Intermediate
+·
+Mar 04, 2018
+·
+1h 14m
+·
+
+
+
+
+Migrating Python 2 to Python 3
+Anthony Shaw
+·
+Intermediate
+·
+Mar 04, 2018
+·
+1h 52m
+·
+
+
+
+
+Client Side React Router 4
+David Starr
+·
+Intermediate
+·
+Mar 01, 2018
+·
+1h 59m
+·
+(31)
+
+
+
+
+Four Semesters of Computer Science in 5 Hours
+Brian Holt
+·
+Intermediate
+·
+Mar 01, 2018
+·
+4h 47m
+·
+(36)
+
+
+
+
+SharePoint at Work: SharePoint 2016 On-premises Essentials
+Bill Kulterman
+·
+Beginner
+·
+Mar 01, 2018
+·
+1h 42m
+·
+
+
+
+
+Unity 2D Fundamentals - Character Interactions
+Brian Sinasac
+·
+Beginner
+·
+Mar 01, 2018
+·
+2h 25m
+·
+(11)
+
+
+
+
+Building Layouts with the CSS Grid
+Gary Simon
+·
+Beginner
+·
+Mar 01, 2018
+·
+1h 16m
+·
+(38)
+
+
+
+
+Eclipse Guided Tour for Java
+Tod Gentille
+·
+Beginner
+·
+Mar 01, 2018
+·
+3h 39m
+·
+(11)
+
+
+
+
+Windows 10 for Power Users
+Alan Wright
+·
+Beginner
+·
+Mar 01, 2018
+·
+1h 33m
+·
+
+
+
+
+ES6: The Right Parts
+Kyle Simpson
+·
+Intermediate
+·
+Feb 28, 2018
+·
+5h 18m
+·
+(52)
+
+
+
+
+Color Workflows in NUKE
+Eric Deinzer
+·
+Beginner
+·
+Feb 28, 2018
+·
+2h 0m
+·
+
+
+
+
+Play by Play: Prototyping UX Solutions with Lightning Components
+Barry Hughes and Don Robins
+·
+Intermediate
+·
+Feb 28, 2018
+·
+2h 49m
+·
+
+
+
+
+Developing Stream Processing Applications with AWS Kinesis
+Ivan Mushketyk
+·
+Intermediate
+·
+Feb 28, 2018
+·
+3h 32m
+·
+(18)
+
+
+
+
+Building Your First Salesforce Application
+Scott Allen
+·
+Beginner
+·
+Feb 27, 2018
+·
+1h 52m
+·
+(21)
+
+
+
+
+The Go CLI Playbook
+Mike Van Sickle
+·
+Intermediate
+·
+Feb 27, 2018
+·
+2h 8m
+·
+(11)
+
+
+
+
+AWS Simple Systems Manager for EC2: Getting Started
+David O'Brien
+·
+Beginner
+·
+Feb 26, 2018
+·
+1h 39m
+·
+
+
+
+
+Azure Scripting, Operations, and Automation for 70-533
+John Savill
+·
+Intermediate
+·
+Feb 26, 2018
+·
+2h 18m
+·
+(16)
+
+
+
+
+Spring WebFlux: Getting Started
+Esteban Herrera
+·
+Beginner
+·
+Feb 26, 2018
+·
+2h 42m
+·
+(30)
+
+
+
+
+Play by Play: Developing Highly Reusable Salesforce Lightning Components ...
+Steve Drucker and Don Robins
+·
+Intermediate
+·
+Feb 26, 2018
+·
+1h 52m
+·
+(12)
+
+
+
+
+Developing Spark Applications with Python & Cloudera
+Xavier Morera
+·
+Beginner
+·
+Feb 26, 2018
+·
+5h 42m
+·
+(18)
+
+
+
+
+Unreal Engine 4 Lighting Fundamentals
+Christopher Pellow
+·
+Beginner
+·
+Feb 26, 2018
+·
+1h 10m
+·
+(11)
+
+
+
+
+Extracting Database Information: Business Coding Playbook
+Rusty Divine
+·
+Beginner
+·
+Feb 25, 2018
+·
+2h 13m
+·
+
+
+
+
+Install and Configure Active Directory Domain Services in Windows Server 2016
+Greg Shields
+·
+Intermediate
+·
+Feb 25, 2018
+·
+3h 20m
+·
+(24)
+
+
+
+
+Implement Web and Mobile Services on Microsoft Azure
+Mike Pfeiffer
+·
+Intermediate
+·
+Feb 25, 2018
+·
+6h 30m
+·
+(60)
+
+
+
+
+Addressing and Routing Design for Cisco CCDP ARCH (300-320)
+Josh Burman
+·
+Intermediate
+·
+Feb 22, 2018
+·
+2h 8m
+·
+
+
+
+
+Enterprise Data Centers for Cisco CCDP ARCH (300-320)
+Josh Burman
+·
+Intermediate
+·
+Feb 22, 2018
+·
+1h 6m
+·
+
+
+
+
+Azure Automation: Diving Deeper
+Thomas Rayner
+·
+Intermediate
+·
+Feb 22, 2018
+·
+1h 9m
+·
+(15)
+
+
+
+
+Enterprise Campus Network Design for Cisco CCDP ARCH (300-320)
+Josh Burman
+·
+Intermediate
+·
+Feb 22, 2018
+·
+1h 27m
+·
+
+
+
+
+Enterprise WAN Network Design for Cisco CCDP ARCH (300-320)
+Josh Burman
+·
+Intermediate
+·
+Feb 22, 2018
+·
+1h 13m
+·
+
+
+
+
+Security Services for Cisco CCDP ARCH (300-320)
+Josh Burman
+·
+Intermediate
+·
+Feb 22, 2018
+·
+1h 11m
+·
+
+
+
+
+Machine Learning and Microsoft Cognitive Services
+Janani Ravi
+·
+Beginner
+·
+Feb 22, 2018
+·
+2h 15m
+·
+(12)
+
+
+
+
+Microsoft Dynamics 365 Customer Engagement (CRM): Customization and 
+Amber Israelsen
+·
+Beginner
+·
+Feb 22, 2018
+·
+2h 55m
+·
+(23)
+
+
+
+
+Organizing JavaScript Functionality
+Kyle Simpson
+·
+Intermediate
+·
+Feb 22, 2018
+·
+5h 6m
+·
+(21)
+
+
+
+
+Premiere Pro CC Customization
+Jason Cox
+·
+Intermediate
+·
+Feb 22, 2018
+·
+2h 42m
+·
+
+
+
+
+Designing Schema for Elasticsearch
+Janani Ravi
+·
+Intermediate
+·
+Feb 22, 2018
+·
+2h 59m
+·
+(21)
+
+
+
+
+Network Services for Cisco CCDP ARCH (300-320)
+Josh Burman
+·
+Intermediate
+·
+Feb 21, 2018
+·
+1h 15m
+·
+
+
+
+
+Analyzing Java Thread Dumps
+Uriah Levy
+·
+Intermediate
+·
+Feb 21, 2018
+·
+1h 35m
+·
+(14)
+
+
+
+
+Azure Event Hubs for .NET Developers: Fundamentals
+Thomas Claudius Huber
+·
+Beginner
+·
+Feb 21, 2018
+·
+4h 57m
+·
+(42)
+
+
+
+
+Functional-Lite JavaScript
+Kyle Simpson
+·
+Intermediate
+·
+Feb 21, 2018
+·
+3h 9m
+·
+(35)
+
+
+
+
+Developing a Team and Its Culture
+Tony Curtis
+·
+Beginner
+·
+Feb 21, 2018
+·
+1h 17m
+·
+(17)
+
+
+
+
+Building Web App Using Spring MVC, Hibernate, Bootstrap, and REST Services
+Sekhar Srinivasan
+·
+Beginner
+·
+Feb 20, 2018
+·
+7h 2m
+·
+(70)
+
+
+
+
+Making Data into Something You Can See
+Troy Kranendonk
+·
+Beginner
+·
+Feb 20, 2018
+·
+1h 12m
+·
+(43)
+
+
+
+
+Play By Play: State Driven Record Actions with Salesforce Lightning Components
+Christian Menzinger and Don Robins
+·
+Intermediate
+·
+Feb 20, 2018
+·
+1h 53m
+·
+
+
+
+
+Building an Enterprise Private Blockchain on Salesforce
+Dan Appleman
+·
+Intermediate
+·
+Feb 20, 2018
+·
+1h 27m
+·
+(18)
+
+
+
+
+Linux: Email Services (LPIC-2)
+Andrew Mallett
+·
+Intermediate
+·
+Feb 19, 2018
+·
+2h 21m
+·
+
+
+
+
+LFCE: Linux Service Management - Advanced HTTP Services
+Anthony Nocentino
+·
+Intermediate
+·
+Feb 15, 2018
+·
+2h 27m
+·
+
+
+
+
+Android Fundamentals: Implementing Effective Navigation
+Mitch Tabian
+·
+Beginner
+·
+Feb 15, 2018
+·
+2h 42m
+·
+(23)
+
+
+
+
+Game Character Concept Design Fundamentals
+David Kegg
+·
+Beginner
+·
+Feb 15, 2018
+·
+1h 40m
+·
+(35)
+
+
+
+
+Game Character Sculpting in ZBrush
+Justin Marshall
+·
+Beginner
+·
+Feb 15, 2018
+·
+4h 37m
+·
+(23)
+
+
+
+
+Acceptance Testing in Node.js
+Amy Dredge
+·
+Intermediate
+·
+Feb 14, 2018
+·
+3h 19m
+·
+(12)
+
+
+
+
+Building Apps with Android Architecture Components
+Omri Erez
+·
+Beginner
+·
+Feb 14, 2018
+·
+2h 24m
+·
+(24)
+
+
+
+
+Windows Software and Hardware Compatibility Troubleshooting
+Mike Halsey
+·
+Intermediate
+·
+Feb 14, 2018
+·
+1h 47m
+·
+
+
+
+
+Virtualization: The Big Picture
+David Davis
+·
+Beginner
+·
+Feb 13, 2018
+·
+59m
+·
+(27)
+
+
+
+
+Blockchain – Principles and Practices
+Stephen Haunts
+·
+Intermediate
+·
+Feb 13, 2018
+·
+2h 41m
+·
+(123)
+
+
+
+
+Oracle REST Data Services
+Pankaj Jain
+·
+Beginner
+·
+Feb 12, 2018
+·
+5h 31m
+·
+
+
+
+
+SQL Server: Building Multi-instance Asynchronous Applications
+Jonathan Kehayias
+·
+Intermediate
+·
+Feb 12, 2018
+·
+2h 20m
+·
+
+
+
+
+Building Chatbots with Google Dialogflow
+Janani Ravi
+·
+Intermediate
+·
+Feb 11, 2018
+·
+2h 29m
+·
+(34)
+
+
+
+
+VPN Fundamentals for CCNP® Security
+Brandon Carroll
+·
+Intermediate
+·
+Feb 11, 2018
+·
+1h 52m
+·
+
+
+
+
+CSSLP®: Secure Lifecycle Management
+Kevin Henry
+·
+Intermediate
+·
+Feb 09, 2018
+·
+1h 53m
+·
+
+
+
+
+Expressive Face and Hand Hybrid Animation
+Mark Butler
+·
+Advanced
+·
+Feb 08, 2018
+·
+1h 4m
+·
+
+
+
+
+SQL Server: Understanding, Configuring and Troubleshooting Database Mirroring
+Glenn Berry
+·
+Intermediate
+·
+Feb 08, 2018
+·
+2h 31m
+·
+
+
+
+
+Deep Learning: The Big Picture
+Matthew Renze
+·
+Beginner
+·
+Feb 07, 2018
+·
+1h 27m
+·
+(154)
+
+
+
+
+Firewalls and Intrusion Detection
+Daniel Lachance
+·
+Intermediate
+·
+Feb 07, 2018
+·
+1h 42m
+·
+(12)
+
+
+
+
+Microsoft Azure Cognitive Services: Computer Vision API
+Eduardo Freitas
+·
+Beginner
+·
+Feb 07, 2018
+·
+1h 20m
+·
+(17)
+
+
+
+
+Maya 2018 Fundamentals
+Justin Marshall, Eddie Russell, and Kyle Green
+·
+Beginner
+·
+Feb 06, 2018
+·
+11h 22m
+·
+(48)
+
+
+
+
+RavenDB 4: Getting Started
+Kamran Ayub
+·
+Beginner
+·
+Feb 06, 2018
+·
+2h 15m
+·
+(14)
+
+
+
+
+Representing IoT Systems with the Actor Model and Akka.NET
+Jason Roberts
+·
+Intermediate
+·
+Feb 05, 2018
+·
+2h 15m
+·
+(17)
+
+
+
+
+Entity Framework Core 2: Getting Started
+Julie Lerman
+·
+Beginner
+·
+Feb 05, 2018
+·
+2h 42m
+·
+(145)
+
+
+
+
+Beyond the Basics - Audio Tips and Tricks in Unity
+Jeanine Cowen
+·
+Intermediate
+·
+Feb 05, 2018
+·
+2h 5m
+·
+
+
+
+
+Deep Dive - Terraform
+Ned Bellavance
+·
+Intermediate
+·
+Feb 05, 2018
+·
+3h 39m
+·
+(25)
+
+
+
+
+Constructing a User Interface with Angular
+David Mann
+·
+Intermediate
+·
+Feb 04, 2018
+·
+4h 35m
+·
+(59)
+
+
+
+
+Building Real World Applications with Elm
+Alex Korban
+·
+Intermediate
+·
+Feb 01, 2018
+·
+2h 18m
+·
+(13)
+
+
+
+
+macOS Support: Network Configuration
+Herta Nava
+·
+Intermediate
+·
+Feb 01, 2018
+·
+1h 58m
+·
+
+
+
+
+CSSLP®: Secure Software Testing
+Kevin Henry
+·
+Intermediate
+·
+Feb 01, 2018
+·
+2h 5m
+·
+
+
+
+
+Program Management: Executing Your Program Successfully
+Jeremy Jarrell
+·
+Beginner
+·
+Jan 31, 2018
+·
+1h 30m
+·
+
+
+
+
+Continuous Delivery and DevOps with TFS and VSTS 2018, Managing Builds
+Marcel de Vries
+·
+Beginner
+·
+Jan 31, 2018
+·
+1h 29m
+·
+(38)
+
+
+
+
+Getting Started with Octopus
+Chris Behrens
+·
+Beginner
+·
+Jan 31, 2018
+·
+2h 38m
+·
+(15)
+
+
+
+
+Revit: File Management Techniques for BIM Managers
+Kory Cox
+·
+Advanced
+·
+Jan 31, 2018
+·
+50m
+·
+
+
+
+
+Getting the Most from the TypeScript Compiler
+Thiago Temple
+·
+Advanced
+·
+Jan 31, 2018
+·
+2h 2m
+·
+(30)
+
+
+
+
+Code School: On Fire with Phoenix
+Carlos Souza
+·
+Intermediate
+·
+Jan 30, 2018
+·
+1h 1m
+·
+
+
+
+
+What’s New in Spring 5
+Bryan Hansen
+·
+Intermediate
+·
+Jan 30, 2018
+·
+1h 25m
+·
+(40)
+
+
+
+
+Establishing Goals, Roles, and Guidelines for a Team
+Alice Meredith
+·
+Beginner
+·
+Jan 29, 2018
+·
+1h 7m
+·
+(16)
+
+
+
+
+Houdini Engine for Unity Fundamentals
+Kenny Lammers
+·
+Beginner
+·
+Jan 29, 2018
+·
+5h 3m
+·
+
+
+
+
+Incident Detection and Response: The Big Picture
+Richard Harpur
+·
+Beginner
+·
+Jan 29, 2018
+·
+1h 3m
+·
+(10)
+
+
+
+
+What's New in Java EE 8
+Sander Mak
+·
+Intermediate
+·
+Jan 29, 2018
+·
+1h 59m
+·
+(20)
+
+
+
+
+Webpack: Transpiling and Bundling JavaScript
+Wes Higbee
+·
+Intermediate
+·
+Jan 29, 2018
+·
+4h 55m
+·
+(68)
+
+
+
+
+Angular Component Communication
+Deborah Kurata
+·
+Intermediate
+·
+Jan 29, 2018
+·
+3h 39m
+·
+(152)
+
+
+
+
+Windows 10 Fall Creators Update 2017
+Alan Wright
+·
+Beginner
+·
+Jan 29, 2018
+·
+43m
+·
+
+
+
+
+Photo-manipulation and Clean Plating Fundamentals for Matte Painting
+Brian Lee
+·
+Beginner
+·
+Jan 28, 2018
+·
+1h 51m
+·
+(11)
+
+
+
+
+Getting Started Using Points in Civil 3D
+Sam Lucido
+·
+Intermediate
+·
+Jan 25, 2018
+·
+1h 39m
+·
+
+
+
+
+Making Your First Game in Game Maker Studio 2
+Bryan Sekine
+·
+Beginner
+·
+Jan 25, 2018
+·
+2h 9m
+·
+
+
+
+
+Python: The Big Picture
+Jason Olson
+·
+Beginner
+·
+Jan 25, 2018
+·
+1h 5m
+·
+(262)
+
+
+
+
+Unreal Particle System Fundamentals
+Adam Ostridge
+·
+Beginner
+·
+Jan 25, 2018
+·
+2h 12m
+·
+(11)
+
+
+
+
+JIRA Fundamentals
+Jan-Erik Sandberg
+·
+Beginner
+·
+Jan 25, 2018
+·
+2h 11m
+·
+(41)
+
+
+
+
+Rendering Volumes and Effects with Arnold and Maya
+Pankaj Malik
+·
+Intermediate
+·
+Jan 24, 2018
+·
+3h 47m
+·
+(11)
+
+
+
+
+AutoCAD: Extracting Data from Drawings
+Ben Rand
+·
+Beginner
+·
+Jan 24, 2018
+·
+1h 21m
+·
+
+
+
+
+AWS Networking Deep Dive: Elastic Load Balancing (ELB)
+Ben Piper
+·
+Intermediate
+·
+Jan 24, 2018
+·
+2h 30m
+·
+(29)
+
+
+
+
+Commodity SAN: Storage in Windows Server 2016
+Robert McMillen
+·
+Beginner
+·
+Jan 24, 2018
+·
+1h 27m
+·
+
+
+
+
+Play by Play: Packaging and Deploying a Real World ASP.NET Core App
+Lars Klint and Scott Allen
+·
+Intermediate
+·
+Jan 24, 2018
+·
+1h 43m
+·
+(45)
+
+
+
+
+Unreal Engine 4 Fundamentals
+Rob Brooks
+·
+Beginner
+·
+Jan 24, 2018
+·
+3h 12m
+·
+(39)
+
+
+
+
+Getting Started with Apple ARKit in Unity
+András Velvárt
+·
+Intermediate
+·
+Jan 23, 2018
+·
+2h 37m
+·
+
+
+
+
+Making Your C# Code More Functional
+Zoran Horvat
+·
+Intermediate
+·
+Jan 23, 2018
+·
+3h 54m
+·
+(96)
+
+
+
+
+IIS Administration in Depth
+Jeremy Morgan
+·
+Intermediate
+·
+Jan 23, 2018
+·
+4h 2m
+·
+(14)
+
+
+
+
+iOS 11 Fundamentals
+Simon Allardice
+·
+Beginner
+·
+Jan 23, 2018
+·
+4h 22m
+·
+(134)
+
+
+
+
+Web App Hacking: Hacking XML Processing
+Dawid Czagan
+·
+Beginner
+·
+Jan 22, 2018
+·
+50m
+·
+(18)
+
+
+
+
+Performing Malware Analysis on Malicious Documents
+Tyler Hudak
+·
+Intermediate
+·
+Jan 22, 2018
+·
+2h 59m
+·
+(12)
+
+
+
+
+Building Android Apps with Kotlin: Getting Started
+Alex Dunn
+·
+Beginner
+·
+Jan 21, 2018
+·
+3h 44m
+·
+(26)
+
+
+
+
+Information Security Manager: Information Risk Management
+Bobby Rogers
+·
+Intermediate
+·
+Jan 21, 2018
+·
+4h 20m
+·
+
+
+
+
+Hands-on Responsive Web Design 4: Navigation
+Paul Cheney
+·
+Intermediate
+·
+Jan 21, 2018
+·
+1h 36m
+·
+(10)
+
+
+
+
+Securing Docker Container Workloads
+Nigel Brown
+·
+Intermediate
+·
+Jan 21, 2018
+·
+3h 13m
+·
+(22)
+
+
+
+
+JavaScript: Getting Started
+Mark Zamoyta
+·
+Beginner
+·
+Jan 18, 2018
+·
+2h 46m
+·
+(343)
+
+
+
+
+Adobe Analytics Implementation Advanced
+Jordan Zornes and Adobe Digital Learning Services
+·
+Advanced
+·
+Jan 18, 2018
+·
+2h 17m
+·
+
+
+
+
+Managing Remote Teams
+Doru Catana
+·
+Beginner
+·
+Jan 18, 2018
+·
+1h 30m
+·
+(14)
+
+
+
+
+Play By Play: Diagramming Salesforce Solutions
+Matthew Morris and Don Robins
+·
+Intermediate
+·
+Jan 18, 2018
+·
+2h 1m
+·
+(27)
+
+
+
+
+Incident Detection and Investigation with QRadar
+Ricardo Reimao
+·
+Beginner
+·
+Jan 18, 2018
+·
+3h 15m
+·
+(22)
+
+
+
+
+Visualizing Data with Amazon QuickSight
+Aaron Medacco
+·
+Intermediate
+·
+Jan 18, 2018
+·
+3h 2m
+·
+(10)
+
+
+
+
+Mobile Device Management – The Big Picture
+Simon Binder
+·
+Beginner
+·
+Jan 18, 2018
+·
+41m
+·
+
+
+
+
+VMware vSphere Automated Reporting with PowerCLI
+Aaron Rosenmund
+·
+Intermediate
+·
+Jan 18, 2018
+·
+2h 47m
+·
+
+
+
+
+Auditing Your Azure Assets for Security and Best Practices
+Gavin McShera
+·
+Intermediate
+·
+Jan 17, 2018
+·
+2h 34m
+·
+
+
+
+
+Azure PowerShell Playbook: Azure SQL
+Robert Cain
+·
+Intermediate
+·
+Jan 17, 2018
+·
+1h 4m
+·
+(14)
+
+
+
+
+Redux Fundamentals
+Jamis Charles
+·
+Beginner
+·
+Jan 17, 2018
+·
+3h 26m
+·
+(56)
+
+
+
+
+Lighting VFX Workflows with Katana and RenderMan
+Miguel Lleras Villaveces
+·
+Intermediate
+·
+Jan 16, 2018
+·
+2h 53m
+·
+
+
+
+
+CATIA V5 Essentials: In-depth Drawings
+Aditya Chandurkar
+·
+Intermediate
+·
+Jan 16, 2018
+·
+1h 52m
+·
+
+
+
+
+Juniper Networks JNCIA-Junos (JN0-102): Junos Configuration Basics
+Rich Bibby
+·
+Beginner
+·
+Jan 15, 2018
+·
+1h 58m
+·
+
+
+
+
+Juniper Networks JNCIA-Junos (JN0-102): Networking Fundamentals
+Rich Bibby
+·
+Beginner
+·
+Jan 15, 2018
+·
+1h 55m
+·
+(10)
+
+
+
+
+Juniper Networks JNCIA-Junos (JN0-102): Operational Monitoring and Maintenance
+Rich Bibby
+·
+Beginner
+·
+Jan 15, 2018
+·
+1h 5m
+·
+
+
+
+
+Juniper Networks JNCIA-Junos (JN0-102): Junos Operating System Fundamentals
+Rich Bibby
+·
+Beginner
+·
+Jan 15, 2018
+·
+41m
+·
+
+
+
+
+Juniper Networks JNCIA-Junos (JN0-102): Routing Fundamentals
+Rich Bibby
+·
+Beginner
+·
+Jan 15, 2018
+·
+1h 17m
+·
+
+
+
+
+Juniper Networks JNCIA-Junos (JN0-102): Routing Policy and Firewall Filters
+Rich Bibby
+·
+Beginner
+·
+Jan 15, 2018
+·
+1h 31m
+·
+
+
+
+
+Juniper Networks JNCIA-Junos (JN0-102): User Interfaces
+Rich Bibby
+·
+Beginner
+·
+Jan 15, 2018
+·
+1h 56m
+·
+
+
+
+
+Building Your First ASP.NET Core 2.1 MVC Application with Visual Studio 2017
+Gill Cleeren
+·
+Beginner
+·
+Jan 15, 2018
+·
+3h 4m
+·
+(165)
+
+
+
+
+Maya MASH: Going Further with Motion Graphics
+Florian Girardot
+·
+Beginner
+·
+Jan 15, 2018
+·
+1h 21m
+·
+
+
+
+
+Salesforce Workflow: Getting Started
+Scott Lee
+·
+Beginner
+·
+Jan 15, 2018
+·
+1h 53m
+·
+(12)
+
+
+
+
+Introduction to C++ in Unreal Engine
+Andrew Kabakwu
+·
+Beginner
+·
+Jan 15, 2018
+·
+2h 45m
+·
+(29)
+
+
+
+
+Security Awareness: Basic Concepts and Terminology
+Jason Helmick
+·
+Beginner
+·
+Jan 14, 2018
+·
+55m
+·
+(31)
+
+
+
+
+Security Awareness: Portable Data Protection and Destruction
+Jason Helmick
+·
+Beginner
+·
+Jan 14, 2018
+·
+58m
+·
+
+
+
+
+Security Awareness: Malware at Work
+Jason Helmick
+·
+Beginner
+·
+Jan 14, 2018
+·
+1h 13m
+·
+(12)
+
+
+
+
+Security Awareness: Mobile Devices
+Jason Helmick
+·
+Beginner
+·
+Jan 14, 2018
+·
+57m
+·
+(11)
+
+
+
+
+Security Awareness: Identifying Personally Identifiable Information
+Jason Helmick
+·
+Beginner
+·
+Jan 14, 2018
+·
+1h 2m
+·
+
+
+
+
+Security Awareness: Phishing - How Hackers Get Your Secrets
+Jason Helmick
+·
+Beginner
+·
+Jan 14, 2018
+·
+52m
+·
+(16)
+
+
+
+
+Security Awareness: In Practice and Review
+Jason Helmick
+·
+Beginner
+·
+Jan 14, 2018
+·
+1h 0m
+·
+
+
+
+
+Security Awareness: Social Networking
+Jason Helmick
+·
+Beginner
+·
+Jan 14, 2018
+·
+57m
+·
+(13)
+
+
+
+
+Creating a Security-centric Culture
+Troy Hunt
+·
+Beginner
+·
+Jan 14, 2018
+·
+56m
+·
+(85)
+
+
+
+
+Identity, Application, and Network Services on Microsoft Azure
+Mike Pfeiffer
+·
+Intermediate
+·
+Jan 12, 2018
+·
+2h 27m
+·
+(62)
+
+
+
+
+Reporting with PowerShell HTML and Enhanced HTML
+Vlad Catrinescu
+·
+Beginner
+·
+Jan 12, 2018
+·
+1h 18m
+·
+(34)
+
+
+
+
+Microsoft Azure Cognitive Services: The Big Picture
+Barry Luijbregts
+·
+Beginner
+·
+Jan 11, 2018
+·
+50m
+·
+(54)
+
+
+
+
+Rethinking Asynchronous Programming
+Kyle Simpson
+·
+Advanced
+·
+Jan 11, 2018
+·
+6h 22m
+·
+(56)
+
+
+
+
+Linux: Network Client Management (LPIC-2)
+Andrew Mallett
+·
+Intermediate
+·
+Jan 10, 2018
+·
+3h 53m
+·
+
+
+
+
+AWS Developer: Getting Started with DynamoDB
+Abhaya Chauhan
+·
+Beginner
+·
+Jan 10, 2018
+·
+2h 48m
+·
+(45)
+
+
+
+
+Film Sound Production
+Frank Serafine
+·
+Beginner
+·
+Jan 10, 2018
+·
+1h 19m
+·
+
+
+
+
+Houdini: FBX Workflows for VR
+Craig Tonks
+·
+Beginner
+·
+Jan 10, 2018
+·
+3h 9m
+·
+
+
+
+
+Unity VR Fundamentals
+MJ Johns
+·
+Beginner
+·
+Jan 10, 2018
+·
+1h 28m
+·
+(14)
+
+
+
+
+Isomorphic React
+Daniel Stern
+·
+Intermediate
+·
+Jan 10, 2018
+·
+2h 44m
+·
+(41)
+
+
+
+
+Microsoft Azure Architecture for AWS Architects
+John Savill
+·
+Intermediate
+·
+Jan 10, 2018
+·
+2h 21m
+·
+(12)
+
+
+
+
+Junos OS and the Border Gateway Protocol
+Martin Brown
+·
+Intermediate
+·
+Jan 09, 2018
+·
+3h 9m
+·
+
+
+
+
+Android: Getting Started with Retrofit
+Alex Wolf
+·
+Beginner
+·
+Jan 09, 2018
+·
+2h 20m
+·
+(22)
+
+
+
+
+Managing Software-as-a-Service Contracts
+Sonia Cuff
+·
+Beginner
+·
+Jan 09, 2018
+·
+57m
+·
+
+
+
+
+Audition CC Audio Effects
+Dan Anderegg
+·
+Intermediate
+·
+Jan 08, 2018
+·
+3h 54m
+·
+
+
+
+
+Digital Forensics: The Big Picture
+Joe Abraham
+·
+Beginner
+·
+Jan 08, 2018
+·
+1h 13m
+·
+(19)
+
+
+
+
+Architectural Destruction in Houdini
+Hermes Crespo
+·
+Intermediate
+·
+Jan 08, 2018
+·
+4h 6m
+·
+(19)
+
+
+
+
+Intern 4: Getting Started
+Mike Van Sickle
+·
+Beginner
+·
+Jan 08, 2018
+·
+2h 41m
+·
+
+
+
+
+Linux Performance Monitoring and Tuning
+David Clinton
+·
+Intermediate
+·
+Jan 08, 2018
+·
+1h 29m
+·
+(17)
+
+
+
+
+SQL Server: Automatic Tuning in SQL Server 2017 and Azure SQL Database
+Erin Stellato
+·
+Intermediate
+·
+Jan 08, 2018
+·
+1h 27m
+·
+(16)
+
+
+
+
+Feature Toggles, Package Management and Versioning in Microsoft TFS and ...
+Marcel de Vries
+·
+Beginner
+·
+Jan 08, 2018
+·
+1h 10m
+·
+(17)
+
+
+
+
+Working with XML in Java Using JAXB
+Jesper De Jong
+·
+Intermediate
+·
+Jan 08, 2018
+·
+4h 6m
+·
+
+
+
+
+Game Creature Sculpting Fundamentals
+Dan John Cox
+·
+Intermediate
+·
+Jan 07, 2018
+·
+4h 4m
+·
+
+
+
+
+Beginning Time Series Analysis and Forecasting with R
+Martin Burger
+·
+Beginner
+·
+Jan 07, 2018
+·
+2h 5m
+·
+(24)
+
+
+
+
+Troubleshooting Filesystems with Sysinternals Tools
+Sami Laiho
+·
+Beginner
+·
+Jan 07, 2018
+·
+42m
+·
+(12)
+
+
+
+
+Angular Material
+Ajden Towfeek
+·
+Beginner
+·
+Jan 04, 2018
+·
+3h 8m
+·
+(128)
+
+
+
+
+Digital Realities - The Big Picture
+Lars Klint
+·
+Beginner
+·
+Jan 04, 2018
+·
+1h 30m
+·
+(16)
+
+
+
+
+Security, Collaboration, and Wireless Network Design for CCDA DESGN (200-310)
+Leigh Bogardis
+·
+Intermediate
+·
+Jan 04, 2018
+·
+1h 38m
+·
+
+
+
+
+SharePoint Framework Extensions
+Sahil Malik
+·
+Intermediate
+·
+Jan 04, 2018
+·
+2h 2m
+·
+(23)
+
+
+
+
+Firebase on Android: Cloud Messaging, Cloud Functions and Crashlytics
+Mitch Tabian
+·
+Intermediate
+·
+Jan 03, 2018
+·
+2h 6m
+·
+(15)
+
+
+
+
+Building PSTN Gateways, SIP Trunks, and CUBEs for Cisco Collaboration ...
+Sean Douglas
+·
+Intermediate
+·
+Jan 03, 2018
+·
+3h 53m
+·
+
+
+
+
+Fault Tolerant Web Service Requests with Polly
+Bryan Hogan
+·
+Intermediate
+·
+Jan 03, 2018
+·
+2h 13m
+·
+(31)
+
+
+
+
+Docker Deep Dive
+Nigel Poulton
+·
+Intermediate
+·
+Jan 03, 2018
+·
+4h 40m
+·
+(290)
+
+
+
+
+Effective Automated Testing with Spring
+Billy Korando
+·
+Intermediate
+·
+Jan 03, 2018
+·
+2h 7m
+·
+(29)
+
+
+
+
+Implementing Incident Management with System Center Service Manager 2016 (SCSM)
+Greg Shields
+·
+Intermediate
+·
+Jan 03, 2018
+·
+4h 22m
+·
+
+
+
+
+Launching Successful Teams
+Shelley Benhoff
+·
+Intermediate
+·
+Jan 03, 2018
+·
+2h 24m
+·
+(14)
+
+
+
+
+Linear Workflow Rendering Strategies with Arnold and Maya
+Kirt Haymore
+·
+Intermediate
+·
+Jan 02, 2018
+·
+1h 7m
+·
+
+
+
+
+UX Design Creating Wireframes
+Susan Simkins
+·
+Intermediate
+·
+Jan 02, 2018
+·
+1h 29m
+·
+(41)
+
+
+
+
+Broadening Android App Appeal and Reach
+Jim Wilson
+·
+Advanced
+·
+Jan 01, 2018
+·
+4h 4m
+·
+(15)
+
+
+
+
+Managing SharePoint 2016 for Business Intelligence
+Mark Ingram
+·
+Intermediate
+·
+Dec 28, 2017
+·
+1h 14m
+·
+
+
+
+
+Microsoft Azure for Developers: What to Use When
+Barry Luijbregts
+·
+Beginner
+·
+Dec 28, 2017
+·
+3h 41m
+·
+(73)
+
+
+
+
+Design Patterns in Swift: Behavioral
+Karoly Nyisztor
+·
+Intermediate
+·
+Dec 27, 2017
+·
+2h 36m
+·
+
+
+
+
+Enterprise Patterns: Concurrency in Business Applications
+Neil Morrissey
+·
+Intermediate
+·
+Dec 27, 2017
+·
+2h 54m
+·
+(27)
+
+
+
+
+Modernizing .NET Framework Apps with Docker
+Elton Stoneman
+·
+Intermediate
+·
+Dec 27, 2017
+·
+3h 42m
+·
+(58)
+
+
+
+
+Doing Data Science with Python
+Abhishek Kumar
+·
+Beginner
+·
+Dec 27, 2017
+·
+6h 25m
+·
+(121)
+
+
+
+
+OCP 12c Enhancements for the DBA
+Tim Boles
+·
+Advanced
+·
+Dec 26, 2017
+·
+2h 15m
+·
+
+
+
+
+Designing Hard Surface Characters with ZBrush and Keyshot
+Rafael Duffie
+·
+Intermediate
+·
+Dec 26, 2017
+·
+2h 2m
+·
+
+
+
+
+Using Advanced Data Structures in Modern Applications
+Rasmus Amossen
+·
+Advanced
+·
+Dec 26, 2017
+·
+4h 21m
+·
+(35)
+
+
+
+
+Advanced HVAC Duct Design in Revit MEP
+Matthew Warren
+·
+Advanced
+·
+Dec 22, 2017
+·
+1h 51m
+·
+
+
+
+
+Play by Play: A Penetration Tester's Guide to Social Engineering
+Stephen Haunts and Lars Klint
+·
+Beginner
+·
+Dec 21, 2017
+·
+1h 8m
+·
+(15)
+
+
+
+
+Surveying Blockchain Technologies for Enterprise
+Scott Driscoll
+·
+Beginner
+·
+Dec 21, 2017
+·
+1h 17m
+·
+(69)
+
+
+
+
+Adobe Target Premium Recommendations
+Jonathan Greiner and Adobe Digital Learning Services
+·
+Intermediate
+·
+Dec 21, 2017
+·
+1h 58m
+·
+
+
+
+
+Building Reusable Angular Services: Configuration Management
+Paul D. Sheriff
+·
+Intermediate
+·
+Dec 21, 2017
+·
+1h 31m
+·
+(29)
+
+
+
+
+Unity 2D Physics Fundamentals
+Michael Taylor
+·
+Beginner
+·
+Dec 20, 2017
+·
+1h 33m
+·
+(13)
+
+
+
+
+Introduction to SQL
+Jon Flanders
+·
+Beginner
+·
+Dec 19, 2017
+·
+3h 2m
+·
+(2874)
+
+
+
+
+Google Cloud Functions: Getting Started
+James Wilson
+·
+Beginner
+·
+Dec 19, 2017
+·
+2h 27m
+·
+(18)
+
+
+
+
+Introduction to Data Warehousing and Business Intelligence
+Robert Cain
+·
+Beginner
+·
+Dec 19, 2017
+·
+1h 53m
+·
+(56)
+
+
+
+
+Building a Site with Angular and PHP
+Christian Wenz
+·
+Intermediate
+·
+Dec 19, 2017
+·
+3h 51m
+·
+(12)
+
+
+
+
+Sentiment Analysis with Recurrent Neural Networks in TensorFlow
+Janani Ravi
+·
+Intermediate
+·
+Dec 19, 2017
+·
+2h 54m
+·
+(22)
+
+
+
+
+Java Fundamentals: Input/Output
+Jose Paumard
+·
+Intermediate
+·
+Dec 18, 2017
+·
+3h 56m
+·
+(24)
+
+
+
+
+Java Fundamentals: NIO and NIO2
+Jose Paumard
+·
+Intermediate
+·
+Dec 18, 2017
+·
+3h 13m
+·
+(12)
+
+
+
+
+HTML5 Web Components: Moving from jQuery to Polymer.js
+Craig Shoemaker
+·
+Intermediate
+·
+Dec 18, 2017
+·
+1h 16m
+·
+(11)
+
+
+
+
+Building Web Applications with the AWS SDK for Go
+Mark Richman
+·
+Intermediate
+·
+Dec 18, 2017
+·
+1h 57m
+·
+(10)
+
+
+
+
+Introduction to the Azure Data Lake and U-SQL
+Mike McQuillan
+·
+Beginner
+·
+Dec 17, 2017
+·
+2h 51m
+·
+(63)
+
+
+
+
+Play by Play: Care and Maintenance of Development VMs
+Troy Hunt and Orin Thomas
+·
+Intermediate
+·
+Dec 17, 2017
+·
+49m
+·
+(37)
+
+
+
+
+vSphere 6.5 Foundations: Install and Configure vCenter and ESXi
+David Davis
+·
+Beginner
+·
+Dec 14, 2017
+·
+3h 13m
+·
+(15)
+
+
+
+
+vSphere 6.5 Foundations: Perform Basic Monitoring
+David Davis
+·
+Beginner
+·
+Dec 14, 2017
+·
+2h 50m
+·
+
+
+
+
+vSphere 6.5 Foundations: Administer Virtual Machines and vApps
+David Davis
+·
+Beginner
+·
+Dec 14, 2017
+·
+2h 56m
+·
+
+
+
+
+vSphere 6.5 Foundations: Availability and Resource Management
+David Davis
+·
+Beginner
+·
+Dec 14, 2017
+·
+3h 56m
+·
+
+
+
+
+vSphere 6.5 Foundations: Configure vSphere Networking
+David Davis
+·
+Beginner
+·
+Dec 14, 2017
+·
+2h 46m
+·
+
+
+
+
+vSphere 6.5 Foundations: Configure vSphere Storage
+David Davis
+·
+Beginner
+·
+Dec 14, 2017
+·
+2h 27m
+·
+
+
+
+
+vSphere 6.5 Foundations: Introduction
+David Davis
+·
+Beginner
+·
+Dec 14, 2017
+·
+41m
+·
+(19)
+
+
+
+
+vSphere 6.5 Foundations: Perform Basic Troubleshooting
+David Davis
+·
+Beginner
+·
+Dec 14, 2017
+·
+1h 54m
+·
+
+
+
+
+PowerShell on the Network
+Jeff Hicks
+·
+Beginner
+·
+Dec 14, 2017
+·
+3h 43m
+·
+(14)
+
+
+
+
+Linux: Managing File Services (LPIC-2)
+Andrew Mallett
+·
+Intermediate
+·
+Dec 13, 2017
+·
+4h 42m
+·
+
+
+
+
+PMI-ACP®: Scaling Agile to an Enterprise Level (9 of 11)
+Chuck Cobb
+·
+Intermediate
+·
+Dec 13, 2017
+·
+2h 46m
+·
+
+
+
+
+Illustrator CC Creating Business Collateral
+Alex Hernandez
+·
+Intermediate
+·
+Dec 13, 2017
+·
+54m
+·
+
+
+
+
+Play by Play: Sharing Code with npm Modules Between Angular Web and Ionic ...
+Duncan Hunter and Lars Klint
+·
+Beginner
+·
+Dec 13, 2017
+·
+1h 50m
+·
+(13)
+
+
+
+
+Design Patterns Playbook: Structural Patterns
+Paolo Perrotta
+·
+Intermediate
+·
+Dec 12, 2017
+·
+1h 5m
+·
+(114)
+
+
+
+
+Extending Adobe Experience Manager Advanced
+Tyler Maynard and Adobe Digital Learning Services
+·
+Intermediate
+·
+Dec 12, 2017
+·
+6h 14m
+·
+
+
+
+
+Angular: The Big Picture
+Joe Eames
+·
+Beginner
+·
+Dec 12, 2017
+·
+1h 7m
+·
+(196)
+
+
+
+
+Microsoft Dynamics 365 Customer Engagement (CRM): Getting Started
+Amber Israelsen
+·
+Beginner
+·
+Dec 12, 2017
+·
+2h 20m
+·
+(42)
+
+
+
+
+Play by Play: Software Development in Swift - Beyond IOS
+Stephen Haunts and Lars Klint
+·
+Beginner
+·
+Dec 12, 2017
+·
+51m
+·
+
+
+
+
+Premiere Pro CC Essential Sound
+Kelsey Brannan
+·
+Intermediate
+·
+Dec 11, 2017
+·
+1h 10m
+·
+
+
+
+
+Postman Fundamentals
+Nate Taylor
+·
+Beginner
+·
+Dec 11, 2017
+·
+2h 40m
+·
+(63)
+
+
+
+
+Continuous Integration with Atlassian Bamboo
+Jim Weaver
+·
+Intermediate
+·
+Dec 11, 2017
+·
+3h 2m
+·
+(21)
+
+
+
+
+Scaffolding Spring Boot and Angular Web Apps with JHipster
+Michael Hoffman
+·
+Intermediate
+·
+Dec 11, 2017
+·
+2h 31m
+·
+(16)
+
+
+
+
+Achieving Basic Awareness of Information Security Measures (ISO/IEC 27002)
+Paul Gadbois
+·
+Beginner
+·
+Dec 10, 2017
+·
+3h 33m
+·
+
+
+
+
+Practical C++14 and C++17 Features
+Giovanni Dicanio
+·
+Intermediate
+·
+Dec 10, 2017
+·
+2h 33m
+·
+(48)
+
+
+
+
+Getting Started in UX Design
+Kurt Krumme
+·
+Beginner
+·
+Dec 10, 2017
+·
+41m
+·
+(54)
+
+
+
+
+Practical Enterprise JMS Playbook
+Grant Little
+·
+Intermediate
+·
+Dec 10, 2017
+·
+1h 39m
+·
+(12)
+
+
+
+
+Lightning Component Development Best Practices
+Sara Morgan Nettles
+·
+Intermediate
+·
+Dec 10, 2017
+·
+2h 6m
+·
+
+
+
+
+Maya Dynamics: Combining nCloth and Bifrost
+Todd Palamar
+·
+Intermediate
+·
+Dec 10, 2017
+·
+1h 32m
+·
+
+
+
+
+Making Games in Scratch 2.0
+Mario Duilio Macari
+·
+Beginner
+·
+Dec 10, 2017
+·
+3h 14m
+·
+
+
+
+
+Play by Play: Problem Solving in a Developer World
+Jon Skeet and Lars Klint
+·
+Beginner
+·
+Dec 07, 2017
+·
+1h 52m
+·
+(27)
+
+
+
+
+SQL Server: Implementing a Hybrid Cloud Solution in Azure
+Tim Radney
+·
+Beginner
+·
+Dec 07, 2017
+·
+2h 19m
+·
+(13)
+
+
+
+
+3ds Max Shading and Texturing Fundamentals
+Chidi Mbadugha
+·
+Beginner
+·
+Dec 06, 2017
+·
+2h 37m
+·
+
+
+
+
+Windows 10 Internals: Systems and Processes
+Pavel Yosifovich
+·
+Advanced
+·
+Dec 06, 2017
+·
+2h 44m
+·
+(13)
+
+
+
+
+Code Blocks, DesignScript, and Custom Functions in Dynamo
+Sol Amour
+·
+Intermediate
+·
+Dec 06, 2017
+·
+2h 13m
+·
+
+
+
+
+What’s New in PowerShell v5.0
+Missy Januszko
+·
+Beginner
+·
+Dec 06, 2017
+·
+1h 6m
+·
+(11)
+
+
+
+
+Debugging PowerShell in VS Code
+Josh Duffney
+·
+Advanced
+·
+Dec 05, 2017
+·
+1h 28m
+·
+(41)
+
+
+
+
+Build or Contribute to Documentation with a Git-based Workflow
+Erik Dahl
+·
+Beginner
+·
+Dec 05, 2017
+·
+2h 0m
+·
+(11)
+
+
+
+
+Inventor - iParts and Spreadsheet Driven Modeling
+Jarle Oudalstoel
+·
+Intermediate
+·
+Dec 05, 2017
+·
+2h 27m
+·
+
+
+
+
+Unity AR Fundamentals
+Rich Fiore
+·
+Intermediate
+·
+Dec 05, 2017
+·
+1h 23m
+·
+(12)
+
+
+
+
+Migrating Applications from AngularJS to Angular
+Joe Eames
+·
+Intermediate
+·
+Dec 04, 2017
+·
+5h 4m
+·
+(13)
+
+
+
+
+Django Fundamentals
+Reindert-Jan Ekker
+·
+Intermediate
+·
+Dec 04, 2017
+·
+3h 43m
+·
+(55)
+
+
+
+
+Organizational Change Management for the ITIL® Practitioner
+Kevin Miller
+·
+Intermediate
+·
+Dec 04, 2017
+·
+1h 36m
+·
+(37)
+
+
+
+
+Switching Configuration for CCNA Data Center (200-150/200-155)
+Greg Dickinson
+·
+Intermediate
+·
+Dec 03, 2017
+·
+2h 33m
+·
+
+
+
+
+Program Management: Governing Your Program
+Jeremy Jarrell
+·
+Beginner
+·
+Dec 03, 2017
+·
+1h 27m
+·
+
+
+
+
+InDesign CC Editorial Tools
+Laurie Ruhlin
+·
+Intermediate
+·
+Dec 03, 2017
+·
+2h 8m
+·
+
+
+
+
+Designing for Shrink Sleeves with Adobe CC
+Simona Pfreundner
+·
+Intermediate
+·
+Nov 30, 2017
+·
+1h 20m
+·
+
+
+
+
+Build a Chatbot with Amazon Lex for Facebook: Big Picture
+Craig Golightly
+·
+Beginner
+·
+Nov 30, 2017
+·
+27m
+·
+(33)
+
+
+
+
+Building Character FX Rigs in Houdini
+Terry Marriott
+·
+Intermediate
+·
+Nov 30, 2017
+·
+2h 29m
+·
+
+
+
+
+MicroStation Essentials: Designing and Annotating Elements
+Eric DeLeon
+·
+Beginner
+·
+Nov 30, 2017
+·
+2h 39m
+·
+
+
+
+
+Mocking in .NET Core Unit Tests with Moq: Getting Started
+Jason Roberts
+·
+Intermediate
+·
+Nov 30, 2017
+·
+1h 57m
+·
+(59)
+
+
+
+
+Photoshop CC Coloring Comic Characters
+Peter Pachoumis
+·
+Intermediate
+·
+Nov 30, 2017
+·
+1h 20m
+·
+
+
+
+
+Docker in Production Using Amazon Web Services
+Justin Menga
+·
+Intermediate
+·
+Nov 30, 2017
+·
+10h 1m
+·
+(27)
+
+
+
+
+Introducing Continuous Integration and Delivery Concepts for DevOps on ...
+Oracle
+·
+Intermediate
+·
+Nov 30, 2017
+·
+54m
+·
+
+
+
+
+Windows File System Troubleshooting
+Mike Halsey
+·
+Beginner
+·
+Nov 30, 2017
+·
+1h 54m
+·
+
+
+
+
+InDesign CC 2018 Updates
+Pariah Burke
+·
+Intermediate
+·
+Nov 29, 2017
+·
+1h 8m
+·
+
+
+
+
+UX Role and Impact on Organizations
+Mariah Hay
+·
+Beginner
+·
+Nov 29, 2017
+·
+1h 35m
+·
+(19)
+
+
+
+
+Intro to 2D Side Scrollers in Unreal Engine
+Patrick Haslow
+·
+Beginner
+·
+Nov 29, 2017
+·
+3h 12m
+·
+(11)
+
+
+
+
+Dealing with a New Company Culture
+Doru Catana
+·
+Beginner
+·
+Nov 29, 2017
+·
+1h 8m
+·
+(20)
+
+
+
+
+Animate CC Creative Cloud Workflows
+Joseph Labrecque
+·
+Beginner
+·
+Nov 28, 2017
+·
+2h 3m
+·
+
+
+
+
+Astrophotography Fundamentals
+Phill Monson
+·
+Beginner
+·
+Nov 28, 2017
+·
+38m
+·
+
+
+
+
+CINEMA 4D Dynamics Fundamentals
+Alan Demafiles
+·
+Beginner
+·
+Nov 27, 2017
+·
+4h 21m
+·
+
+
+
+
+Embedded Systems Programming: Getting Started
+Jeremy Willden
+·
+Beginner
+·
+Nov 27, 2017
+·
+3h 7m
+·
+(21)
+
+
+
+
+Lightroom Classic CC Updates
+D.A. Wagner
+·
+Beginner
+·
+Nov 27, 2017
+·
+34m
+·
+
+
+
+
+Play by Play: Angular and ngrx
+Duncan Hunter and Lars Klint
+·
+Intermediate
+·
+Nov 27, 2017
+·
+1h 39m
+·
+(116)
+
+
+
+
+Auditing Windows Server 2016 for Security and Practices
+Gary Grudzinskas
+·
+Intermediate
+·
+Nov 27, 2017
+·
+1h 24m
+·
+(11)
+
+
+
+
+Becoming a More Valuable UX Professional
+Krispian Emert
+·
+Intermediate
+·
+Nov 26, 2017
+·
+27m
+·
+(18)
+
+
+
+
+Play by Play: What You Need to Know About HTTPS Today
+Troy Hunt and Lars Klint
+·
+Beginner
+·
+Nov 21, 2017
+·
+1h 11m
+·
+(74)
+
+
+
+
+Adobe Analytics Implementation Intermediate
+Joshua Barratt and Adobe Digital Learning Services
+·
+Intermediate
+·
+Nov 21, 2017
+·
+1h 23m
+·
+
+
+
+
+Play by Play: Understanding Salesforce Security
+Don Robins and Irena Miziolek
+·
+Intermediate
+·
+Nov 21, 2017
+·
+1h 23m
+·
+(13)
+
+
+
+
+React: The Big Picture
+Cory House
+·
+Beginner
+·
+Nov 20, 2017
+·
+1h 11m
+·
+(260)
+
+
+
+
+Wedding Filmmaking Fundamentals
+Dallin Seely
+·
+Beginner
+·
+Nov 20, 2017
+·
+1h 29m
+·
+
+
+
+
+Extending Adobe Experience Manager Foundations
+Daniel Klco and Adobe Digital Learning Services
+·
+Beginner
+·
+Nov 19, 2017
+·
+2h 9m
+·
+(12)
+
+
+
+
+Firebase on Android: Real-time Database and Cloud Storage
+Mitch Tabian
+·
+Intermediate
+·
+Nov 19, 2017
+·
+2h 3m
+·
+(22)
+
+
+
+
+Writing and Testing Precompiled Azure Functions in Visual Studio 2017
+Jason Roberts
+·
+Intermediate
+·
+Nov 19, 2017
+·
+2h 21m
+·
+(31)
+
+
+
+
+CATIA V5 Essentials: Editing Errors and Design Changes
+Aditya Chandurkar
+·
+Beginner
+·
+Nov 19, 2017
+·
+53m
+·
+
+
+
+
+Play by Play: Battle of the Salesforce IDEs
+Don Robins and Robert Watson
+·
+Beginner
+·
+Nov 19, 2017
+·
+2h 16m
+·
+
+
+
+
+Writing Burp Suite Macros and Plugins
+Sunny Wear
+·
+Advanced
+·
+Nov 19, 2017
+·
+2h 48m
+·
+
+
+
+
+Cryptography and PKI for CompTIA Security+
+Christopher Rees
+·
+Beginner
+·
+Nov 15, 2017
+·
+1h 53m
+·
+(24)
+
+
+
+
+CINEMA 4D Modeling Fundamentals
+Justin Marshall
+·
+Beginner
+·
+Nov 15, 2017
+·
+5h 32m
+·
+(10)
+
+
+
+
+Building a RESTful API with ASP.NET Core
+Kevin Dockx
+·
+Intermediate
+·
+Nov 14, 2017
+·
+8h 10m
+·
+(376)
+
+
+
+
+Play by Play: Getting Started with Yarn as a Package Manager
+John Papa and Brian Clark
+·
+Beginner
+·
+Nov 14, 2017
+·
+45m
+·
+(30)
+
+
+
+
+JUnit 5 Fundamentals
+Esteban Herrera
+·
+Intermediate
+·
+Nov 14, 2017
+·
+3h 7m
+·
+(22)
+
+
+
+
+CSSLP®: Secure Software Implementation and Programming
+Kevin Henry
+·
+Intermediate
+·
+Nov 13, 2017
+·
+2h 17m
+·
+(16)
+
+
+
+
+Illustrator CC Creating SVGs
+William Everhart
+·
+Intermediate
+·
+Nov 13, 2017
+·
+2h 35m
+·
+
+
+
+
+Sculpting a Character for Mobile Games
+Jon Mills
+·
+Intermediate
+·
+Nov 13, 2017
+·
+2h 2m
+·
+
+
+
+
+UX Design for Graphic Designers
+Brett Marshall
+·
+Beginner
+·
+Nov 13, 2017
+·
+1h 30m
+·
+(15)
+
+
+
+
+Premiere Pro CC 2018 Updates
+Jason Cox
+·
+Intermediate
+·
+Nov 12, 2017
+·
+1h 33m
+·
+
+
+
+
+Refactoring from Anemic Domain Model Towards a Rich One
+Vladimir Khorikov
+·
+Intermediate
+·
+Nov 12, 2017
+·
+3h 36m
+·
+(134)
+
+
+
+
+Fundamentals of Arnold for 3ds Max
+Verena Tatiana
+·
+Beginner
+·
+Nov 12, 2017
+·
+2h 51m
+·
+(11)
+
+
+
+
+Hands-on Responsive Web Design 3: Columns, Flexbox, and Grids
+Paul Cheney
+·
+Intermediate
+·
+Nov 12, 2017
+·
+1h 56m
+·
+(26)
+
+
+
+
+Best Practices for Group Policy Deployment and Management
+Darren Mar-Elia
+·
+Intermediate
+·
+Nov 12, 2017
+·
+2h 43m
+·
+(10)
+
+
+
+
+Introducing Microsoft Azure VMs for VMware vSphere Administrators
+Greg Shields
+·
+Beginner
+·
+Nov 12, 2017
+·
+1h 34m
+·
+
+
+
+
+Photoshop CC Working with Filters
+Sebastian Bleak
+·
+Beginner
+·
+Nov 09, 2017
+·
+1h 30m
+·
+(10)
+
+
+
+
+ASP.NET Core Fundamentals
+Scott Allen
+·
+Beginner
+·
+Nov 08, 2017
+·
+5h 49m
+·
+(795)
+
+
+
+
+Final Cut Pro X Fundamentals
+Jason Cox
+·
+Beginner
+·
+Nov 08, 2017
+·
+5h 31m
+·
+
+
+
+
+Code School: Super Sweet Android Time
+Sarah Holderness
+·
+Intermediate
+·
+Nov 07, 2017
+·
+50m
+·
+
+
+
+
+Code School: Try Android
+Sarah Holderness
+·
+Beginner
+·
+Nov 07, 2017
+·
+40m
+·
+
+
+
+
+3D Printing: Designing for FDM with Inventor
+Grayson Galisky
+·
+Beginner
+·
+Nov 07, 2017
+·
+1h 22m
+·
+
+
+
+
+ISE BYOD for CCNP Security (300-208) SISAS
+Brandon Carroll
+·
+Intermediate
+·
+Nov 07, 2017
+·
+2h 8m
+·
+
+
+
+
+NUKE Channel Fundamentals
+Daniel Smith
+·
+Beginner
+·
+Nov 07, 2017
+·
+2h 28m
+·
+(15)
+
+
+
+
+Network Access and Authentication
+Daniel Lachance
+·
+Intermediate
+·
+Nov 06, 2017
+·
+1h 33m
+·
+
+
+
+
+Leveraging the Power of the Android Platform
+Jim Wilson
+·
+Advanced
+·
+Nov 06, 2017
+·
+3h 3m
+·
+(12)
+
+
+
+
+SQL Server: Understanding and Performing Backups
+Paul Randal
+·
+Intermediate
+·
+Nov 06, 2017
+·
+2h 27m
+·
+(36)
+
+
+
+
+Azure Logic Apps: Getting Started
+Stephen W. Thomas
+·
+Beginner
+·
+Nov 06, 2017
+·
+1h 18m
+·
+(37)
+
+
+
+
+Creating an Advanced Material with Substance Designer
+Arvin Villapando
+·
+Advanced
+·
+Nov 06, 2017
+·
+3h 18m
+·
+(15)
+
+
+
+
+Source Control with Microsoft TFS/VSTS and Visual Studio 2017
+Marcel de Vries
+·
+Beginner
+·
+Nov 06, 2017
+·
+1h 52m
+·
+(56)
+
+
+
+
+Configuring and Managing Printing with Mac
+Ken Mauldin
+·
+Beginner
+·
+Nov 05, 2017
+·
+2h 59m
+·
+
+
+
+
+3D Printing: Design for Selective Laser Sintering
+Mitch Pricer
+·
+Beginner
+·
+Nov 05, 2017
+·
+1h 21m
+·
+
+
+
+
+Adobe Target Automated Personalization
+Laura Hawk and Adobe Digital Learning Services
+·
+Advanced
+·
+Nov 05, 2017
+·
+1h 35m
+·
+
+
+
+
+Azure CLI: Getting Started
+Mark Heath
+·
+Beginner
+·
+Nov 05, 2017
+·
+2h 32m
+·
+(17)
+
+
+
+
+Ionic End to End
+Reggie Dawson
+·
+Beginner
+·
+Nov 05, 2017
+·
+3h 8m
+·
+(38)
+
+
+
+
+Microsoft Azure Development for AWS Developers in .NET
+Amber Israelsen
+·
+Beginner
+·
+Nov 05, 2017
+·
+3h 8m
+·
+
+
+
+
+Planning and Configuring Collaboration with SharePoint Online
+Brian Alderman
+·
+Intermediate
+·
+Nov 02, 2017
+·
+1h 25m
+·
+(25)
+
+
+
+
+Managing and Configuring Skype for Business
+Brian Alderman
+·
+Intermediate
+·
+Nov 02, 2017
+·
+47m
+·
+(12)
+
+
+
+
+Planning, Configuring, and Monitoring O365 Clients and Devices
+Brian Alderman
+·
+Intermediate
+·
+Nov 02, 2017
+·
+1h 22m
+·
+(24)
+
+
+
+
+Planning and Configuring Exchange Online
+Brian Alderman
+·
+Intermediate
+·
+Nov 02, 2017
+·
+2h 5m
+·
+
+
+
+
+3ds Max Rendering Fundamentals
+Zaheer Mukhtar
+·
+Beginner
+·
+Nov 02, 2017
+·
+2h 11m
+·
+
+
+
+
+Adobe Stock Fundamentals
+Melissa Piccone
+·
+Beginner
+·
+Nov 02, 2017
+·
+1h 28m
+·
+
+
+
+
+AutoCAD LT 2018 Essentials
+Jaiprakash Pandey
+·
+Beginner
+·
+Nov 02, 2017
+·
+4h 51m
+·
+
+
+
+
+Working with Dates and Times in Python
+Georgy Pashkov
+·
+Advanced
+·
+Nov 02, 2017
+·
+2h 2m
+·
+
+
+
+
+Writing Better Technical Reports
+Glenn Weadock
+·
+Beginner
+·
+Nov 01, 2017
+·
+1h 8m
+·
+
+
+
+
+CINEMA 4D UV Mapping Fundamentals
+Sophie Jameson
+·
+Beginner
+·
+Nov 01, 2017
+·
+3h 22m
+·
+(13)
+
+
+
+
+Heroku: Getting Started
+Dan Bunker
+·
+Beginner
+·
+Nov 01, 2017
+·
+2h 8m
+·
+(19)
+
+
+
+
+Introduction to Liquid Markup for Adobe Business Catalyst
+Scott Reynolds
+·
+Beginner
+·
+Nov 01, 2017
+·
+1h 1m
+·
+
+
+
+
+Working with the Curve Editor and Dope Sheet in NUKE
+Nina Cohagen
+·
+Intermediate
+·
+Nov 01, 2017
+·
+1h 36m
+·
+
+
+
+
+Micro-experimentation Tools in Java 9
+Josh Cummings
+·
+Intermediate
+·
+Oct 31, 2017
+·
+1h 57m
+·
+
+
+
+
+SQL Server: Understanding, Configuring, and Troubleshooting Log Shipping
+Glenn Berry
+·
+Beginner
+·
+Oct 30, 2017
+·
+1h 33m
+·
+(15)
+
+
+
+
+Securing Windows Server 2016 Virtualization
+Robert McMillen
+·
+Intermediate
+·
+Oct 30, 2017
+·
+2h 30m
+·
+
+
+
+
+Understanding Software-as-a-Service
+Sonia Cuff
+·
+Beginner
+·
+Oct 30, 2017
+·
+55m
+·
+(20)
+
+
+
+
+Creating Voice and Chatbots That Work Everywhere
+Walter Quesada
+·
+Intermediate
+·
+Oct 30, 2017
+·
+2h 26m
+·
+(27)
+
+
+
+
+Troubleshooting with Microsoft Azure Network Watcher
+Tim Warner
+·
+Intermediate
+·
+Oct 30, 2017
+·
+2h 12m
+·
+
+
+
+
+SQL Server on Linux Administration Fundamentals
+Anthony Nocentino
+·
+Beginner
+·
+Oct 30, 2017
+·
+2h 39m
+·
+(12)
+
+
+
+
+Risk Management for CompTIA Security+
+Christopher Rees
+·
+Beginner
+·
+Oct 29, 2017
+·
+3h 21m
+·
+(12)
+
+
+
+
+Operating a Wireless Network for Cisco WIFUND (200-355)
+Andrew Crouthamel
+·
+Intermediate
+·
+Oct 29, 2017
+·
+56m
+·
+
+
+
+
+Maya Dynamics: Interactive Clouds and Skies
+Joel Berg
+·
+Intermediate
+·
+Oct 29, 2017
+·
+1h 43m
+·
+
+
+
+
+Play by Play Developing Engaging Digital Reality Experiences
+Lars Klint and Stephen Haunts
+·
+Beginner
+·
+Oct 26, 2017
+·
+1h 2m
+·
+(11)
+
+
+
+
+Unity Gameplay Programming Fundamentals
+Joshua Kinney
+·
+Beginner
+·
+Oct 26, 2017
+·
+1h 59m
+·
+(56)
+
+
+
+
+Building Websites with Bulma
+Gary Simon
+·
+Intermediate
+·
+Oct 26, 2017
+·
+1h 42m
+·
+(25)
+
+
+
+
+Building an Angular Application with Node and Token Authentication
+Alexander Zanfir
+·
+Intermediate
+·
+Oct 24, 2017
+·
+2h 55m
+·
+(76)
+
+
+
+
+Implement Windows Server 2016 High Performance Network Solutions
+Orin Thomas
+·
+Advanced
+·
+Oct 24, 2017
+·
+2h 15m
+·
+
+
+
+
+AWS Developer: Designing and Developing
+Ryan Lewis
+·
+Intermediate
+·
+Oct 24, 2017
+·
+4h 20m
+·
+(13)
+
+
+
+
+Getting Started with Azure Event Hubs with C#
+Paul Mooney
+·
+Intermediate
+·
+Oct 24, 2017
+·
+1h 12m
+·
+(29)
+
+
+
+
+Java SE: XML Processing Fundamentals
+Mike Nolan
+·
+Intermediate
+·
+Oct 24, 2017
+·
+4h 14m
+·
+
+
+
+
+Play by Play: Machine Learning Exposed
+Katharine Beaumont and James Weaver
+·
+Beginner
+·
+Oct 24, 2017
+·
+2h 52m
+·
+(39)
+
+
+
+
+Architecture and Design for CompTIA Security+
+Christopher Rees
+·
+Beginner
+·
+Oct 23, 2017
+·
+4h 15m
+·
+(10)
+
+
+
+
+Identity and Access Management for CompTIA Security+
+Christopher Rees
+·
+Beginner
+·
+Oct 23, 2017
+·
+1h 40m
+·
+(14)
+
+
+
+
+Technologies and Tools for CompTIA Security+
+Christopher Rees
+·
+Beginner
+·
+Oct 23, 2017
+·
+3h 52m
+·
+(21)
+
+
+
+
+Threats, Attacks, and Vulnerabilities for CompTIA Security+
+Christopher Rees
+·
+Beginner
+·
+Oct 23, 2017
+·
+3h 23m
+·
+(57)
+
+
+
+
+Unity Animation Fundamentals
+Joshua Kinney
+·
+Beginner
+·
+Oct 23, 2017
+·
+2h 22m
+·
+(51)
+
+
+
+
+Windows 10 Creators Update
+Alan Wright
+·
+Beginner
+·
+Oct 23, 2017
+·
+55m
+·
+(10)
+
+
+
+
+Monitoring Azure Resources and Web Applications with System Center ...
+Greg Shields
+·
+Intermediate
+·
+Oct 23, 2017
+·
+2h 44m
+·
+
+
+
+
+Building Unsupervised Learning Models with TensorFlow
+Janani Ravi
+·
+Intermediate
+·
+Oct 23, 2017
+·
+3h 2m
+·
+(14)
+
+
+
+
+Angular Best Practices
+Jim Cooper
+·
+Intermediate
+·
+Oct 22, 2017
+·
+1h 41m
+·
+(168)
+
+
+
+
+Dial Plan for Cisco Collaboration (300-070) CIPTV1
+Sean Douglas
+·
+Intermediate
+·
+Oct 22, 2017
+·
+2h 34m
+·
+
+
+
+
+Illustrator CC Print Production
+Justin Seeley
+·
+Advanced
+·
+Oct 22, 2017
+·
+2h 29m
+·
+
+
+
+
+Photoshop CC Power Shortcuts
+Dave Cross
+·
+Beginner
+·
+Oct 22, 2017
+·
+1h 40m
+·
+
+
+
+
+Building Real-time Apps with React, Socket.io, and RethinkDB
+Hendrik Swanepoel
+·
+Intermediate
+·
+Oct 22, 2017
+·
+1h 52m
+·
+(28)
+
+
+
+
+Understanding ASP.NET Core 2.x
+Roland Guijt
+·
+Beginner
+·
+Oct 19, 2017
+·
+2h 48m
+·
+(117)
+
+
+
+
+Building Reusable Angular Services: Logging
+Paul D. Sheriff
+·
+Intermediate
+·
+Oct 19, 2017
+·
+1h 50m
+·
+(37)
+
+
+
+
+Upgrading Your ASP.NET Core 1.x Web API to 2.0
+Kevin Dockx
+·
+Beginner
+·
+Oct 18, 2017
+·
+1h 17m
+·
+(21)
+
+
+
+
+Building Classification Models with TensorFlow
+Janani Ravi
+·
+Intermediate
+·
+Oct 18, 2017
+·
+3h 16m
+·
+(22)
+
+
+
+
+Foundations for Cloud Architecture
+James Bannan
+·
+Beginner
+·
+Oct 17, 2017
+·
+2h 36m
+·
+(141)
+
+
+
+
+Office 365 Administration Playbook
+Paul Cunningham
+·
+Intermediate
+·
+Oct 17, 2017
+·
+3h 0m
+·
+(28)
+
+
+
+
+Penetration Testing in Action
+Daniel Teixeira
+·
+Intermediate
+·
+Oct 17, 2017
+·
+1h 31m
+·
+(24)
+
+
+
+
+Alias: Getting Started Using Primitives for Automotive Design
+Pierre-Paul Andriani
+·
+Beginner
+·
+Oct 17, 2017
+·
+46m
+·
+
+
+
+
+Android Fundamentals: Localization and Internationalization
+Viral Patel
+·
+Intermediate
+·
+Oct 17, 2017
+·
+2h 25m
+·
+
+
+
+
+Building and Deploying Applications with Cake
+Enrico Campidoglio
+·
+Intermediate
+·
+Oct 17, 2017
+·
+3h 56m
+·
+(24)
+
+
+
+
+Play by Play: Angular Design Solutions
+John Papa and Ward Bell
+·
+Beginner
+·
+Oct 17, 2017
+·
+2h 13m
+·
+(32)
+
+
+
+
+Getting Started with Python Concurrency
+Tim Ojo
+·
+Beginner
+·
+Oct 17, 2017
+·
+2h 39m
+·
+(35)
+
+
+
+
+Formula Fundamentals in Salesforce
+Dan Appleman
+·
+Beginner
+·
+Oct 16, 2017
+·
+1h 47m
+·
+(14)
+
+
+
+
+Adobe Target Optimize Digital Experiences Fundamentals
+Jonathan Greiner and Adobe Digital Learning Services
+·
+Beginner
+·
+Oct 16, 2017
+·
+1h 35m
+·
+
+
+
+
+AWS Networking Deep Dive: Virtual Private Cloud (VPC)
+Ben Piper
+·
+Intermediate
+·
+Oct 16, 2017
+·
+2h 26m
+·
+(32)
+
+
+
+
+Adobe Target Optimize Digital Experiences Building on the Fundamentals
+Jonathan Greiner and Adobe Digital Learning Services
+·
+Beginner
+·
+Oct 16, 2017
+·
+1h 49m
+·
+
+
+
+
+Testing Django Applications
+Jamie Counsell
+·
+Intermediate
+·
+Oct 16, 2017
+·
+1h 38m
+·
+
+
+
+
+Deploying Hadoop with Cloudera CDH to AWS
+Xavier Morera
+·
+Intermediate
+·
+Oct 15, 2017
+·
+3h 30m
+·
+
+
+
+
+Extend and Customize Adobe Campaign v6
+Justin Buehler and Adobe Digital Learning Services
+·
+Intermediate
+·
+Oct 15, 2017
+·
+57m
+·
+
+
+
+
+Securing Cloud DevOps in PaaS, IaaS, and SaaS Settings
+Chad Russell
+·
+Intermediate
+·
+Oct 12, 2017
+·
+2h 16m
+·
+(12)
+
+
+
+
+Getting Started with Adobe Campaign V6
+Otto Warner and Adobe Digital Learning Services
+·
+Beginner
+·
+Oct 12, 2017
+·
+2h 57m
+·
+
+
+
+
+Animate CC Lip Syncing
+Chad Troftgruben
+·
+Intermediate
+·
+Oct 12, 2017
+·
+4h 17m
+·
+
+
+
+
+Cybersecurity Threats: Insider Threats
+Richard Harpur
+·
+Beginner
+·
+Oct 12, 2017
+·
+2h 2m
+·
+
+
+
+
+Adobe Analytics Building on the Fundamentals
+Jordan Zornes and Adobe Digital Learning Services
+·
+Beginner
+·
+Oct 11, 2017
+·
+2h 29m
+·
+
+
+
+
+Adobe Analytics Dynamic Tag Management
+Eli Stevens and Adobe Digital Learning Services
+·
+Intermediate
+·
+Oct 11, 2017
+·
+1h 55m
+·
+(12)
+
+
+
+
+Play by Play: Emerging Threats in IoT
+Lars Klint and Troy Hunt
+·
+Beginner
+·
+Oct 11, 2017
+·
+57m
+·
+(31)
+
+
+
+
+Social Engineering with the Social-Engineer Toolkit
+Gus Khawaja
+·
+Intermediate
+·
+Oct 10, 2017
+·
+2h 33m
+·
+(11)
+
+
+
+
+Firebase on Android: User Email Authentication and Verification
+Mitch Tabian
+·
+Intermediate
+·
+Oct 10, 2017
+·
+1h 13m
+·
+(32)
+
+
+
+
+Introduction to Microsoft Planner
+Bill Kulterman
+·
+Beginner
+·
+Oct 10, 2017
+·
+52m
+·
+(16)
+
+
+
+
+CSSLP®: Secure Software Design
+Kevin Henry
+·
+Intermediate
+·
+Oct 09, 2017
+·
+5h 48m
+·
+
+
+
+
+3ds Max Animation Fundamentals
+Billy Reiter
+·
+Beginner
+·
+Oct 09, 2017
+·
+1h 34m
+·
+
+
+
+
+Pandas Fundamentals
+Paweł Kordek
+·
+Beginner
+·
+Oct 09, 2017
+·
+1h 20m
+·
+(61)
+
+
+
+
+Single Page Applications with Vue.js
+Bill Stavroulakis
+·
+Intermediate
+·
+Oct 09, 2017
+·
+3h 11m
+·
+(71)
+
+
+
+
+Basic Call Operation and Components for Cisco Collaboration (300-070) CIPTV1
+Sean Douglas
+·
+Intermediate
+·
+Oct 08, 2017
+·
+1h 54m
+·
+
+
+
+
+Creating a Victorian Style Gown with Marvelous Designer
+Natalija Jagarinec
+·
+Intermediate
+·
+Oct 08, 2017
+·
+2h 49m
+·
+(13)
+
+
+
+
+Web App Hacking: Cross-Site Request Forgery (CSRF)
+Dawid Czagan
+·
+Beginner
+·
+Oct 08, 2017
+·
+51m
+·
+(42)
+
+
+
+
+Voice Messaging and Presence for Cisco CICD 210-060
+Josh Kittle
+·
+Intermediate
+·
+Oct 08, 2017
+·
+3h 38m
+·
+
+
+
+
+Troubleshooting with Wireshark: Analyzing and Decrypting TLS Traffic in ...
+Ross Bagurdes
+·
+Advanced
+·
+Oct 08, 2017
+·
+1h 25m
+·
+(44)
+
+
+
+
+Penetration Testing: The Big Picture
+Keith Watson
+·
+Beginner
+·
+Oct 05, 2017
+·
+2h 22m
+·
+
+
+
+
+Python for Maya Fundamentals
+Dhruv Govil
+·
+Beginner
+·
+Oct 05, 2017
+·
+2h 46m
+·
+(10)
+
+
+
+
+Rapid Angular Training
+Mark Zamoyta
+·
+Intermediate
+·
+Oct 05, 2017
+·
+3h 11m
+·
+(51)
+
+
+
+
+Design and Implement Storage on Microsoft Azure
+Mike Pfeiffer
+·
+Intermediate
+·
+Oct 04, 2017
+·
+4h 6m
+·
+(86)
+
+
+
+
+PHP Predefined Variables
+Jill Gundersen
+·
+Intermediate
+·
+Oct 04, 2017
+·
+1h 23m
+·
+(13)
+
+
+
+
+Exposing Data and Information Outside Your Android App
+Jim Wilson
+·
+Intermediate
+·
+Oct 04, 2017
+·
+2h 56m
+·
+
+
+

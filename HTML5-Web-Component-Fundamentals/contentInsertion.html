@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <comment-form>
+            <h1>Tell us what's on your mind!</h1>
+            <p class="instructions">Fil out this form</p>
+            <p class="footer">Privacy Policy: jargon</p>
+            asfsdsadfasdfsadf
+        </comment-form>
+        <template>
+            <fieldset>
+                <legend>
+                    <content select="h1"></content>
+                </legend>
+                <content select="p.instructions"></content>
+                <testarea style="width:400px; height:200px;"></testarea>
+                <br/>
+                <input type="submit" value="Submit Comment">
+                <content select=".footer"></content>
+                <content></content>
+            </fieldset>
+        </template>
+
+        <script>
+            var commentProto = Object.create(HTMLElement.prototype);
+            commentProto.createdCallback = function() {
+                var template = document.querySelector('template');
+                var shadow = this.createShadowRoot();
+                shadow.appendChild(document.importNode(template.content, true));
+            }
+
+            document.registerElement('comment-form', {
+                prototype: commentProto
+            });
+        </script>
+    </body>
+</html>
