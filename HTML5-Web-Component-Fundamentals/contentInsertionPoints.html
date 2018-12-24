@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>        
+            <style>
+                h1 {
+                    color: green;
+                }
+            </style>
+            <h1>Header defined in the light DOM</h1>
+        </div>
+        <script>
+            var root = document.querySelector('div').createShadowRoot();
+            root.innerHTML = '<content select="h1"></content>';
+            
+            console.log(document.querySelector('h1'));
+            console.log(document.querySelector('content h1'));
+            console.log(root.querySelector('content').contains('h1'));
+
+        </script>
+    </body>
+</html>
