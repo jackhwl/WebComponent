@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            car-list::shadow li {
+                color: red;
+            }
+            p {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <car-list>
+            <p>my car list header</p>
+        </car-list>
+        <template>
+            <content></content>
+            <ul>
+                <li>Ferrari Enzo</li>
+                <li>Porsche 911 Turbo</li>
+                <li>Dodge Caravan</li>
+            </ul>
+        </template>
+        <script>
+            var carList = Object.create(HTMLElement.prototype);
+            carList.createdCallback = function() {
+                var template = document.querySelector('template');
+                var clone = document.importNode(template.content, true);
+                this.createShadowRoot().appendChild(clone);
+            };
+
+            document.registerElement('car-list', {
+                prototype: carList
+            });
+        </script>
+    </body>
+</html>

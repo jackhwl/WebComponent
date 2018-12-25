@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                 button {
+                    color: green;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="host" class="warnning">
+            <button>My button</button>
+        </div>
+        <template>
+            <style>
+                ::content button {
+                    color: red;
+                }
+            </style>
+            <content></content>
+        </template>
+        <script>
+            var host = document.querySelector('#host');
+            var root = host.createShadowRoot();
+            var template = document.querySelector('template');
+            root.appendChild(template.content.cloneNode(true));
+        </script>
+    </body>
+</html>

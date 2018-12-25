@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="host" class="warnning">
+            <p>
+                My host is styled via the :host selector.
+            </p>
+        </div>
+        <template>
+            <style>
+                :host(.error) {
+                    border: solid 1px red;
+                }
+                :host(.warnning) {
+                    border: solid 1px yellow;
+                }
+            </style>
+            <content></content>
+        </template>
+        <script>
+            var host = document.querySelector('#host');
+            var root = host.createShadowRoot();
+            var template = document.querySelector('template');
+            var clone = document.importNode(template.content, true);
+            root.appendChild(clone);
+        </script>
+    </body>
+</html>
