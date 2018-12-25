@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="host">        
+            Light DOM
+        </div>
+        <script>
+            var host = document.querySelector('#host');
+            var root1 = host.createShadowRoot();
+            var root2 = host.createShadowRoot();
+            root1.innerHTML = '<div>Root 1</div>';
+            root2.innerHTML = '<content></content><shadow></shadow><span>Root 2</span>';
+            
+            // console.log(document.querySelector('h1'));
+            // console.log(document.querySelector('content h1'));
+            // console.log(root.querySelector('content').contains('h1'));
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <button id="light-dom-button">Light DOM Button</button>
+        
+        <div id="host">
+            <button id="distributed">Distributed Button</button>
+        </div>
+        <template>
+            <button id="shadow-dom-button">Shadow DOM Button</button>
+            <content></content>
+
+            <select id="shadow">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+
+        </template>
+        <script>
+            var host = document.querySelector('#host');
+            var root = host.createShadowRoot();
+            var template = document.querySelector('template');
+            var clone = document.importNode(template.content, true);
+            root.appendChild(clone);
+
+            document.addEventListener('click', function(e){
+                console.log(e.target.id + ' clicked!');
+            });
+
+            document.addEventListener('change', function(e){
+                console.log(e.target.id + ' changed!');
+            });
+
+        </script>
+    </body>
+</html>
