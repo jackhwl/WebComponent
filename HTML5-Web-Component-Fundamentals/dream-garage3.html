@@ -1,0 +1,32 @@
+<template>
+    <a href="#" id="view-disclaimer">Disclaimer</a>
+    <ul>
+        <li>1996 Nissan 300ZX Turbo</li>
+        <li>2014 Lamborghini Aventedor</li>
+        <li>2010 Audi RS4</li>
+    </ul>
+</template>
+
+<script>
+    (function(){
+        var proto = Object.create(HTMLElement.prototype);
+        var importDoc = document.currentScript.ownerDocument;
+
+        proto.createdCallback = function() {
+            var template = importDoc.querySelector('template');
+            var templateClone = document.importNode(template.content, true);
+            var disclaimer = templateClone.querySelector('#view-disclaimer');
+
+            disclaimer.addEventListener('click', function(){
+                alert('I can only afford one of these cars.');
+            });
+
+            var root = this.createShadowRoot();
+            root.appendChild(templateClone);
+        };
+
+        document.registerElement('dream-garage', {
+            prototype: proto
+        });
+    })();
+</script>

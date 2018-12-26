@@ -1,0 +1,17 @@
+<ul>
+    <li>1996 Nissan 300ZX Turbo</li>
+    <li>2014 Lamborghini Aventedor</li>
+    <li>2010 Audi RS4</li>
+</ul>
+
+<p id="disclaimer">
+    I can only afford one of these cars. Okay, not even one. :(
+</p>
+
+<script>
+    var importDoc = document.currentScript.ownerDocument;
+function getDisclaimer(){
+    console.log(document.querySelector('#disclaimer') == null);
+    alert(importDoc.querySelector('#disclaimer').innerText);
+}
+</script>

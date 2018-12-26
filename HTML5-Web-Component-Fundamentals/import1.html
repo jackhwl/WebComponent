@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="import" href="dream-garage.html" id="dream-garage">
+    </head>
+    <body>
+        <script>
+            var content = document.querySelector("#dream-garage").import;
+            var carList = content.querySelector('ul');
+            document.body.appendChild(carList);
+        </script>
+    </body>
+</html>

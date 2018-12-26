@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+        var link = document.createElement('link');
+        link.rel = 'import';
+        link.href = 'dream-garage.html';
+        link.id = 'dream-garage';
+        document.head.appendChild(link);
+        </script>
+    </head>
+    <body>
+        <a href="#" onclick="getDisclaimer()">Discalimer</a>
+        <script>
+            var content = document.querySelector("#dream-garage").import;
+            var carList = content.querySelector('ul');
+            document.body.appendChild(carList);
+        </script>
+    </body>
+</html>
