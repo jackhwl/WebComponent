@@ -12,15 +12,15 @@ function getCurrentPositionWithPromise() {
 }
 
 getCurrentPositionWithPromise()
-.then(r => console.log(r.coords.longitude) || r)
-.catch(r => console.error(r.message))
+    .then(r => console.log(r.coords.longitude) || r)
+    .catch(r => console.error(r.message))
 ;
 
 async function main() {
-    try{
+    try {
         var p = await getCurrentPositionWithPromise();
         console.info(p.coords.latitude);
-    } catch(e) {
+    } catch (e) {
         console.error(e.message);
     }
 }
