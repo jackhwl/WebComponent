@@ -1,5 +1,5 @@
 var staticCacheName = 'wittr-static-v1';
-
+//dddaa34
 self.addEventListener('install', function(event) {
     var urlsToCache = [
         '/',
@@ -60,4 +60,13 @@ self.addEventListener('fetch', function(event) {
         //     return new Response("Uh oh, that totally failed");
         // })
     );
+});
+
+// TODO: listen for the "message" event, and call
+// skipWaiting if you get the appropriate message
+
+self.addEventListener('message', function(event) {
+    if (event.data.action == 'skipWaiting') {
+        self.skipWaiting();
+    }
 });

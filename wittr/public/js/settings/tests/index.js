@@ -1,7 +1,7 @@
 import WindowMessenger from './WindowMessenger';
 
 const appOrigin = new URL(location.href);
-appOrigin.port = self.config.appPort;
+//appOrigin.port = self.config.appPort;
 const executorUrl = new URL('/remote?bypass-sw', appOrigin);
 
 function remoteEval(js) {
