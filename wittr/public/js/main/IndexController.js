@@ -93,11 +93,21 @@ IndexController.prototype._showCachedMessages = function() {
 
   return this._dbPromise.then(function(db) {
     // if we're already showing posts, eg shft-refresh
-    // or the very first load, thre's no point fetching 
+    // or the very first load, there's no point fetching
     // posts from IDB
     if (!db || indexController._postsView.showingPosts()) return;
 
-    // TODO: get all of the wittr
+    // TODO: get all of the wittr message objects from indexeddb,
+      // then pass them to:
+      // indexController._postsView.addPosts(messages)
+      // in order of date, starting with the latest.
+      // Remember to return a promise that does all this,
+      // so the websocket isn't opened until you're done!
+      var index = db.transaction('wittrs').objectStore('wittrs').index('by-date');
+
+      return index.getAll().then(function(messages){
+        indexController._postsView.addPosts(messages.reverse());
+      });
   });
 };
 

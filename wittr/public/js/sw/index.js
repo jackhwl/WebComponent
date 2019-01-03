@@ -1,5 +1,5 @@
-var staticCacheName = 'wittr-static-v3';
-//dddaa34
+var staticCacheName = 'wittr-static-v5';
+// 5
 self.addEventListener('install', function(event) {
     var urlsToCache = [
         '/skeleton',
