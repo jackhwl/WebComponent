@@ -1,25 +1,21 @@
-var staticCacheName = 'wittr-static-v6';
+var staticCacheName = 'wittr-static-v12';
 var contentImgsCache = 'wittr-content-imgs';
 var allCaches = [staticCacheName, contentImgsCache];
 
-self.addEventListener('install', function(event) {
-    var urlsToCache = [
-        '/skeleton',
-        'js/main.js',
-        'css/main.css',
-        'imgs/icon.png',
-        'https://fonts.gstatic.com/s/roboto/v15/2UX7WLTfW3W8TclTUvlFyQ.woff',
-        'https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff'
-    ];
-
+self.addEventListener('install', (event) =>
     event.waitUntil(
-        // TODO: open a cache named 'wittr-static-v1'
-        caches.open(staticCacheName).then(function(cache){
-            return cache.addAll(urlsToCache);
-        })
-        // Add cache the urls from urlsToCache
-    );
-});
+        caches.open(staticCacheName).then((cache) =>
+            cache.addAll([
+                '/skeleton',
+                'js/main.js',
+                'css/main.css',
+                'imgs/icon.png',
+                'https://fonts.gstatic.com/s/roboto/v15/2UX7WLTfW3W8TclTUvlFyQ.woff',
+                'https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff'
+            ])
+        )
+    )
+);
 
 self.addEventListener('activate', function(event){
     event.waitUntil(
@@ -102,11 +98,17 @@ function serveAvatar(request){
     // Note that this is slightly different to servephoto!
     return caches.open(contentImgsCache).then(function(cache){
         return cache.match(storageUrl).then(function(response){
+            if (response) {
+                console.log('found avatar in cache', storageUrl);
+            } else {
+                console.log('not found, should return fetch result after avatar saved to cache', storageUrl);
+            }
             var networkFetch = fetch(request).then(function(networkResponse){
                 cache.put(storageUrl, networkResponse.clone());
+                console.log('avatar saved to cache', storageUrl);
                 return networkResponse;
             });
-
+            console.log('111', storageUrl);
             return response || networkFetch;
         });
     });
