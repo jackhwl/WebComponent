@@ -36,6 +36,7 @@ export default function IndexController(container) {
 
   var indexController = this;
 
+  // clear image cache every 5 minutes
   setInterval(function(){
     indexController._cleanImageCache();
   }, 1000 * 60 * 5);
@@ -80,17 +81,22 @@ IndexController.prototype._registerServiceWorker = function() {
         reg.addEventListener('updatefound', function(){
           indexController._trackInstalling(reg.installing);
         });
-
-        // TODO: listen for the controlling service worker changing
-        // and reload the page
-        navigator.serviceWorker.addEventListener('controllerchange', function(){
-          window.location.reload();
-        });
-          //console.log('Registration worked!');
+         //console.log('Registration worked!');
       })
       .catch(function(){
         console.error('Registration failed!');
       });
+
+    // TODO: listen for the controlling service worker changing
+    // and reload the page
+    // Ensure refresh is only called once.
+    // This works around a bug in "force update on reload".
+    var refreshing;
+    navigator.serviceWorker.addEventListener('controllerchange', function(){
+      if (refreshing) return;
+      window.location.reload();
+      refreshing = true;
+    });
 };
 
 IndexController.prototype._showCachedMessages = function() {
@@ -246,7 +252,7 @@ IndexController.prototype._onSocketMessage = function(data) {
       if (!cursor) return;
       cursor.delete();
       return cursor.continue().then(deleteRest);
-    })
+    });
   });
 
   this._postsView.addPosts(messages);
