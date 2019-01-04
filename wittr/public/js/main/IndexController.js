@@ -1,7 +1,7 @@
 import PostsView from './views/Posts';
 import ToastsView from './views/Toasts';
 import idb from 'idb';
-import index from "../settings/tests";
+//import index from "../settings/tests";
 
 function openDatabase() {
   // If the browser doesn't support service worker,
@@ -29,7 +29,7 @@ export default function IndexController(container) {
   this._postsView = new PostsView(this._container);
   this._toastsView = new ToastsView(this._container);
   this._lostConnectionToast = null;
-  this._openSocket();
+  //this._openSocket();
   this._dbPromise = openDatabase();
   this._registerServiceWorker();
   this._cleanImageCache();
