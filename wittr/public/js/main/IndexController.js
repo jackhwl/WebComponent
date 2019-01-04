@@ -11,14 +11,14 @@ function openDatabase() {
   }
 
   // TODO: return a promise for a database called 'wittr'
-  // that contains one objectStore: 'witters'
+  // that contains one objectStore: 'wittrs'
   // that uses 'id' as its key
   // and has an index called 'by-date', which is sorted
   // by the 'time' property
   return idb.open('wittr', 1, function(upgradeDb){
     // switch(upgradeDb.oldVersion) {
     //   case 0:
-        var store = upgradeDb.createObjectStore('witters', {keyPath: 'id'});
+        var store = upgradeDb.createObjectStore('wittrs', {keyPath: 'id'});
         store.createIndex('by-date', 'time');
     //}
   });
@@ -32,8 +32,13 @@ export default function IndexController(container) {
   this._openSocket();
   this._dbPromise = openDatabase();
   this._registerServiceWorker();
+  this._cleanImageCache();
 
   var indexController = this;
+
+  setInterval(function(){
+    indexController._cleanImageCache();
+  }, 1000 * 60 * 5);
 
   this._showCachedMessages().then(function(){
     indexController._openSocket();
@@ -179,6 +184,39 @@ IndexController.prototype._openSocket = function() {
   });
 };
 
+IndexController.prototype._cleanImageCache = function() {
+  return this._dbPromise.then(function(db){
+    if (!db) return;
+
+    // TODO: open the 'wittr' object store, get all the message,
+    // gather all the photo urls.
+    //
+    // Open the 'wittr-content-imgs' cache, and delete any entry
+    // that you no longer need.
+    var imagesNeeded = [];
+
+    var tx = db.transaction('wittrs');
+    return tx.objectStore('wittrs').getAll().then(function(messages){
+      messages.forEach(function(message) {
+        if (message.photo) {
+          imagesNeeded.push(message.photo);
+        }
+      });
+
+      return caches.open('wittr-content-imgs');
+    }).then(function(cache){
+      return cache.keys().then(function(requests){
+        requests.forEach(function(request) {
+          var url = new URL(request.url);
+          if (!imagesNeeded.includes(url.pathname)) {
+            cache.delete(request);
+          }
+        });
+      });
+    });
+  });
+};
+
 // called when the web socket sends message data
 IndexController.prototype._onSocketMessage = function(data) {
   var messages = JSON.parse(data);
@@ -188,8 +226,8 @@ IndexController.prototype._onSocketMessage = function(data) {
 
     // TODO: put each message into the 'wittrs'
     // object store
-    var tx = db.transaction('witters', 'readwrite');
-    var store = tx.objectStore('witters');
+    var tx = db.transaction('wittrs', 'readwrite');
+    var store = tx.objectStore('wittrs');
     messages.forEach(function(message){
       store.put(message, );
     });

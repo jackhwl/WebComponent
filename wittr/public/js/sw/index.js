@@ -1,5 +1,7 @@
-var staticCacheName = 'wittr-static-v5';
-// 5
+var staticCacheName = 'wittr-static-v6';
+var contentImgsCache = 'wittr-content-imgs';
+var allCaches = [staticCacheName, contentImgsCache];
+
 self.addEventListener('install', function(event) {
     var urlsToCache = [
         '/skeleton',
@@ -23,7 +25,7 @@ self.addEventListener('activate', function(event){
         caches.keys().then(function(cacheNames){
             return Promise.all(
                 cacheNames.filter(function(cacheName){
-                    return cacheName.startsWith('wittr-') && cacheName != staticCacheName;
+                    return cacheName.startsWith('wittr-') && !allCaches.includes(cacheName);
                 }).map(function(cacheName){
                     return caches.delete(cacheName);
                 })
@@ -40,6 +42,10 @@ self.addEventListener('fetch', function(event) {
     if (requestUrl.origin === location.origin) {
         if (requestUrl.pathname === '/') {
             event.respondWith(caches.match('/skeleton'));
+            return;
+        }
+        if (requestUrl.pathname.startsWith('/photos/')) {
+            event.respondWith(servePhoto(event.request));
             return;
         }
     }
@@ -73,6 +79,28 @@ self.addEventListener('fetch', function(event) {
     );
 });
 
+function servePhoto(request){
+    // /photos/98028-7527734776-e1d2bda28e-800px.jpg
+    var storageUrl = request.url.replace(/-\d+px\.jpg$/, '');
+
+    // TODO: return images from the "wittr-content-imgs" cache
+    // if they're in there. Otherwise, fetch the images from 
+    // the network, put them into the cache, and send it back 
+    // to the browser.
+    //
+    // HINT: cache.put supports a plain url as the first parameter
+
+    return caches.open(contentImgsCache).then(function(cache){
+        return cache.match(storageUrl).then(function(response){
+            if (response) return response;
+
+            return fetch(request).then(function(networkResponse){
+                cache.put(storageUrl, networkResponse.clone());
+                return networkResponse;
+            });
+        });
+    });
+}
 // TODO: listen for the "message" event, and call
 // skipWaiting if you get the appropriate message
 
