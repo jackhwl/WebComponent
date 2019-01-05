@@ -1,7 +1,21 @@
-var staticCacheName = 'wittr-static-v12';
+var staticCacheName = 'wittr-static-v19';
 var contentImgsCache = 'wittr-content-imgs';
 var allCaches = [staticCacheName, contentImgsCache];
 
+self.oninstall = (event) =>
+    event.waitUntil(
+        caches.open(staticCacheName).then((cache) =>
+            cache.addAll([
+                '/skeleton',
+                'js/main.js',
+                'css/main.css',
+                'imgs/icon.png',
+                'https://fonts.gstatic.com/s/roboto/v15/2UX7WLTfW3W8TclTUvlFyQ.woff',
+                'https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff'
+            ])
+        )
+    );
+/*
 self.addEventListener('install', (event) =>
     event.waitUntil(
         caches.open(staticCacheName).then((cache) =>
@@ -16,7 +30,34 @@ self.addEventListener('install', (event) =>
         )
     )
 );
+*/
+/*
+self.addEventListener('install', (event) =>
+    event.waitUntil(async function() {
+        const cache = await caches.open(staticCacheName); //.then((cache) =>
+        await    cache.addAll([
+            '/skeleton',
+            'js/main.js',
+            'css/main.css',
+            'imgs/icon.png',
+            'https://fonts.gstatic.com/s/roboto/v15/2UX7WLTfW3W8TclTUvlFyQ.woff',
+            'https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff'
+        ]);
+    }())
+);
+*/
 
+self.onactivate = function(event) {
+    event.waitUntil(
+        caches.keys().then((cacheNames) => Promise.all(
+            cacheNames
+                .filter((cacheName) => cacheName.startsWith('wittr-') && !allCaches.includes(cacheName))
+                .map((cacheName) => caches.delete(cacheName))
+            )
+        )
+    );
+};
+/*
 self.addEventListener('activate', function(event){
     event.waitUntil(
         caches.keys().then(function(cacheNames){
@@ -30,7 +71,7 @@ self.addEventListener('activate', function(event){
         })
     );
 });
-
+*/
 self.addEventListener('fetch', function(event) {
     // TODO: respond to requests for the root page with
     // the page skeleton from the cache
