@@ -1,4 +1,6 @@
-var staticCacheName = 'wittr-static-v19';
+//https://jakearchibald.com/2014/offline-cookbook/
+
+var staticCacheName = 'wittr-static-v22';
 var contentImgsCache = 'wittr-content-imgs';
 var allCaches = [staticCacheName, contentImgsCache];
 
@@ -49,14 +51,29 @@ self.addEventListener('install', (event) =>
 
 self.onactivate = function(event) {
     event.waitUntil(
-        caches.keys().then((cacheNames) => Promise.all(
+        caches.keys().then(cacheNames => Promise.all(
             cacheNames
-                .filter((cacheName) => cacheName.startsWith('wittr-') && !allCaches.includes(cacheName))
-                .map((cacheName) => caches.delete(cacheName))
+                // Return true if you want to remove this cache,
+                // but remember that caches are shared across
+                // the whole origin
+                .filter(cacheName => cacheName.startsWith('wittr-') && !allCaches.includes(cacheName))
+                .map(cacheName => caches.delete(cacheName))
             )
         )
     );
 };
+/*
+self.onactivate = function(event) {
+    event.waitUntil(async function(){
+        const cacheNames = await caches.keys();
+        await Promise.all(
+            cacheNames
+                .filter((cacheName) => cacheName.startsWith('wittr-') && !allCaches.includes(cacheName))
+                .map((cacheName) => caches.delete(cacheName))
+            );
+        }());
+};
+*/
 /*
 self.addEventListener('activate', function(event){
     event.waitUntil(
@@ -72,6 +89,29 @@ self.addEventListener('activate', function(event){
     );
 });
 */
+
+self.onfetch = function(event) {
+    var requestUrl = new URL(event.request.url);
+
+    if (requestUrl.origin === location.origin) {
+        if (requestUrl.pathname === '/') {
+            event.respondWith(caches.match('/skeleton'));
+            return;
+        }
+        if (requestUrl.pathname.startsWith('/photos/')) {
+            event.respondWith(servePhoto(event.request));
+            return;
+        }
+        if (requestUrl.pathname.startsWith('/avatars/')) {
+            event.respondWith(serveAvatar(event.request));
+            return;
+        }
+    }
+    event.respondWith(
+        caches.match(event.request).then(response => response || fetch(event.request))
+    );
+};
+/*
 self.addEventListener('fetch', function(event) {
     // TODO: respond to requests for the root page with
     // the page skeleton from the cache
@@ -123,6 +163,7 @@ self.addEventListener('fetch', function(event) {
         // })
     );
 });
+*/
 
 function serveAvatar(request){
     // Avatar urls look like:
