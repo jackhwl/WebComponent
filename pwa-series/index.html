@@ -47,6 +47,15 @@
     <div id="attendees"></div>
 
     <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("sw.js")
+                .then(registration => {
+                    console.log(registration);
+                })
+                .catch(console.error);
+        }
+    </script>
 </body>
 
 </html>
