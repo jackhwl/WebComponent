@@ -8,7 +8,8 @@
   "author": "Jad Joubran",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "http-server": "^0.10.0",
+    "workbox-cli": "^3.6.3"
   },
   "dependencies": {}
 }
