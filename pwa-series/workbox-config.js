@@ -3,5 +3,9 @@ module.exports = {
   "globPatterns": [
     "**/*.{css,js,html}"
   ],
-  "swDest": "sw.js"
+  "swDest": "sw.js",
+  "runtimeCaching": [{
+    urlPattern: /https:\/\/jsonplaceholder\.typicode\.com/,
+    handler: "networkFirst"
+  }]
 };
