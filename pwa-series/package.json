@@ -5,12 +5,16 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "workbox injectManifest workbox-config.js"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "workbox-cli": "^3.6.3"
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "workbox-cli": "^3.6.3",
+    "workbox-webpack-plugin": "^3.6.3"
   }
 }
