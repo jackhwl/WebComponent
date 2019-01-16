@@ -24,3 +24,16 @@ var p = echo('chain', -1);
 p.then(log).then(log);
 p.then(log).catch(error);
 p.then(log).then(log).then(log).catch(error);
+
+Promise.all([
+    echo('first'),
+    echo('second'),
+    echo('third')
+]).then(log);
+
+Promise.race([
+    echo('first', 200),
+    echo('second', 4000),
+    echo('third', 2000)
+]).then(log);
+
