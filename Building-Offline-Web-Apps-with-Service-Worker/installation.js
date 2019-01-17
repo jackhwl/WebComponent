@@ -1,7 +1,11 @@
 self.addEventListener('install', function(event){
     event.waitUntil(
         // return Promise to install SW
+
+        // force update
+        // self.skipWaiting();  
     );
+
 });
 
 self.addEventListener('activate', function(event){
@@ -11,5 +15,9 @@ self.addEventListener('activate', function(event){
 });
 
 self.addEventListener('fetch', function(event){
-    event.respondWith(fetch(event.request));
+    if (!navigator.onLine) {
+        event.respondWith(new Response('<h1> Offline: </h1>', { headers: { 'Content-Type': 'text/html' }}));
+    } else {
+        event.respondWith(fetch(event.request));
+    }
 });
