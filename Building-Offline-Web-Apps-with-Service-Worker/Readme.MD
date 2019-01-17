@@ -28,3 +28,18 @@ getCurrentPositionWithPromise()
 
 site script: site.js
 sw script: installation.js
+
+CacheStorage: A collection of named caches
+    open()
+    has()
+    delete()
+    keys()
+    match()
+Cache: Storage for Request/Response pairs
+    match()
+    matchAll()
+    keys()
+    add()
+    addAll()
+    put()
+    delete()
