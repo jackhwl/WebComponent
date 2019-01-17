@@ -20,3 +20,7 @@ new Promise(function(fulfill, reject){
 
 // use
 Promise.reject(someError);
+
+// use || inline return
+getCurrentPositionWithPromise()
+    .then(r => console.log(r.coords.longitude) || r)

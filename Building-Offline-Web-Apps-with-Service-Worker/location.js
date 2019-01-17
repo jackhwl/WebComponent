@@ -11,6 +11,12 @@ function getCurrentPositionWithPromise() {
     });
 }
 
+function getCurrentPositionWithPromise() {
+    return new Promise(function (fullfill, reject) {
+        navigator.geolocation.getCurrentPosition(fullfill, reject);
+    });
+}
+
 getCurrentPositionWithPromise()
     .then(r => console.log(r.coords.longitude) || r)
     .catch(r => console.error(r.message))
