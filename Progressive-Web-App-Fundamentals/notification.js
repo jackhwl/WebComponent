@@ -70,3 +70,11 @@ self.addEventListener('notificationclick', evt => {
             break;
     }
 });
+
+self.addEventListener('notificationclose', evt => {
+    console.log('notification closed');
+});
+
+self.addEventListener('notificationclick', evt => {
+    evt.notification.close();
+});
