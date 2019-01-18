@@ -47,8 +47,63 @@ function syncDataWithServer() {
 
         return getDate(reviews, r => r.isSynced === false);
     })
+    .then(results => {
+        for (result of results) {
+            var body = new FormData();
+
+            for (key in result) {
+                body.append(key, result[key]);
+            }
+
+            fetch('/review/now', {
+                method: 'POST',
+                body: body,
+                credentials: 'include'
+            })
+            .then(res => {
+                if (res.ok) {
+                    result.isSynced = true;
+                    db.transaction(['reviews'], 'readwrite')
+                    .objectStore('reviews')
+                    .put(result);
+                }
+            });
+        }
+    })
 }
 
 function getData(objectStore, predicate) {
-    
+    return new Promise((resolve, reject) => {
+        var r = [];
+        function onsuccess(evt) {
+            cursor = evt.target.result;
+            if (cursor) {
+                if (predicate(cursor.value)) {
+                    r.push(cursor.value);
+                }
+                cursor.continue();
+            } else {
+                resolve(r);
+            }
+        }
+        objectStore.openCursor().onsuccess = onsuccess;
+    });
 }
+
+// Periodic Synchronization
+sw.periodicSync.register({
+    tag: 'get-latest',
+    minPeriod: 12 * 60 * 60 * 1000, // 12 hours, in ms
+    powerState: 'avoid-draining',
+    networkState: 'avoid-cellular'
+}).then(reg => {
+    // success
+}, err => {
+    // failure
+});
+
+self.addEventListener('periodicsync', evt => {
+    if (evt.registration.tag == 'get-latest') {
+        event.waitUntil(fetchAndCacheLatestData());
+    }
+});
