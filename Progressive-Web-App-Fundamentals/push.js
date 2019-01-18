@@ -67,3 +67,49 @@ function urlB64ToUint8Array(base64String) {
     }
     return outputArray;
   }
+
+
+  // in sw.js
+  self.addEventListener('push', evt => {
+    var payload = evt.data.json();
+    // do something with payload
+
+    var options = {
+        // configure options
+        body: payload.drink.name + ' from ' + payload.brand.name,
+        icon: '/android-chrome-192x192.png',
+        badge: '/android-chrome-192x192.png',
+        data: payload,
+        actions: [
+            { action: 'view', title: 'See It', icon: '/content/{{eye-png}}'},
+            { action: 'later', title: 'Pop it later', icon: '/content/{{plus-png}}'}
+        ]
+    };
+    evt.waitUntil(
+        self.registration.showNotification('Title', options)
+    );
+  });
+
+  self.addEventListener('notificationclick', evt => {
+    evt.notification.close();
+
+    var payload = evt.notification.data;
+
+    switch(event.action) {
+        case 'later':
+            var form = new FormData();
+            form.append('drinkId', payload.drink.id);
+            form.append('drinkSlug', payload.drink.slug);
+            form.append('brankSlug', payload.brand.slug);
+
+            event.waitUntil(fetch('/review/later', { method: 'POST', body: form, credentials: 'include' }));
+            break;
+        case 'view':
+        default:
+        var brand = payload.brand.slug,
+        drink = payload.drink.slug;
+        evt.waitUntil(
+            clients.openWindow(`${evt.target.location.origin}/${brand}/${drink}/`)
+        );
+    }
+  });
