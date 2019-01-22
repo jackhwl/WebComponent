@@ -25,7 +25,7 @@ Array.prototype.concatMap = function(projectionFunctionThatReturnsArray) {
 */
         
 // Exercise 14: Use concatMap() to retrieve id, title, and 150x200 box art url for every video
-function() {
+function fourteen() {
 	var movieLists = [
 			{
 				name: "Instant Queue",
