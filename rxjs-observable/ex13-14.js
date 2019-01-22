@@ -1,5 +1,31 @@
-// Exercise 12: Retrieve id, title, and a 150x200 box art url for every video
-function tweleve() {
+// Exercise 13: Implement concatMap()
+Array.prototype.concatMap = function(projectionFunctionThatReturnsArray) {
+	return this.
+		map(function(item) {
+			// ------------   INSERT CODE HERE!  ----------------------------
+			// Apply the projection function to each item. The projection
+			// function will return a new child array. This will create a
+			// two-dimensional array.
+			// ------------   INSERT CODE HERE!  ----------------------------
+            return projectionFunctionThatReturnsArray(item);
+        }).
+		// apply the concatAll function to flatten the two-dimensional array
+		concatAll();
+};
+
+/*
+	var spanishFrenchEnglishWords = [ ["cero","rien","zero"], ["uno","un","one"], ["dos","deux","two"] ];
+	// collect all the words for each number, in every language, in a single, flat list
+	var allWords = [0,1,2].
+		concatMap(function(index) {
+			return spanishFrenchEnglishWords[index];
+		});
+
+	return JSON.stringify(allWords) === '["cero","rien","zero","uno","un","one","dos","deux","two"]';
+*/
+        
+// Exercise 14: Use concatMap() to retrieve id, title, and 150x200 box art url for every video
+function() {
 	var movieLists = [
 			{
 				name: "Instant Queue",
@@ -60,29 +86,21 @@ function tweleve() {
 		];
 
 
-	// Use one or more map, concatAll, and filter calls to create an array with the following items
+	// Use one or more concatMap, map, and filter calls to create an array with the following items
 	// [
-	//	 {"id": 675465,"title": "Fracture","boxart":"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
-	//	 {"id": 65432445,"title": "The Chamber","boxart":"http://cdn-0.nflximg.com/images/2891/TheChamber150.jpg" },
-	//	 {"id": 654356453,"title": "Bad Boys","boxart":"http://cdn-0.nflximg.com/images/2891/BadBoys150.jpg" },
-	//	 {"id": 70111470,"title": "Die Hard","boxart":"http://cdn-0.nflximg.com/images/2891/DieHard150.jpg" }
+	//	 {"id": 675465, "title": "Fracture", "boxart": "http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
+	//	 {"id": 65432445, "title": "The Chamber", "boxart": "http://cdn-0.nflximg.com/images/2891/TheChamber150.jpg" },
+	//	 {"id": 654356453, "title": "Bad Boys", "boxart": "http://cdn-0.nflximg.com/images/2891/BadBoys150.jpg" },
+	//	 {"id": 70111470, "title": "Die Hard", "boxart": "http://cdn-0.nflximg.com/images/2891/DieHard150.jpg" }
 	// ];
+
+	//return movieLists // Complete this expression!
     return movieLists.
-        map(movieList => movieList.videos.
-            map(video => video.boxarts.
+        concatMap(movieList => movieList.videos.
+            concatMap(video => video.boxarts.
                 filter(boxart => boxart.width===150 && boxart.height===200).
-                map(boxart => ({id: video.id, title: video.title, boxart: boxart.url}))).
-            concatAll()).
-        concatAll();
-
-    // return movieLists.
-    //     map(movieList => movieList.videos.
-    //         map(video => video.boxarts.
-    //             filter(boxart => boxart.width===150 && boxart.height===200).
-    //             map(boxart => ({id: video.id, title: video.title, boxart: boxart.url})))).
-    //     concatAll().
-    //     concatAll();
-
-     // Complete this expression!
+                map(boxart => ({id: video.id, title: video.title, boxart: boxart.url})))
+            );
 
 }
+		
