@@ -128,3 +128,79 @@ searchResultSets.forEach(
 // Data Access
 // Animations
 // View/Model binding
+
+
+var observer = {
+    onNext(x) { console.log(x) },
+    onError(e) { console.error(e) },
+    onCompleted() { console.log('done')}
+}
+
+{
+    forEach(observer) {
+
+    }
+}
+
+
+var drags = element.mouseDowns.
+                map(mouseDown => element.mouseMoves.
+                        takeUntil(element.mouseUps)).
+                concatAll();
+drags.forEach(dragEvent => console.log(dragEvent));
+
+// equivalent
+
+drags.forEach(
+    dragEvent => console.log(dragEvent),
+    e=> console.error(e),
+    () => console.log('done')
+)
+
+drags.forEach({
+    onNext: dragEvent => console.log(dragEvent),
+    onError: e => console.error(e),
+    onCompleted: () => console.log('done')
+})
+
+// turn timeout async to observable
+
+var handle = setTimeout(()=> console.log('hi'), 2000);
+clearTimeout(handle);
+
+function timeout(time) {
+    // return an obserable
+    return {
+        forEach: function(observer) {
+            var handle = 
+                setTimeout(() => {
+                    observer.onNext(undefined);
+                    observer.onCompleted();
+                }, time);
+
+            // forEach always return a Subscription object
+            return {
+                dispose: function() {
+                    clearTimeout(handle);
+                }
+            }  
+        }
+    }
+}
+
+function fromEvent(dom, eventName) {
+    return {
+        forEach: function(observer) {
+            var handle = (e)=> {
+                observer.onNext(e);
+            };
+            dom.addEventListener(eventName, handle);
+
+            return {
+                dispose: function() {
+                    dom.removeEventListener(eventName, handle);
+                }
+            }
+        }
+    }
+}
