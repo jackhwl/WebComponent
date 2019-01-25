@@ -1,8 +1,8 @@
 angular.module('app')
     .factory('auditHistoryFactory', auditHistoryFactory);
 
-auditHistoryFactory.$inject = ['$resource', '__env', 'CacheFactory','errorService', 'rx'];
-function auditHistoryFactory($resource, __env, CacheFactory, errorService, rx) {
+auditHistoryFactory.$inject = ['$resource', '__env', 'CacheFactory','errorService', 'suggestionService'];
+function auditHistoryFactory($resource, __env, CacheFactory, errorService, suggestionService) {
 
         var factory = {};
 
@@ -11,8 +11,8 @@ function auditHistoryFactory($resource, __env, CacheFactory, errorService, rx) {
                 CacheFactory('auditHistorysSuggestionCache');
             }
 
-            return $resource(__env.auditHistoryApiUrl + "/Suggestion?field="+search.field
-                        +"&value="+search.value+"&capacity="+search.capacity, null,  {
+            return $resource(__env.auditHistoryApiUrl + "/Suggestion?field="+encodeURIComponent(search.field)
+                        +"&value="+encodeURIComponent(search.value)+"&capacity="+search.capacity, null,  {
                 'query': {
                     method: 'GET', cache: CacheFactory.get('auditHistorysSuggestionCache'), isArray: true, 
                     interceptor: errorService.generateShowingInterceptor("Unable to get Suggestion")
@@ -20,17 +20,10 @@ function auditHistoryFactory($resource, __env, CacheFactory, errorService, rx) {
             });  
         }
 
-        function getSuggestion(searchParam) {
-            var search = searchParam();
-            if (!search.value || search.value.trim()==='') return rx.Observable.of([]);
-            return rx.Observable.fromPromise(fetchSuggestion(search).query().$promise);
-        }
+        factory.searchParam = Object.assign({}, suggestionService.searchParam, {fetchFn: fetchSuggestion, capacity: 20});
 
-        factory.searchParam = { element: undefined, field: undefined, value: '', capacity: 20};
-
-        factory.latestSuggestion = function(searchParam) {
-            return rx.Observable.fromEvent(searchParam().element, 'keyup').
-                throttle(250).map(function() {return getSuggestion(searchParam).retry(3);}).switchLatest();
+        factory.getSuggestions = function(getSearchParam) {
+            return suggestionService.latestSuggestions(getSearchParam);
         }
 
     return factory;

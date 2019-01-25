@@ -1,11 +1,11 @@
-<div class="ov-audit">
+﻿<div class="ov-audit">
     
     <div id="filterArea">
         <div id="filterForm">
             <form name="auditSearchForm" ng-submit="$ctrl.addIntermediate()">
                 <div class="ov-audit-form ov-audit-flex-container">
                     <div>
-                        <select class="form-control ov-audit-select" ng-change="$ctrl.suggestions=[]" ng-model="$ctrl.field">
+                        <select class="form-control ov-audit-select" ng-change="$ctrl.updateAutocompleteSource([])" ng-model="$ctrl.field">
                             <option value="UserName">User ID</option>
                             <option value="Template">Template</option>
                             <option value="Key">Description Key</option>
@@ -14,16 +14,12 @@
                             <option value="Value">Value</option>
                         </select>
                     </div>
-                    <div ng-class="{'has-error': (auditSearchForm.value.$invalid && auditSearchForm.$submitted)}">
+                    <div class="ui-widget" ng-class="{'has-error': (auditSearchForm.value.$invalid && auditSearchForm.$submitted)}">
                         <input class="ov-audit-input form-control" type="text"
                                name="value"
                                id="auditSearchBox"
                                ng-model="$ctrl.filterValue"
-                               list="auditSuggestion"
-                               required>
-                               <datalist id="auditSuggestion">
-                                <option ng-repeat="value in $ctrl.suggestions track by $index" value={{value}}>
-                              </datalist></input>
+                               required/>
                         <span class="help-block" ng-show="auditSearchForm.value.$invalid && auditSearchForm.$submitted">
                             <span ng-show="auditSearchForm.value.$error.required">Value cannot be blank.</span>
                         </span>

@@ -1,4 +1,4 @@
-/* global $ */
+﻿/* global $ */
 'use strict';
 var app = angular.module('app')
     .component('ovAuditHistory', {
@@ -229,50 +229,6 @@ function OvAuditHistoryController(auditHistoryFactory, ngDialog, $http, $q, $sco
         window.open(link, '_blank');
     }
 
-    vm.suggestions = [];
-    var auditSearchBox = document.getElementById('auditSearchBox');
-    var searchParam = Object.assign({}, auditHistoryFactory.searchParam, {element: auditSearchBox});
-    auditHistoryFactory.latestSuggestion(getSearchParam).subscribe(updateSuggestion);
-
-    function updateSuggestion(result){
-        return $timeout(function(){ 
-            vm.suggestions = result;
-        });
-    }
-    function getSearchParam() {
-        searchParam.field = vm.field;
-        searchParam.value = auditSearchBox.value;
-        return searchParam;
-    }
-
-    // rx.Observable.fromEvent(auditSearchBox, 'keyup').
-    //     throttle(250).map(auditHistoryFactory.getSuggestion(vm.field, auditSearchBox.value).retry(3)).switchLatest().
-    // var searchParam2 = Object.assign({}, auditHistoryFactory.searchParam2, {element: auditSearchBox});
-    //     searchParam2.field = vm.field;
-    //     searchParam2.value = auditSearchBox.value;
-    //         // , field: {get: function() {return vm.field;}, set: function(_) {vm.field=_;}}, 
-    //         // value: {get: function() {return auditSearchBox.value;}, set: function(_) {auditSearchBox.value=_;}}});
-    // console.log('searchParam2=', searchParam2);
-    // var searchParam = Object.create({}, auditHistoryFactory.searchParam, {
-    //     element: auditSearchBox, field: function(){return vm.field;}, 
-    //     value0: function(){return auditSearchBox.value;}});
-    // rx.Observable.fromEvent(auditSearchBox, 'keyup').
-    //     throttle(250).map(function() {return auditHistoryFactory.getSuggestion0(getSearchParam()).retry(3);}).switchLatest().
-    //     subscribe(updateSuggestion);  
-
-    // function getSuggestion(value) {
-    //     //var apiUrl = 'Audit/Suggestion?field='+vm.field+'&value='+value+'&capacity='+capacity;
-    //     return rx.Observable.fromPromise(auditHistoryFactory.getSuggestion(vm.field, value).query().$promise);
-    //     //return rx.Observable.fromPromise($resource(apiUrl).query().$promise);
-    // }
-    // vm.onSelectChange = function() {
-    //     if (auditSearchBox.value.trim() === '') {
-    //         updateSuggestion([]);
-    //         return;
-    //     }
-    //     //$timeout(function() {auditHistoryFactory.getSuggestion(getSearchParam).subscribe(updateSuggestion)});
-    // };
-
     vm.$onDestroy = function () {
         angular.forEach(cancelListeners, function (cancelListener) {
             cancelListener();
@@ -280,6 +236,25 @@ function OvAuditHistoryController(auditHistoryFactory, ngDialog, $http, $q, $sco
     };
 
     vm.initialize();
+
+    // autocomplete suggestions
+    var jQueryAuditSearchBox = $("#auditSearchBox");
+    var auditSearchBox = jQueryAuditSearchBox[0];
+    var searchParam = Object.assign({}, auditHistoryFactory.searchParam, {element: auditSearchBox});
+
+    function getSearchParam() {
+        searchParam.field = vm.field;
+        searchParam.value = auditSearchBox.value;
+        return searchParam;
+    }
+
+    vm.updateAutocompleteSource = function (suggestions){
+        jQueryAuditSearchBox.autocomplete({
+            source: suggestions
+        });
+    };
+
+    auditHistoryFactory.getSuggestions(getSearchParam).subscribe(vm.updateAutocompleteSource);
 }
 
 app.resolveCustomDrivers = {
