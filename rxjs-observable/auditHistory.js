@@ -238,23 +238,23 @@ function OvAuditHistoryController(auditHistoryFactory, ngDialog, $http, $q, $sco
     vm.initialize();
 
     // autocomplete suggestions
-    var jQueryAuditSearchBox = $("#auditSearchBox");
-    var auditSearchBox = jQueryAuditSearchBox[0];
-    var searchParam = Object.assign({}, auditHistoryFactory.searchParam, {element: auditSearchBox});
+    var auditSearchBox = $("#auditSearchBox");
 
-    function getSearchParam() {
-        searchParam.field = vm.field;
-        searchParam.value = auditSearchBox.value;
-        return searchParam;
+    function getSuggestionParam() {
+        return {
+            eventTarget: auditSearchBox[0],
+            field: vm.field,
+            limit: 20
+        };
     }
 
     vm.updateAutocompleteSource = function (suggestions){
-        jQueryAuditSearchBox.autocomplete({
+        auditSearchBox.autocomplete({
             source: suggestions
         });
     };
 
-    auditHistoryFactory.getSuggestions(getSearchParam).subscribe(vm.updateAutocompleteSource);
+    auditHistoryFactory.getObservableSuggestions(getSuggestionParam).subscribe(vm.updateAutocompleteSource);
 }
 
 app.resolveCustomDrivers = {

@@ -1,27 +1,29 @@
 angular.module('app')
     .service('suggestionService', suggestionService);
 
-suggestionService.$inject = ['rx'];
-function suggestionService(rx) {
+suggestionService.$inject = ['errorService', 'rx'];
+function suggestionService(errorService, rx) {
 
-        this.searchParam = { 
-            element: undefined, 
-            fetchFn: undefined
-        };
+    function currentObserableSuggestion(fetchSuggestion, getSuggestionParam) {
+        var param = getSuggestionParam();
+        if (!param.eventTarget.value || param.eventTarget.value.trim()==='') return rx.Observable.of([]);
 
-        function getSuggestions(getSearchParam) {
-            var search = getSearchParam();
-            if (!search.element.value || search.element.value.trim()==='') return rx.Observable.of([]);
-            return rx.Observable.fromPromise(search.fetchFn(search).query().$promise);
-        }
+        return rx.Observable.defer(function() {
+            return fetchSuggestion(param).query().$promise;
+        });
+    }
 
-        this.latestSuggestions = function(getSearchParam) {
-            return rx.Observable.fromEvent(getSearchParam().element, 'keyup').
-                throttle(250).
-                map(function() {
-                    return getSuggestions(getSearchParam).
-                        retry(3);
-                }).
-                switchLatest();
-        }
+    this.getObservableSuggestions = function(fetchSuggestion, getSuggestionParam) {
+        return rx.Observable.fromEvent(getSuggestionParam().eventTarget, 'keyup').
+            throttle(250).
+            map(function() {
+                return currentObserableSuggestion(fetchSuggestion, getSuggestionParam).
+                    retry(3).
+                    catch(function(error) {
+                        errorService.generateLoggingInterceptor(error);
+                        return rx.Observable.of([]);
+                    });
+            }).
+            switchLatest();
+    }
 }
