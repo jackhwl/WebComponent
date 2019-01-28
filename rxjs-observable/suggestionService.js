@@ -3,21 +3,27 @@ angular.module('app')
 
 suggestionService.$inject = ['errorService', 'rx'];
 function suggestionService(errorService, rx) {
-
-    function currentObserableSuggestion(fetchSuggestion, getSuggestionParam) {
-        var param = getSuggestionParam();
+    var fetchFn, paramFn;
+    function currentObserableSuggestions() {
+        var param = paramFn();
         if (!param.eventTarget.value || param.eventTarget.value.trim()==='') return rx.Observable.of([]);
 
         return rx.Observable.defer(function() {
-            return fetchSuggestion(param).query().$promise;
+            return fetchFn(param).query().$promise;
         });
     }
 
+    function assignFunction(fetchSuggestion, getSuggestionParam) {
+        fetchFn = fetchSuggestion;
+        paramFn = getSuggestionParam;
+    }
+
     this.getObservableSuggestions = function(fetchSuggestion, getSuggestionParam) {
-        return rx.Observable.fromEvent(getSuggestionParam().eventTarget, 'keyup').
+        assignFunction(fetchSuggestion, getSuggestionParam);
+        return rx.Observable.fromEvent(paramFn().eventTarget, 'keyup').
             throttle(250).
             map(function() {
-                return currentObserableSuggestion(fetchSuggestion, getSuggestionParam).
+                return currentObserableSuggestions().
                     retry(3).
                     catch(function(error) {
                         errorService.generateLoggingInterceptor(error);
