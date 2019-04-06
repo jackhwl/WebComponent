@@ -1,0 +1,13 @@
+﻿body {
+    background: #eee;
+    color: #333;
+    font-size: 2em;
+    font-family: Segoe UI;
+}
+.topbar a {
+    color: #ffffff;
+}
+.topbar {
+    padding: 20px;
+    background: #87cefa;
+}

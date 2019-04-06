@@ -1,0 +1,49 @@
+﻿.container {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+/*  General settings of a column in the container  */
+.col {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  Column settings depending on the position: 4 elements  */
+.span4_index4 {
+	width: 24%;
+}
+.span4_index3 {
+	width: 24%;
+}
+.span4_index2 {
+	width: 24%;
+}
+.span4_index1 {
+	width: 24%;
+}
+
+/* Vertical align below 400px */
+
+@media only screen and (max-width: 400px) {
+	.col { 
+		margin: 1% 0 1% 0;
+	}
+	.span4_index4 {
+		width: 100%; 
+	}
+	.span4_index3 {
+		width: 100%; 
+	}
+	.span4_index2 {
+		width: 100%;
+	}
+	.span4_index1 {
+		width: 100%;
+	}
+}
+

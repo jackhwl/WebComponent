@@ -1,0 +1,64 @@
+﻿body {
+    background: red;
+    color: #fff;
+    font-size: 2em;
+    font-family: Segoe UI;
+    margin: 10px;
+}
+#container {
+    width: 100%;
+    border: solid 1px #fff;
+}
+
+#smartphone{ display: none;} 
+#tablet{ display: none;} 
+#desktop{ display: none;} 
+#small{ display: block; } 
+
+.center {
+    text-align: center;
+}
+
+@media only screen and (min-width: 400px) {
+    body {   
+        background: orange;
+    }
+    #container {
+        border: solid 3px #111;
+    }
+    #smartphone{ display: block;} 
+    #tablet{ display: none;} 
+    #desktop{ display: none;} 
+    #small{ display: none;}       
+} 
+
+@media only screen and (min-width: 600px) {
+    body {
+        background: blue;
+    }
+    #container {
+        border: solid 3px #fff;
+    }
+    #smartphone{ display: none;} 
+    #tablet{ display: block;} 
+    #desktop{ display: none;} 
+    #small{ display: none;}   
+} 
+
+@media only screen and (min-width: 900px) {
+    body {
+        background: gray;
+    }
+    #container {
+        border: solid 1px #fff;
+    }
+    #smartphone{ display: none;} 
+    #tablet{ display: none;} 
+    #desktop{ display: block;} 
+    #small{ display: none;}     
+}
+
+
+
+
+
