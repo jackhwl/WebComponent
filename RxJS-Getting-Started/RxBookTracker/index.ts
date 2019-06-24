@@ -24,13 +24,29 @@ import { allBooks } from './data';
  * An observer observes an observable
  * 
  * An observable is nothing but an object with a forEach method.
+ * 
+ * Subscribers are just objects that implement the observer interface, which means they have
+ * methods named next, error and complete.
  */
 
-function subscribe3(subscriber) {
+// function subscribe3(subscriber) {
+//     for (let book of allBooks) {
+//         subscriber.next(book);
+//     }
+// }
+
+let allBooks$ = new Observable(subscriber => {
+    if (document.title !== 'RxBookTracker') {
+        subscriber.error('Incorrect page title.');
+    }
     for (let book of allBooks) {
         subscriber.next(book);
     }
-}
-let allBooks$ = new Observable(subscribe3);
+    setTimeout(() => {
+        subscriber.complete();
+    }, 2000);
+
+    return () => console.log('Executing teardown code.');
+});
 
 allBooks$.subscribe(book => console.log(book.title));
