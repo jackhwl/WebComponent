@@ -35,7 +35,7 @@ import { allBooks } from './data';
 //     }
 // }
 
-let allBooks$ = new Observable(subscriber => {
+let allBooks$ = Observable.create(subscriber => {
     if (document.title !== 'RxBookTracker') {
         subscriber.error('Incorrect page title.');
     }
