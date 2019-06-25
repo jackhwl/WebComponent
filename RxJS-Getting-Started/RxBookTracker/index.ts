@@ -1,4 +1,5 @@
 import { Observable, of, from, fromEvent, concat, interval, Subscriber } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 import { allBooks, allReaders } from './data';
 
@@ -30,7 +31,7 @@ import { allBooks, allReaders } from './data';
  * methods named next, error and complete.
  */
 
- //#region 
+ //#region Creating Observales
 
 
 // function subscribe3(subscriber) {
@@ -53,6 +54,9 @@ import { allBooks, allReaders } from './data';
 //     return () => console.log('Executing teardown code.');
 // });
 
+//#endregion
+
+//#region Subscribing to Observables with Observers
 // allBooks$.subscribe(book => console.log(book.title));
 
 // function myObservable(forEach) {
@@ -139,5 +143,22 @@ fromEvent(button, 'click')
     .subscribe(
         event => timerSubscription.unsubscribe()
     );
+
+let source$ = of(1, 2, 3, 4, 5);
+let doubler = map((value): number => value * 2);
+let doubled$ = doubler(source$);
+doubled$.subscribe(value => console.log(value));
 //#endregion
 
+//  Transformation
+//  Filtering
+//  Combination
+//  Utility
+//  Conditional
+//  Aggregate
+//  Multicasting
+
+//#region Using Operators
+
+
+//#endregion
