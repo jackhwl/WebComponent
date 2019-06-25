@@ -1,4 +1,4 @@
-import { Observable, of, from, fromEvent, concat } from 'rxjs';
+import { Observable, of, from, fromEvent, concat, interval, Subscriber } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { allBooks, allReaders } from './data';
 
@@ -29,6 +29,9 @@ import { allBooks, allReaders } from './data';
  * Subscribers are just objects that implement the observer interface, which means they have
  * methods named next, error and complete.
  */
+
+ //#region 
+
 
 // function subscribe3(subscriber) {
 //     for (let book of allBooks) {
@@ -90,6 +93,7 @@ import { allBooks, allReaders } from './data';
 //     });
 
 let button = document.getElementById('readersButton');
+let timesDiv = document.getElementById('times');
 fromEvent(button, 'click')
     .subscribe(event => {
         ajax('/api/readers')
@@ -102,4 +106,38 @@ fromEvent(button, 'click')
                 readersDiv.innerHTML += reader.name + '<br>';
             }            
         })
-    });
+    }
+);
+
+//let timer$ = interval(1000);
+
+let timer$ = new Observable(Subscriber => {
+    let i = 0;
+    let intervalID = setInterval(() => {
+        Subscriber.next(i++);
+    }, 1000);
+
+    return () => {
+        console.log('Executing teardown code.');
+        clearInterval(intervalID);
+    }
+});
+
+let timerSubscription = timer$.subscribe(
+    value => timesDiv.innerHTML += `${new Date().toLocaleTimeString()} (${value}) <br>`,
+    null,
+    () => console.log('All done!') 
+);
+
+let timerConsoleSubscription = timer$.subscribe(
+    value => console.log(`${new Date().toLocaleTimeString()} (${value})`)
+);
+
+timerSubscription.add(timerConsoleSubscription);
+
+fromEvent(button, 'click')
+    .subscribe(
+        event => timerSubscription.unsubscribe()
+    );
+//#endregion
+
