@@ -180,7 +180,8 @@ doubled$.subscribe(value => console.log(value));
 
 //#endregion
 
-//#region 
+//#region take takeUntil
+
 let timesDiv = document.getElementById('times');
 let button = document.getElementById('readersButton');
 
@@ -207,6 +208,39 @@ timer$
     value => timesDiv.innerHTML += `${new Date().toLocaleTimeString()} (${value}) <br>`,
     null,
     () => console.log('All done!')
+  );
+
+//#endregion
+
+//#region Creating Your Own Operators
+function grabAndLogClassics(year, log) {
+  return source$ => {
+    return new Observable(subscriber => {
+      return source$.subscribe(
+        book => {
+          if (book.publicationYear < year) {
+            subscriber.next(book);
+            if(log) {
+              console.log(`Classic: ${book.title}`);
+            }
+          }
+        },
+        err => subscriber.error(err),
+        () => subscriber.complete()
+      );
+    });
+  }
+}
+
+ajax('/api/books')
+  .pipe(
+    mergeMap(ajaxResponse => ajaxResponse.response),
+    // filter(book => book.publicationYear < 1950),
+    // tap(book => console.log(`Title: ${book.title}`)),
+    grabAndLogClassics(1930, false)
+  )
+  .subscribe(
+    finalValue => console.log(`VALUE: ${finalValue.title}`),
   );
 
 //#endregion
