@@ -1,5 +1,5 @@
 import { Observable, of, from, fromEvent, concat, interval, Subscriber, throwError } from 'rxjs';
-import { map, mergeMap, filter, tap, catchError } from 'rxjs/operators';
+import { map, mergeMap, filter, tap, catchError, take, takeUntil } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 import { allBooks, allReaders } from './data';
 
@@ -29,6 +29,16 @@ import { allBooks, allReaders } from './data';
  * 
  * Subscribers are just objects that implement the observer interface, which means they have
  * methods named next, error and complete.
+ * 
+ * 
+//  Transformation
+//  Filtering
+//  Combination
+//  Utility
+//  Conditional
+//  Aggregate
+//  Multicasting
+
  */
 
  //#region Creating Observales
@@ -150,30 +160,53 @@ let doubled$ = doubler(source$);
 doubled$.subscribe(value => console.log(value));
 //#endregion
 
-//  Transformation
-//  Filtering
-//  Combination
-//  Utility
-//  Conditional
-//  Aggregate
-//  Multicasting
-
 //#region Using Operators
 
-ajax('/api/errors/500')
+// ajax('/api/errors/500')
+//   .pipe(
+//     mergeMap(ajaxResponse => ajaxResponse.response),
+//     filter(book => book.publicationYear < 1950),
+//     tap(book => console.log(`Title: ${book.title}`)),
+//     //catchError(err => of({title: 'Corduroy', author: 'Don Freeman'}))
+//     //catchError((err, caught) => caught)
+//     //catchError(err => throw `Something bad happened ${err.message}`)
+//     catchError(err => return throwError(err.message))
+//   )
+//   .subscribe(
+//     finalValue => console.log(`VALUE: ${finalValue.title}`),
+//     error => console.log(`ERROR: ${error}`)
+//   );
+
+
+//#endregion
+
+//#region 
+let timesDiv = document.getElementById('times');
+let button = document.getElementById('readersButton');
+
+let timer$ = new Observable(subscriber => {
+  let i = 0;
+  let intervalID = setInterval(() => {
+    subscriber.next(i++);
+  }, 1000);
+
+  return () => {
+    console.log('Executing teardown code.');
+    clearInterval(intervalID);
+  }
+});
+
+let cancelTimer$ = fromEvent(button, 'click');
+
+timer$
   .pipe(
-    mergeMap(ajaxResponse => ajaxResponse.response),
-    filter(book => book.publicationYear < 1950),
-    tap(book => console.log(`Title: ${book.title}`)),
-    //catchError(err => of({title: 'Corduroy', author: 'Don Freeman'}))
-    //catchError((err, caught) => caught)
-    //catchError(err => throw `Something bad happened ${err.message}`)
-    catchError(err => return throwError(err.message))
+    //take(3)
+    takeUntil(cancelTimer$)
   )
   .subscribe(
-    finalValue => console.log(`VALUE: ${finalValue.title}`),
-    error => console.log(`ERROR: ${error}`)
+    value => timesDiv.innerHTML += `${new Date().toLocaleTimeString()} (${value}) <br>`,
+    null,
+    () => console.log('All done!')
   );
-
 
 //#endregion
