@@ -1,5 +1,5 @@
 import { Observable, of, from, fromEvent, concat, interval, Subscriber } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { map, mergeMap, filter, tap } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 import { allBooks, allReaders } from './data';
 
@@ -127,22 +127,22 @@ let timer$ = new Observable(Subscriber => {
     }
 });
 
-let timerSubscription = timer$.subscribe(
-    value => timesDiv.innerHTML += `${new Date().toLocaleTimeString()} (${value}) <br>`,
-    null,
-    () => console.log('All done!') 
-);
+// let timerSubscription = timer$.subscribe(
+//     value => timesDiv.innerHTML += `${new Date().toLocaleTimeString()} (${value}) <br>`,
+//     null,
+//     () => console.log('All done!') 
+// );
 
-let timerConsoleSubscription = timer$.subscribe(
-    value => console.log(`${new Date().toLocaleTimeString()} (${value})`)
-);
+// let timerConsoleSubscription = timer$.subscribe(
+//     value => console.log(`${new Date().toLocaleTimeString()} (${value})`)
+// );
 
-timerSubscription.add(timerConsoleSubscription);
+// timerSubscription.add(timerConsoleSubscription);
 
-fromEvent(button, 'click')
-    .subscribe(
-        event => timerSubscription.unsubscribe()
-    );
+// fromEvent(button, 'click')
+//     .subscribe(
+//         event => timerSubscription.unsubscribe()
+//     );
 
 let source$ = of(1, 2, 3, 4, 5);
 let doubler = map((value): number => value * 2);
@@ -159,6 +159,16 @@ doubled$.subscribe(value => console.log(value));
 //  Multicasting
 
 //#region Using Operators
+
+ajax('/api/books')
+  .pipe(
+    mergeMap(ajaxResponse => ajaxResponse.response),
+    filter(book => book.publicationYear < 1950),
+    tap(book => console.log(`Title: ${book.title}`))
+  )
+  .subscribe(
+    finalValue => console.log(finalValue)
+  );
 
 
 //#endregion
