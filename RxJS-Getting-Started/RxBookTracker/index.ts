@@ -261,22 +261,45 @@ import { allBooks, allReaders } from './data';
 
 //#region Using Subjects and Multicasted Observables
 
+// let subject$ = new Subject();
+
+// subject$.subscribe(
+//   value => console.log(`Observer 1: ${value}`)
+// );
+
+// subject$.subscribe(
+//   value => console.log(`Observer 2: ${value}`)
+// );
+
+// subject$.next('Hello!');
+
+// let source$ = new Observable(subscriber => {
+//   subscriber.next('Greetings!');
+// });
+
+// source$.subscribe(subject$);
+
+let source$ = interval(1000).pipe(
+  take(4)
+);
+
 let subject$ = new Subject();
+source$.subscribe(subject$);
 
 subject$.subscribe(
   value => console.log(`Observer 1: ${value}`)
 );
 
-subject$.subscribe(
-  value => console.log(`Observer 2: ${value}`)
-);
+setTimeout(() => {
+  subject$.subscribe(
+    value => console.log(`Observer ____ 2: ${value}`)
+  );  
+}, 1000);
 
-subject$.next('Hello!');
-
-let source$ = new Observable(subscriber => {
-  subscriber.next('Greetings!');
-});
-
-source$.subscribe(subject$);
+setTimeout(() => {
+  subject$.subscribe(
+    value => console.log(`Observer __________ 3: ${value}`)
+  );  
+}, 2000);
 
 //#endregion
