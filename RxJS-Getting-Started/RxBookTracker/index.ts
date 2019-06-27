@@ -1,7 +1,11 @@
-import { Observable, of, from, fromEvent, concat, interval, Subscriber, throwError, Subject } from 'rxjs';
-import { map, mergeMap, filter, tap, catchError, take, takeUntil } from 'rxjs/operators';
+import { Observable, of, from, fromEvent, concat, interval, Subscriber, throwError, Subject,
+          asyncScheduler, asapScheduler, queueScheduler, merge } from 'rxjs';
+import { map, mergeMap, filter, tap, catchError, take, takeUntil,
+          multicast, refCount, publish, share, 
+          publishLast, publishBehavior, publishReplay, observeOn } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 import { allBooks, allReaders } from './data';
+import { queue } from 'rxjs/internal/scheduler/queue';
 
 /**
  * if you want to consume the data inside of an observable. Create
@@ -272,6 +276,7 @@ import { allBooks, allReaders } from './data';
 // );
 
 // subject$.next('Hello!');
+<<<<<<< HEAD
 
 // let source$ = new Observable(subscriber => {
 //   subscriber.next('Greetings!');
@@ -299,5 +304,76 @@ setTimeout(() => {
         value => console.log(`Observer 3: ${value}`)
     );
 }, 2000);
+=======
+
+// let source$ = new Observable(subscriber => {
+//   subscriber.next('Greetings!');
+// });
+
+// source$.subscribe(subject$);
+
+// let source$ = interval(1000).pipe(
+//   take(4),
+//   //multicast(new Subject()),
+//   //publish(),
+//   //publishLast(),
+//   //publishBehavior(42),
+//   publishReplay(),
+//   refCount()
+//   //share()
+// );
+
+// // let subject$ = new Subject();
+// // source$.subscribe(subject$);
+
+// source$.subscribe(
+//   value => console.log(`Observer 1: ${value}`)
+// );
+
+// setTimeout(() => {
+//   source$.subscribe(
+//     value => console.log(`Observer ____ 2: ${value}`)
+//   );  
+// }, 1000);
+
+// setTimeout(() => {
+//   source$.subscribe(
+//     value => console.log(`Observer __________ 3: ${value}`)
+//   );  
+// }, 2000);
+
+// setTimeout(() => {
+//   source$.subscribe(
+//     value => console.log(`Observer __________________ 4: ${value}`),
+//     null,
+//     () => console.log('Observer 4 complete.')
+//   );  
+// }, 4000);
+
+//source$.connect();
+//#endregion
+
+//#region Controlling Execution with Schedulers
+
+console.log('Start script.')
+
+// let queue$ = of('QueueScheduler (synchronous)', queueScheduler);
+// let asap$ = of('AsapScheduler (async micro task)', asapScheduler);
+// let async$ = of('AsyncScheduler (async task)', asyncScheduler);
+
+// merge(async$, asap$, queue$)
+//   .subscribe(
+//     value => console.log(value)
+//   );
+
+from([1, 2, 3, 4], queueScheduler).pipe(
+  tap(value => console.log(`Value: ${value}`)),
+  observeOn(asyncScheduler),
+  tap(value => console.log(`Doubled value: ${value * 2}`))
+)
+.subscribe();
+
+console.log('End script.')
+>>>>>>> 6e4097a259717755d548230e0bd727fb9c84581d
 
 //#endregion
