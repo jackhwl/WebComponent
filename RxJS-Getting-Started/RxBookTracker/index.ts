@@ -1,5 +1,7 @@
 import { Observable, of, from, fromEvent, concat, interval, Subscriber, throwError, Subject } from 'rxjs';
-import { map, mergeMap, filter, tap, catchError, take, takeUntil } from 'rxjs/operators';
+import { map, mergeMap, filter, tap, catchError, take, takeUntil,
+          multicast, refCount, publish, share, 
+          publishLast, publishBehavior, publishReplay } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 import { allBooks, allReaders } from './data';
 
@@ -280,26 +282,42 @@ import { allBooks, allReaders } from './data';
 // source$.subscribe(subject$);
 
 let source$ = interval(1000).pipe(
-  take(4)
+  take(4),
+  //multicast(new Subject()),
+  //publish(),
+  //publishLast(),
+  //publishBehavior(42),
+  publishReplay(),
+  refCount()
+  //share()
 );
 
-let subject$ = new Subject();
-source$.subscribe(subject$);
+// let subject$ = new Subject();
+// source$.subscribe(subject$);
 
-subject$.subscribe(
+source$.subscribe(
   value => console.log(`Observer 1: ${value}`)
 );
 
 setTimeout(() => {
-  subject$.subscribe(
+  source$.subscribe(
     value => console.log(`Observer ____ 2: ${value}`)
   );  
 }, 1000);
 
 setTimeout(() => {
-  subject$.subscribe(
+  source$.subscribe(
     value => console.log(`Observer __________ 3: ${value}`)
   );  
 }, 2000);
 
+setTimeout(() => {
+  source$.subscribe(
+    value => console.log(`Observer __________________ 4: ${value}`),
+    null,
+    () => console.log('Observer 4 complete.')
+  );  
+}, 4000);
+
+//source$.connect();
 //#endregion
