@@ -1,4 +1,5 @@
 import { TestScheduler } from 'rxjs/testing';
+import { delay, take } from 'rxjs/operators';
 import { expect } from 'chai';
 
 describe('RxBookTracker Tests', () => {
@@ -10,15 +11,37 @@ describe('RxBookTracker Tests', () => {
       });
     });
 
-    it('test 1', () => {
+    it('produces a single value and completion message', () => {
+      scheduler.run(helpers => {
+        const source$ = helpers.cold('a|');
+        const expected = 'a|';
 
+        helpers.expectObservable(source$).toBe(expected);
+      })
     });
 
-    it('test 2', () => {
+    it('should delay the values produced', () => {
+      scheduler.run(helpers => {
+        const source$ = helpers.cold('-a-b-c-d|');
+        const expected =         '5ms -a-b-c-d|';
 
+        helpers.expectObservable(source$.pipe(
+          delay(5)
+        )).toBe(expected);
+      })
     });
 
-    it('test 3', () => {
+    it('takes the correct number of values', () => {
+      scheduler.run(helpers => {
+        const source$ = helpers.cold('--a--b--c--d|');
+        const expected =             '--a--b--(c|)';
+        const sub =                  '^-------!';
 
+        helpers.expectObservable(source$.pipe(
+          take(3)
+        )).toBe(expected);
+        helpers.expectSubscriptions(source$.subscriptions)
+          .toBe(sub);
+      });
     });
 });
