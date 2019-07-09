@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently --kill-others \"./node_modules/.bin/webpack --watch\" \"node server.js\"",
+    "start": "concurrently --kill-others \".\\node_modules\\.bin\\webpack --watch\" \"node server.js\"",
     "test": "mocha -r ts-node/register **/*.spec.ts"
   },
   "private": true,

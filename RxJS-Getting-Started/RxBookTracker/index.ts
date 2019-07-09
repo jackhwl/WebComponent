@@ -276,35 +276,7 @@ import { queue } from 'rxjs/internal/scheduler/queue';
 // );
 
 // subject$.next('Hello!');
-<<<<<<< HEAD
 
-// let source$ = new Observable(subscriber => {
-//   subscriber.next('Greetings!');
-// });
-
-// source$.subscribe(subject$);
-
-let source$ = interval(1000).pipe(
-    take(4)
-);
-
-
-source$.subscribe(
-    value => console.log(`Observer 1: ${value}`)
-);
-
-setTimeout(() => {
-    source$.subscribe(
-        value => console.log(`Observer 2: ${value}`)
-    );
-}, 1000);
-
-setTimeout(() => {
-    source$.subscribe(
-        value => console.log(`Observer 3: ${value}`)
-    );
-}, 2000);
-=======
 
 // let source$ = new Observable(subscriber => {
 //   subscriber.next('Greetings!');
@@ -374,6 +346,5 @@ from([1, 2, 3, 4], queueScheduler).pipe(
 .subscribe();
 
 console.log('End script.')
->>>>>>> 6e4097a259717755d548230e0bd727fb9c84581d
 
 //#endregion
