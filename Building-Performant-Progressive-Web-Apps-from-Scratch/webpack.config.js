@@ -4,6 +4,12 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const WorkboxPlugin = require("workbox-webpack-plugin");
 
+const performanceConfig = {
+  hints: "warning",
+  maxEntrypointSize: 50000,
+  maxAssetSize: 100000
+};
+
 module.exports = env => {
   const mode = env.mode ? env.mode : "production";
 
@@ -32,6 +38,7 @@ module.exports = env => {
         swDest: "sw.js"
       })
     ],
-    devtool: "source-map"
+    devtool: "source-map",
+    performance: mode === "production" ? performanceConfig : {}
   };
 };
