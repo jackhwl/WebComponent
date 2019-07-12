@@ -15,3 +15,21 @@ fetch("https://pluralsight-pwa-scratch.firebaseio.com/flights.json")
     });
     document.querySelector("#screen-flights").innerHTML = html;
   });
+
+let deferredPrompt;
+const button = document.querySelector("#a2hs");
+window.addEventListener("beforeinstallprompt", event => {
+  event.preventDefault();
+  deferredPrompt = event;
+  button.getElementsByClassName.display = "block";
+});
+
+button.addEventListener("click", () => {
+  button.style.display = "none";
+  deferredPrompt.prompt();
+  deferredPrompt.userChoice.then(result => {
+    console.log(result.outcome);;
+    //TODO: send to analytics
+    deferredPrompt = null;
+  });
+});
