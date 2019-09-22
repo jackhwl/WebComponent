@@ -21,7 +21,7 @@ const button = document.querySelector("#a2hs");
 window.addEventListener("beforeinstallprompt", event => {
   event.preventDefault();
   deferredPrompt = event;
-  button.getElementsByClassName.display = "block";
+  button.style.display = "block";
 });
 
 button.addEventListener("click", () => {
