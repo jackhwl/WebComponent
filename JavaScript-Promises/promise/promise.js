@@ -6,11 +6,14 @@ class Promise {
         this.status = PENDING;
         this.value = undefined;
         this.reason = undefined;
+        this.resolveCallbacks = [];
+        this.rejectCallbacks = [];
         
         let resolve = value => {
             if (this.status == PENDING) {
                 this.status = RESOLVE;
                 this.value = value;
+                this.resolveCallbacks.forEach(fn => fn());
             }
         };
 
@@ -18,6 +21,7 @@ class Promise {
             if (this.status == PENDING) {
                 this.status = REJECT;
                 this.reason = reason;
+                this.rejectCallbacks.forEach(fn => fn());
             }
         }
 
@@ -36,7 +40,8 @@ class Promise {
             return onrejected(this.reason);
         }
         if (this.status == PENDING) {
-            
+            this.resolveCallbacks.push(() => onfufilled(this.value));
+            this.rejectCallbacks.push(() => onrejected(tihs.reason));
         }
     }
 }
