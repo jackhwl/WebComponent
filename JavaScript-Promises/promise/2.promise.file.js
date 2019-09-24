@@ -1,4 +1,6 @@
 let fs = require('fs');
+let Promise = require('./promise');
+
 function read(filename, encoding) { 
     return new Promise((resolve, reject) => {
         fs.readFile(filename, encoding, function(err, data){

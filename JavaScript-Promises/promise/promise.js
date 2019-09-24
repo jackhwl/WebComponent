@@ -33,16 +33,45 @@ class Promise {
     }
 
     then(onfufilled, onrejected) {
-        if (this.status == RESOLVE) {
-            return onfufilled(this.value);
-        }
-        if (this.status == REJECT) {
-            return onrejected(this.reason);
-        }
-        if (this.status == PENDING) {
-            this.resolveCallbacks.push(() => onfufilled(this.value));
-            this.rejectCallbacks.push(() => onrejected(tihs.reason));
-        }
+        let promise2 = new Promise((resolve, reject) => {
+            if (this.status == RESOLVE) {
+                try{
+                    let x = onfufilled(this.value);
+                    resolve(x);
+                } catch(e) {
+                    reject(e);
+                }
+            }
+            if (this.status == REJECT) {
+                try{
+                    let x = onrejected(this.reason);
+                    resolve(x);
+                } catch(e) {
+                    reject(e);
+                }
+            }
+            if (this.status == PENDING) {
+                this.resolveCallbacks.push(() => {
+                    try{
+                        let x = onfufilled(this.value);
+                        resolve(x);
+                    } catch(e) {
+                        reject(e);
+                    }
+                });
+                this.rejectCallbacks.push(() => {
+                    try{
+                        let x = onrejected(this.reason);
+                        resolve(x);
+                    } catch(e) {
+                        reject(e);
+                    }
+                });
+            }
+        });
+
+
+        return promise2;
     }
 }
 
