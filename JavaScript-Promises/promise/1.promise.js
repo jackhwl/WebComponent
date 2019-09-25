@@ -1,12 +1,14 @@
 
-let Promise = require('./promise');
+let Promise = require('./wPromise');
+
 let p = new Promise((resolve, reject) => {
-    console.log(1);
-    setTimeout(() => resolve('got bonus'), 1000);
+    //console.log(1);
+    //setTimeout(() => resolve('got bonus'), 1000);
     //throw new Error('nnetwork fail');
-    //reject('no bonus');
+    //resolve('got bonus');
+    reject('no bonus');
 });
-console.log(2);
+// console.log(2);
 p.then((data)=>{
     console.log('success:', data);
     
@@ -16,12 +18,12 @@ p.then((data)=>{
 });
 
 
-p.then((data)=>{
-    console.log('success:', data);
+// p.then((data)=>{
+//     console.log('success:', data);
     
-},(reason)=>{
-    console.log('fail:', reason);
+// },(reason)=>{
+//     console.log('fail:', reason);
 
-});
+// });
 
-console.log('the end');
+//console.log('the end');
