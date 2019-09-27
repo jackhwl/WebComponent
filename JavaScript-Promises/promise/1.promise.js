@@ -1,5 +1,5 @@
 
-let Promise = require('./wPromise');
+let Promise = require('./w1Promise');
 
 let p = new Promise((resolve, reject) => {
     //console.log(1);

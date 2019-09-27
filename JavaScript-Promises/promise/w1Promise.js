@@ -1,39 +1,40 @@
 // https://juejin.im/post/5b2f02cd5188252b937548ab
 // https://mp.weixin.qq.com/s/4yek2gxbU2JZlQ4_Gx8Ovg
 
+const FUFILLED = 'FUFILLED';
+const REJECTED = 'REJECTED';
 const PENDING = 'PENDING';
-const RESOLVE = 'RESOLVE';
-const REJECT = 'REJECT';
 
 function resolvePromise(promise2, x, resolve, reject) {
     if (x === promise2) {
-        return reject(new TypeError("Chaining cycle detected for promise #<Promise>"));
+        return reject(new TypeError("Chaining cycle detected for promise"));
     }
-    let called; 
-    if ((typeof x === 'object' && x !== null) || typeof x === 'function') {
+    let called;
+    if (x != null && (typeof x === 'object' || typeof x === 'function')) {
         try {
-            // 2.3.3.1, 2.3.3.2 If retrieving the property x.then results in a thrown exception e, reject promise with e as the reason.
             let then = x.then;
             if (typeof then === 'function') {
-                then.call(x, y=>{
+                then.call(x, y => {
                     if (called) return;
                     called = true;
                     resolvePromise(promise2, y, resolve, reject);
-                }, r=>{
+                }, err => {
                     if (called) return;
                     called = true;
-                    reject(r);
-                });
+                    reject(err);
+                })
             } else {
-                resolve(x); //normal value
+                resolve(x);
             }
-        } catch(e) {
+
+        }
+        catch (e) {
             if (called) return;
             called = true;
             reject(e);
         }
     } else {
-        resolve(x); //normal string, number, bool, synbol 
+        resolve(x);
     }
 }
 
@@ -42,88 +43,83 @@ class Promise {
         this.state = PENDING;
         this.value = undefined;
         this.reason = undefined;
-        this.onResolvedCallbacks  = [];
-        this.onRejectedCallbacks  = [];
+        this.onFulfilledCallback = [];
+        this.onRejectedCallback = [];
 
-        let resolve = (value) => {
-            // if(value instanceof Promise){ // 不能判断有没有then 否则测试过不去
-            //     return value.then(resolve,reject); // 递归
-            // }
+        let resolve = value => {
             if (this.state === PENDING) {
                 this.value = value;
-                this.state = RESOLVE;
-                this.onResolvedCallbacks.forEach(fn => fn());
+                this.state = FUFILLED;
+                this.onFulfilledCallback.forEach(fn => fn());
             }
-        };
-
-        let reject = (reason) => {
+        }
+        let reject = reason => {
             if (this.state === PENDING) {
                 this.reason = reason;
-                this.state = REJECT;
-                this.onRejectedCallbacks .forEach(fn => fn());
+                this.state = REJECTED;
+                this.onRejectedCallback.forEach(fn => fn());
             }
-        };
-
-        try{
-            executor(resolve, reject);
-        } catch(e) {
-            reject(e);
         }
 
+        try {
+            executor(resolve, reject);
+        } catch (e) {
+            reject(e);
+        }
     }
 
     then(onFulfilled, onRejected) {
-        onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : val=>val;
-        onRejected = typeof onRejected === 'function' ? onRejected : err=>{throw err};
+        onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : value => value;
+        onRejected = typeof onRejected === 'function' ? onRejected : err => { throw err };
         let promise2 = new Promise((resolve, reject) => {
-            if(this.state === RESOLVE) {
+            if (this.state === FUFILLED) {
                 setTimeout(() => {
-                    try{
+                    try {
                         let x = onFulfilled(this.value);
                         resolvePromise(promise2, x, resolve, reject);
-                    } catch(e) {
+                    } catch (e) {
                         reject(e);
                     }
                 });
             }
-            if(this.state === REJECT) {
+            if (this.state === REJECTED) {
                 setTimeout(() => {
-                    try{
+                    try {
                         let x = onRejected(this.reason);
                         resolvePromise(promise2, x, resolve, reject);
-                    } catch(e){
+                    } catch (e) {
                         reject(e);
                     }
                 });
             }
-            if(this.state === PENDING) {
-                this.onResolvedCallbacks.push(() => { 
+            if (this.state === PENDING) {
+                this.onFulfilledCallback.push(() => {
                     setTimeout(() => {
-                        try{
+                        try {
                             let x = onFulfilled(this.value);
                             resolvePromise(promise2, x, resolve, reject);
-                        } catch(e) {
+                        } catch (e) {
                             reject(e);
                         }
                     });
                 });
-                this.onRejectedCallbacks.push(() => {
+                this.onRejectedCallback.push(() => {
                     setTimeout(() => {
-                        try{
+                        try {
                             let x = onRejected(this.reason);
                             resolvePromise(promise2, x, resolve, reject);
-                        } catch(e){
+                        } catch (e) {
                             reject(e);
                         }
-                    });                        
+                    });
                 });
             }
         });
 
         return promise2;
     }
-}
 
+}
 Promise.defer = Promise.deferred = function() {
     let dfd = {};
     dfd.promise = new Promise((resolve, reject) => {
@@ -132,5 +128,6 @@ Promise.defer = Promise.deferred = function() {
     })
     return dfd;
 }
-//promises-aplus-tests .\wPromise.js
+//promises-aplus-tests .\w1Promise.js
+
 module.exports = Promise;
