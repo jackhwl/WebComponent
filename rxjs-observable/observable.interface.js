@@ -21,3 +21,22 @@ class Observable {
         })
     }
 }
+
+const obs = Observable.timeout(500)
+obs.subscribe({
+    next(v){
+        console.log('next')
+    },
+    complete() {
+        console.log('done')
+    }
+})
+
+obs.subscribe({
+    next(v){
+        console.log('next')
+    },
+    complete() {
+        console.log('done')
+    }
+})
