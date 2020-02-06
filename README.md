@@ -8,3 +8,5 @@ https://realfavicongenerator.net
 
 Defer the add to home banner with onbeforeinstallprompt
 #bypass-app-banner-engagement-checks   enable
+
+Feb 06 2020, add whuang@viglobal.com to github
