@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { defaultTheme, typeScale } from '../utils'
 
-const primaryBlue = "#030086"
 const Button = styled.button`
     padding: 12px 24px;
     font-size: ${typeScale.paragraph};
