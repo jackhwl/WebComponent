@@ -6,7 +6,7 @@ const INITIAL_STATE = {
     email: '',
     subject: '',
     body: '',
-    status: 'ERROR'
+    status: 'IDEL'
 }
 
 const reducer = (state, action) => {
@@ -15,6 +15,7 @@ const reducer = (state, action) => {
             return { ...state, [action.field]: action.value}
         case 'updateStatus':
             return { ...state, status: action.status }
+        case 'reset':
         default:
             return INITIAL_STATE
     }
@@ -22,6 +23,9 @@ const reducer = (state, action) => {
 
 const Form = () => {
     const [state, dispatch] = useReducer(reducer, INITIAL_STATE)
+
+    const setStatus = status => dispatch({ type: 'updateStatus', status })
+
     const updateFieldValue = field => event => {
         dispatch({
             type: 'updateFieldValue',
@@ -31,11 +35,16 @@ const Form = () => {
     }
     const handleSubmit = event => {
         event.preventDefault()
+        setStatus('PENDING')
         console.log(state)
+        setTimeout(() => setStatus('SUCCESS'), 1000)
     }
 
     if (state.status === 'SUCCESS'){
-        return <p className={styles.success}>Message sent!</p>
+        return <p className={styles.success}>Message sent!
+        <button type="reset" onClick={() => dispatch({type: 'reset'})} 
+            className={`${styles.button} ${styles.centered}`} >Reset</button>
+        </p>
     }
     return (
         <>
