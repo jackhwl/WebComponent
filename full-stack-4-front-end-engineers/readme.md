@@ -17,7 +17,11 @@
     * su jack
     * exit back to root
   * Add user to "sudo" group
-    * usermod -aG sudo jack 
+    * usermod -aG sudo jackhwl
+    * copy ssh pub key to ~/.ssh/authorized_keys
+  * Add ssh
+    * apt-get install ssh
+    * service ssh start
 * Create a new user
 * Make that user a super user
 * Enable login for new user
@@ -26,5 +30,5 @@
   * apt install nginx
   * service nginx start
 
- * docker run -d --network=host -p 192.168.0.107:8084:80 -it  wenlinux2
+ * docker run -d -p 8084:80 -p 22:22 -it  wenlinux2
  * docker attach a55
