@@ -58,3 +58,7 @@
   * sudo vi /etc/nginx/sites-available/default
   * sudo service nginx reload
   * node app.js
+* Process Manager
+  * Install PM2: sudo npm i -g pm2
+  * Start PM2: pm2 start app.js
+  * Setup auto restart: pm2 startup
