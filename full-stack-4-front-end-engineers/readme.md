@@ -39,3 +39,22 @@
   * sudo apt install nodejs npm
 * Install Git
   * sudo apt install git
+
+* Change ownership of the www directory to the current user
+  * sudo chown -R $USER:$USER /var/www
+  * mkdir /var/www/app
+  * cd /var/www/app && git init
+
+* domain -> IP -> Nginx -> Express
+  * mkdir -p ui/js ui/html ui/css
+  * touch app.js
+  * npm init
+  * npm i express --save
+  <code>
+    location / {
+      proxy_pass URL_TO_PROXY_TO
+    }
+  </code>
+  * sudo vi /etc/nginx/sites-available/default
+  * sudo service nginx reload
+  * node app.js
