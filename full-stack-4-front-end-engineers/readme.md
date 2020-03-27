@@ -29,6 +29,9 @@
 * Install nginx
   * apt install nginx
   * service nginx start
+  * show nginx configuration
+  * /etc/nginx/sites-available/default
+  * vi /var/www/html/index.html
 
  * docker run -d -p 8084:80 -p 22:22 -it  wenlinux2
  * docker attach a55
