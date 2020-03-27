@@ -35,3 +35,7 @@
 
  * docker run -d -p 8084:80 -p 22:22 -it  wenlinux2
  * docker attach a55
+* Install Nodejs and npm
+  * sudo apt install nodejs npm
+* Install Git
+  * sudo apt install git
