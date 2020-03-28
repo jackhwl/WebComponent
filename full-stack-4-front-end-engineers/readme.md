@@ -62,3 +62,9 @@
   * Install PM2: sudo npm i -g pm2
   * Start PM2: pm2 start app.js
   * Setup auto restart: pm2 startup
+
+## Bash Basics
+* find all log files in /var/log
+* find /var/log/nginx -type f -name "*.log"
+* grep -i 'jack' /var/www
+* zgrep FILE search inside gzip file
