@@ -72,3 +72,5 @@
 ## Nginx Config Basics
 ## Security
 * read Auth.log check ip in MaxMind
+* install unattended upgrades
+* sudo apt install unattended-upgrades
