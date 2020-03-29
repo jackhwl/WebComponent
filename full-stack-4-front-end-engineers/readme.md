@@ -74,3 +74,7 @@
 * read Auth.log check ip in MaxMind
 * install unattended upgrades
 * sudo apt install unattended-upgrades
+* install nmap
+* sudo apt install nmap
+* nmap 192.168.1.107
+* nmap -sV 192.168.1.170
