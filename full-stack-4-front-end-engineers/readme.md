@@ -68,3 +68,7 @@
 * find /var/log/nginx -type f -name "*.log"
 * grep -i 'jack' /var/www
 * zgrep FILE search inside gzip file
+
+## Nginx Config Basics
+## Security
+* read Auth.log check ip in MaxMind
