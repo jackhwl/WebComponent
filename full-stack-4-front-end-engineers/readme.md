@@ -84,3 +84,7 @@
 * Run Script: sudo bash nodesource_setup.sh
 * Install nodejs: sudo apt install nodejs
 * Update outdated package sudo npm update -g
+## HTTPS
+* service ssh start
+* cd /var/www/app && pm2 start app.js
+* service nginx start
