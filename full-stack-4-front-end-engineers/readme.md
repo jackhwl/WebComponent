@@ -89,10 +89,20 @@
 * cd /var/www/app && pm2 start app.js
 * service nginx start
 ## Containers Basics
-* Lightweight
-* Portable
-* Easier for development
-* Easier to manage
-* Faster startup
-* Decouple application from infrastructre
-s
+* Containers & Microservices
+  * Lightweight
+  * Portable
+  * Easier for development
+  * Easier to manage
+  * Faster startup
+  * Decouple application from infrastructre
+* Docker & Orchestration:
+  * docker
+  * Amazon ECS
+  * Apache Mesos
+  * CoreOS rkt
+  * Orchestration:
+    * Docker Swarm
+    * Amazon EKS
+    * Apache Mesos
+    * AKS
