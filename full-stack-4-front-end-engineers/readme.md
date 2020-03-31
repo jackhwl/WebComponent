@@ -115,3 +115,7 @@
   * Least Load
   * top, htop, f5-> tree mode
   * https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
+* Deployment
+  * ANSIBLE
+  * VAGRANT
+  * puppet
