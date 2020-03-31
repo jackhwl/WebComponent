@@ -88,3 +88,11 @@
 * service ssh start
 * cd /var/www/app && pm2 start app.js
 * service nginx start
+## Containers Basics
+* Lightweight
+* Portable
+* Easier for development
+* Easier to manage
+* Faster startup
+* Decouple application from infrastructre
+s
