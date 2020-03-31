@@ -106,3 +106,12 @@
     * Amazon EKS
     * Apache Mesos
     * AKS
+* Load Balancers
+  * Scheduling Algorithms
+  * Round Robin
+  * IP Hashing
+  * Random Choice
+  * Least Connections
+  * Least Load
+  * top, htop, f5-> tree mode
+  * https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
