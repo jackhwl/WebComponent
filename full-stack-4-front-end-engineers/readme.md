@@ -119,3 +119,15 @@
   * ANSIBLE
   * VAGRANT
   * puppet
+## Saving Data
+* Files & Databases Overview
+* Databases:
+  * relational
+    * SQL
+    * Tables
+    * Related data
+    * Strict structure
+  * non-relational
+    * NoSQL
+    * Data agnostic
+    * Loose structure
