@@ -131,3 +131,6 @@
     * NoSQL
     * Data agnostic
     * Loose structure
+  * Redis
+  * WebSockets
+   
