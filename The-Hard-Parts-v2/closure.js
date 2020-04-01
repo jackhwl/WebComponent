@@ -116,59 +116,81 @@ console.log('4')
 
 // CHALLENGE 6
 function delay(func, wait) {
-
+    setTimeout(func, wait);
 }
 
 
 // CHALLENGE 7
 function rollCall(names) {
-
+    let i = 0;
+    return function(){
+        if (i<names.length) {
+            console.log(names[i]);
+            i++;
+        } else {
+            console.log('Everone accounted for');
+        }
+    }
 }
 
-// /*** Uncomment these to check your work! ***/
-// const rollCaller = rollCall(['Victoria', 'Juan', 'Ruth'])
-// rollCaller() // => should log 'Victoria'
-// rollCaller() // => should log 'Juan'
-// rollCaller() // => should log 'Ruth'
-// rollCaller() // => should log 'Everyone accounted for'
+/*** Uncomment these to check your work! ***/
+const rollCaller = rollCall(['Victoria', 'Juan', 'Ruth'])
+rollCaller() // => should log 'Victoria'
+rollCaller() // => should log 'Juan'
+rollCaller() // => should log 'Ruth'
+rollCaller() // => should log 'Everyone accounted for'
 
 
 // CHALLENGE 8
 function saveOutput(func, magicWord) {
-
+    let obj = {};
+	return function(x) {
+        if (x!=magicWord){
+            obj[x]=func(x);
+            return obj[x];
+        } else {
+            return obj;
+        }
+  }
 }
 
-// /*** Uncomment these to check your work! ***/
-// const multiplyBy2 = function(num) { return num * 2; };
-// const multBy2AndLog = saveOutput(multiplyBy2, 'boo');
-// console.log(multBy2AndLog(2)); // => should log 4
-// console.log(multBy2AndLog(9)); // => should log 18
-// console.log(multBy2AndLog('boo')); // => should log { 2: 4, 9: 18 }
+/*** Uncomment these to check your work! ***/
+const multiplyBy2 = function(num) { return num * 2; };
+const multBy2AndLog = saveOutput(multiplyBy2, 'boo');
+console.log(multBy2AndLog(2)); // => should log 4
+console.log(multBy2AndLog(9)); // => should log 18
+console.log(multBy2AndLog('boo')); // => should log { 2: 4, 9: 18 }
 
 
 // CHALLENGE 9
 function cycleIterator(array) {
-
+    let i = 0;
+	return function(){
+        if (i>=array.length) i = 0;
+        return array[i++]; 
+    }
 }
 
-// /*** Uncomment these to check your work! ***/
-// const threeDayWeekend = ['Fri', 'Sat', 'Sun'];
-// const getDay = cycleIterator(threeDayWeekend);
-// console.log(getDay()); // => should log 'Fri'
-// console.log(getDay()); // => should log 'Sat'
-// console.log(getDay()); // => should log 'Sun'
-// console.log(getDay()); // => should log 'Fri'
+/*** Uncomment these to check your work! ***/
+const threeDayWeekend = ['Fri', 'Sat', 'Sun'];
+const getDay = cycleIterator(threeDayWeekend);
+console.log(getDay()); // => should log 'Fri'
+console.log(getDay()); // => should log 'Sat'
+console.log(getDay()); // => should log 'Sun'
+console.log(getDay()); // => should log 'Fri'
 
 
 // CHALLENGE 10
 function defineFirstArg(func, arg) {
-
+    return function(args) {
+        return func(arg, args)
+    }
 }
 
-// /*** Uncomment these to check your work! ***/
-// const subtract = function(big, small) { return big - small; };
-// const subFrom20 = defineFirstArg(subtract, 20);
-// console.log(subFrom20(5)); // => should log 15
+/*** Uncomment these to check your work! ***/
+const subtract = function(big, small) { return big - small; };
+const subFrom20 = defineFirstArg(subtract, 20);
+console.log(subFrom20(5)); // => should log 15
 
 
 // CHALLENGE 11
