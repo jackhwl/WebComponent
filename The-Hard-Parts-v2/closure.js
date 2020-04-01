@@ -195,65 +195,101 @@ console.log(subFrom20(5)); // => should log 15
 
 // CHALLENGE 11
 function dateStamp(func) {
-
+    return function(...args) {
+        return { date: Date.now(), output: func(...args)}
+    }
 }
 
-// /*** Uncomment these to check your work! ***/
-// const stampedMultBy2 = dateStamp(n => n * 2);
-// console.log(stampedMultBy2(4)); // => should log { date: (today's date), output: 8 }
-// console.log(stampedMultBy2(6)); // => should log { date: (today's date), output: 12 }
+/*** Uncomment these to check your work! ***/
+const stampedMultBy2 = dateStamp((n,m) => (n+m) * 2);
+console.log(stampedMultBy2(4,2)); // => should log { date: (today's date), output: 8 }
+console.log(stampedMultBy2(6,1)); // => should log { date: (today's date), output: 12 }
 
 
 // CHALLENGE 12
 function censor() {
-
+    let obj = {}
+	return function(){
+     if (arguments.length==2){
+       obj[arguments[0]] = arguments[1];
+     } else {
+       let str = arguments[0];
+       Object.keys(obj).forEach(item => {
+         str = str.replace(item, obj[item]);
+       });
+       return str;       
+     }
+  }
 }
 
-// /*** Uncomment these to check your work! ***/
-// const changeScene = censor();
-// changeScene('dogs', 'cats');
-// changeScene('quick', 'slow');
-// console.log(changeScene('The quick, brown fox jumps over the lazy dogs.')); // => should log 'The slow, brown fox jumps over the lazy cats.'
+/*** Uncomment these to check your work! ***/
+const changeScene = censor();
+changeScene('dogs', 'cats');
+changeScene('quick', 'slow');
+console.log(changeScene('The quick, brown fox jumps over the lazy dogs.')); // => should log 'The slow, brown fox jumps over the lazy cats.'
 
 
 // CHALLENGE 13
 function createSecretHolder(secret) {
+    let secr = secret;
+    let obj = {
+     getSecret: function() {
+        return secr;
+      },
+       setSecret: function(s) {
+        secr = s;
+      }
+    }
 
+    return obj;
 }
 
-// /*** Uncomment these to check your work! ***/
-// obj = createSecretHolder(5)
-// obj.getSecret() // => returns 5
-// obj.setSecret(2)
-// obj.getSecret() // => returns 2
+/*** Uncomment these to check your work! ***/
+obj = createSecretHolder(5)
+console.log(obj.getSecret()) // => returns 5
+obj.setSecret(2)
+console.log(obj.getSecret()) // => returns 2
 
 
 // CHALLENGE 14
 function callTimes() {
-
+    let counter = 0;
+    return function() {
+        return ++counter;
+    }
 }
 
-// /*** Uncomment these to check your work! ***/
-// let myNewFunc1 = callTimes();
-// let myNewFunc2 = callTimes();
-// myNewFunc1(); // => 1
-// myNewFunc1(); // => 2
-// myNewFunc2(); // => 1
-// myNewFunc2(); // => 2
+/*** Uncomment these to check your work! ***/
+let myNewFunc1 = callTimes();
+let myNewFunc2 = callTimes();
+console.log(myNewFunc1()); // => 1
+console.log(myNewFunc1()); // => 2
+console.log(myNewFunc2()); // => 1
+console.log(myNewFunc2()); // => 2
 
 
 // CHALLENGE 15
 function russianRoulette(num) {
-
+    let counter = 0;
+	return function(){
+    counter++;
+    if ( counter < num) {
+	    return 'click';
+    } else if (counter == num) {
+      return 'bang';
+    } else {
+      return 'reload to play again';
+    }
+  }
 }
 
-// /*** Uncomment these to check your work! ***/
-// const play = russianRoulette(3);
-// console.log(play()); // => should log 'click'
-// console.log(play()); // => should log 'click'
-// console.log(play()); // => should log 'bang'
-// console.log(play()); // => should log 'reload to play again'
-// console.log(play()); // => should log 'reload to play again'
+/*** Uncomment these to check your work! ***/
+const play = russianRoulette(3);
+console.log(play()); // => should log 'click'
+console.log(play()); // => should log 'click'
+console.log(play()); // => should log 'bang'
+console.log(play()); // => should log 'reload to play again'
+console.log(play()); // => should log 'reload to play again'
 
 
 // CHALLENGE 16
