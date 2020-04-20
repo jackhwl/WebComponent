@@ -38,23 +38,31 @@ const map = (array, callback) => {
 
  console.log(map([1, 2, 3], addTwo));
 
+
 // Challenge 4
 const forEach = (array, callback) => {
-
+	for(let i = 0; i < array.length; i++){
+    callback(array[i])
+  }
 };
 
 // See for yourself if your forEach works!
 
-
+let alphabet = '';
+const letters = ['a', 'b', 'c', 'd'];
+forEach(letters, char => alphabet += char);
+console.log(alphabet);   //prints 'abcd'
 
 // Challenge 5
 const mapWith = (array, callback) => {
-
+	forEach(array, callback)
 };
 
 
 // Challenge 6
 const reduce = (array, callback, initialValue) => {
+  let acc = initialValue
+  
 
 };
 
@@ -179,24 +187,28 @@ const highestFunc = (objOfFuncs, subject) => {
 
 // Challenge 1
 const createFunction = () => {
-
+	return function() {
+    console.log('hello')
+  }
 };
 
 // UNCOMMENT THESE TO TEST YOUR WORK!
-// const function1 = createFunction();
-// function1();
+const function1 = createFunction();
+function1();
 
 
 // Challenge 2
 const createFunctionPrinter = (input) => {
-
+	return function() {
+    console.log(input)
+  }
 };
 
 // UNCOMMENT THESE TO TEST YOUR WORK!
-// const printSample = createFunctionPrinter('sample');
-// printSample();
-// const printHello = createFunctionPrinter('hello');
-// printHello();
+const printSample = createFunctionPrinter('sample');
+printSample();
+const printHello = createFunctionPrinter('hello');
+printHello();
 
 
 // Challenge 3
@@ -215,9 +227,9 @@ const jasCounter = outer();
 // Uncomment each of these lines one by one.
 // Before your do, guess what will be logged from each function call.
 
-// willCounter();
-// willCounter();
-// willCounter();
+willCounter();
+willCounter();
+willCounter();
 
 // jasCounter();
 // willCounter();
@@ -225,46 +237,57 @@ const jasCounter = outer();
 
 // Challenge 4
 const addByX = (x) => {
-
+	return function(y) {
+    return x + y
+  }
 };
 
 const addByTwo = addByX(2);
 
 // now call addByTwo with an input of 1
-
+console.log(addByTwo(1))
 
 // now call addByTwo with an input of 2
-
+console.log(addByTwo(2))
 
 // Challenge 5
 const once = (func) => {
-
+  let init
+  return function(x) {
+    if (!init)
+      init = func(x)
+    return init
+  }
 };
 
 const onceFunc = once(addByTwo);
 
 // UNCOMMENT THESE TO TEST YOUR WORK!
-// console.log(onceFunc(4));  //should log 6
-// console.log(onceFunc(10));  //should log 6
-// console.log(onceFunc(9001));  //should log 6
+console.log(onceFunc(4));  //should log 6
+console.log(onceFunc(10));  //should log 6
+console.log(onceFunc(9001));  //should log 6
 
 
 // Challenge 6
 const after = (count, func) => {
-
+	let counter = 0
+  return function() {
+    if (++counter>=count)
+      func()
+  }
 };
 
 const called = () => console.log('hello');
 const afterCalled = after(3, called);
 
-// afterCalled(); // -> nothing is printed
-// afterCalled(); // -> nothing is printed
-// afterCalled(); // -> 'hello' is printed
+afterCalled(); // -> nothing is printed
+afterCalled(); // -> nothing is printed
+afterCalled(); // -> 'hello' is printed
 
 
 // Challenge 7
 const delay = (func, wait) => {
-
+	
 };
 
 
