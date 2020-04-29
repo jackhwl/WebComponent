@@ -21,3 +21,30 @@ img {
     max-width: 100%;
 }
 
+header {
+
+    background-color: #F3EED9;
+    padding: 6em 0;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.header h1, .header p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h1 {
+    color: #824936;
+    font-size: 3em;
+    line-height: 0.95em;
+}
+.header p {
+    text-transform: uppercase ;
+    padding: 1em;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
