@@ -1,4 +1,4 @@
-# JUL 17, 2019
+# [JUL 17, 2019](https://www.tastytrade.com/tt/shows/from-theory-to-practice/episodes/portfolio-tactics-building-blocks-account-value-07-17-2019)
 ## Account Value / Net Liq Value
   * The total dollar value an investor has in the trading account including both cash and securities.
 ## Flexibility 
@@ -38,6 +38,7 @@
     $10,000|4|9|25
     $100,000|42|95|250
     $1M|420|950|2,500
+    ---
    smaller account is learning strategy, build up skill set, practice built up muscle , your goal is not making money
    
 3. **Adjustment**
@@ -45,7 +46,7 @@
     :---:|:---:|:---:
     Initial Capital Allocation|50%|50%
     Total Positions|3|100
-    # of Adjustment|1|20
+    \# of Adjustment|1|20
     End Capital Allocation|65%+|60%
 
     potential losing positions has to be part of plan before you put on certain capital and certain position 

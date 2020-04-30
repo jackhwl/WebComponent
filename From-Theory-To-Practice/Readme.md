@@ -1,4 +1,4 @@
-# Jul 10, 2019 
+# [Jul 10, 2019](https://www.tastytrade.com/tt/shows/from-theory-to-practice/episodes/portfolio-tactics-building-blocks-summary-part-two-02-26-2020)
 ## Building Blocks (Overview)
 1. Trading: 
     * Find and execute trades. 
