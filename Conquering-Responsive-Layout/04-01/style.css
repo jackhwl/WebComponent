@@ -26,7 +26,7 @@ header {
     background-color: #F3EED9;
     padding: 6em 0;
 }
-.header {
+.header, .quality{
     display: flex;
     flex-direction: column;
 }
@@ -34,7 +34,14 @@ header {
     margin: 0 auto;
     text-align: center;
 }
-
+.quality {
+    margin: 0 auto;
+    text-align: center;
+}
+.quality h1 {
+    color: #824936;
+    margin: 2em 0 0 0
+}
 .header h1 {
     color: #824936;
     font-size: 3em;
@@ -47,4 +54,32 @@ header {
 .container {
     width: 80%;
     margin: 0 auto;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: start;
+    text-align: left;
+}
+
+/* .content p + p {
+    padding-left: 2em;
+} */
+.seca, .secb {
+    color: #fff;
+    padding: 2em;
+}
+.seca {
+    background-color: #222c2a;
+}
+.secb {
+    background-color: #824936;
+}
+.desc {
+    width: 45%;
+}
+
+.desc h1 {
+    color: #f3eed9
 }
