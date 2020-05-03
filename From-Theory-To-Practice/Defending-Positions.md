@@ -57,3 +57,15 @@
         * Roll the short option to the following month to gain more credit and allow more time to be right.
       * If no cycle between front and back
         * Close out position look to redeploy
+## Trade Defense
+   * Data shows that positions showing losses at some point still had a good chance of being profitable.
+
+   |Percent of trades that...|1 SD Strangle|
+   ---:|:---:
+   Expired with a positive P/L| 83%
+   Could have been managed at 50% max profit|88%
+   Showed a negative P/L at any point before exp.|79%
+   Showed a 1x loss at any point before exp.|18%
+   Showed a 1x loss at some point, <br>but came back to a profit before exp.|52%
+
+   1x loss means: $2.00 credit, trade on $4.00 lose
