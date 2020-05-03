@@ -29,4 +29,16 @@
 
    * Q: Do we roll defined risk trades?
    * A: Primarily we are comfortable with max loss on a defined risk trade and allow our probabilities to play out. For this reason, we normally do not roll defined risk trades. However, we will look to roll a spread if we are "on the dance floor" (short strike ITM/ATM and long strike OTM). when it on the dance floor, it's 50/50 shot for going higher or lower, so stay with it.
- 
+ ## 3 Considerations for Losing Trades
+   * Directional Assumption
+      * Has it changed?
+      * Is it the same?
+   * Rolling Credit Amount
+      * Is it large enough to merit rolling?
+   * Opportunities Elsewhere
+   * Takeaways:
+      * We don't have to chase our losers - can recover elsewhere
+      * Rolling credit amount is important
+      * Re-assess assumptions frequently
+
+
