@@ -29,7 +29,7 @@
 
    * Q: Do we roll defined risk trades?
    * A: Primarily we are comfortable with max loss on a defined risk trade and allow our probabilities to play out. For this reason, we normally do not roll defined risk trades. However, we will look to roll a spread if we are "on the dance floor" (short strike ITM/ATM and long strike OTM). when it on the dance floor, it's 50/50 shot for going higher or lower, so stay with it.
- ## 3 Considerations for Losing Trades
+## 3 Considerations for Losing Trades
    * Directional Assumption
       * Has it changed?
       * Is it the same?
@@ -40,5 +40,20 @@
       * We don't have to chase our losers - can recover elsewhere
       * Rolling credit amount is important
       * Re-assess assumptions frequently
-
-
+## Defending Trades Gone Bad-Rolling
+   * Defending Strangle
+      1. Roll up untested side (strangles)
+      2. Roll out to next cycle
+      3. Go inverted
+   * Defending an Iron Condor
+      * Tested on either side: Defined risk trade - let the probabilities play out.
+   * Defending a Wide Iron Condor
+      * Use same mechanics as a strangle
+   * Defending a Straddle
+      * Tested breakevens
+      * Invert position by rolling the untested call down (or untested put up) if little time remains roll inverted position to next cycle.
+   * Defending a Calendar
+      * If at least one cycles between the front and back
+        * Roll the short option to the following month to gain more credit and allow more time to be right.
+      * If no cycle between front and back
+        * Close out position look to redeploy
