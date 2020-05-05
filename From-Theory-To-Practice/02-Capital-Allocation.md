@@ -23,18 +23,30 @@
       Capital Allocated|$3,750|$7,500|$11,250
       Positions|7-15|15-22|22+
   2. Risk/Reward
+     * Position Size
+        * More Capital ==> "Expensive" Position (UP & high price)
+        * Less Capital ==> "Cheap" Position (DP * lower price)
      * Balance
         * More Capital ==> More Risk & Reward
         * Less Capital ==> Less Risk & Reward
      * Contrarian Style
         * More Capital ==> Low Price & High IV
         * Less Capital ==> High Price & Low IV
-       Short Market when price going higher, long Market when price going lower,
+        * Short Market when price going higher, long Market when price going lower,
        Short more premium when IV is higher, short less when IV is lower
        Same amount capital can generate more occurrences at the market bottom, but more risk and less occurrence at top.
        bottom: 50%+, top: 25%
     * Under/Over-Allocated:
-    ![alt text](./img/02.1.png "spy")
-    75% capital wipe out all of money when market crash
+       ![alt text](./img/02.1.png "spy")
+         75% capital wipe out all of money when market crash
   3. Dynamic: compare with stock, if you don't touch it, the percentage of portfolio won't change
-    ![alt text](./img/02.2.png "Dynamic")
+      ![alt text](./img/02.2.png "Dynamic")
+  4. More capital = more flexibility:
+    * higher # positions
+    * greater # occurrences
+    * more adjustment opportunitiesk
+      |16 Δ|$5Wide IC|$10 Wide IC|Strangle|
+      ---|---|---|---
+      Full Loser|4%|2%|0.6% (2008)
+   * 4% chance you lose $5 IC
+
