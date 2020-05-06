@@ -48,5 +48,16 @@
       |16 Δ|$5Wide IC|$10 Wide IC|Strangle|
       ---|---|---|---
       Full Loser|4%|2%|0.6% (2008)
-   * 4% chance you lose $5 IC
+   * 4% chance you'll have full-lose $5 IC, 0.6% you'll have full-lose in Strangle
+   * Partial Loser
+      |16 Δ|$5Wide IC|$10 Wide IC|Strangle|
+      ---|---|---|---
+      Partial Loser|18%|17%|17%
+   * SPY size ($250-$300, $10 wide IC is synctial to Strangle, $100 => $5 )
+   ![alt text](./img/02.3.png "IC vs Strangle")
+   * maximum # of strangle is -12.5%
+   * higher volatility on defined underline, lower volatility on naked position
+   * Small: 75% Defined, 25% Undefined
+   * Large: 25% Defined, 75% Undefined
+   * conclusion: wider IC has similar percentage losing rate with strangle, the differece is losing return on capital. 
 
