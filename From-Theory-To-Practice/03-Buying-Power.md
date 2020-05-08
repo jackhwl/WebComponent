@@ -7,5 +7,11 @@
   * use 50% Capital => 25 Underlyings => 50 Positions
     ![alt text](./img/03.3.png "occurrences")
 3. Volatility
+  * BP could be doubled if your position deep ITM during the trade lifecycle
   ![alt text](./img/03.1.png "spy")
   ![alt text](./img/03.2.png "spy")
+  ![alt text](./img/03.4.png "spy")
+  ![alt text](./img/03.5.png "spy")
+  ![alt text](./img/03.6.png "spy")  
+  ![alt text](./img/03.7.png "spy")  
+  ![alt text](./img/03.8.png "spy")  
