@@ -4,12 +4,14 @@ Public Const QtyCol = "D"
 Public Const SymbolCol = "E"
 Public Const GroupCol = "F"
 Public Const StrikeCol = "H"
+Public Const StrategyTypeCol = "I"
 Public Const InitPremiumCol = "J"
 Public Const PLOpenCol = "N"
 Public Const ManageWinnerRate = 0.5
 Public Const StopLoseRate = -3
 Public Const ST_Strangle = "STRANGLE"
 Public Const ST_Straddle = "STRADDLE"
+Public Const ST_Naked = "SINGLE"
 Public Const ST_IC = "IC"
 
 
@@ -52,15 +54,13 @@ Function GetGroup()
     GetGroup = currentGroup
 End Function
 Function GetInitPremium()
+    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Value
+    firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Value
     If GetStrategyName() = ST_Strangle Or GetStrategyName() = ST_Straddle Then
-        firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Value
-        firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Value
         secondPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(1, 0).Value
         secondQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Offset(1, 0).Value
         totalPremium = -(firstPrice * firstQty + secondPrice * secondQty)
     ElseIf GetStrategyName() = ST_IC Then
-        firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Value
-        firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Value
         secondPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(1, 0).Value
         secondQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Offset(1, 0).Value
         thirdPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(2, 0).Value
@@ -68,19 +68,12 @@ Function GetInitPremium()
         fourthPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(3, 0).Value
         fourthQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Offset(3, 0).Value
         totalPremium = -(firstPrice * firstQty + secondPrice * secondQty + thirdPrice * thirdQty + fourthPrice * fourthQty)
+    ElseIf GetStrategyName() = ST_Naked Then
+        totalPremium = -(firstPrice * firstQty)
     End If
     GetInitPremium = totalPremium
 End Function
-Function GetBreakEvenUp()
-    If GetStrategyName() = ST_Strangle Or GetStrategyName() = ST_Straddle Then
-        firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Value
-        firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Value
-        secondPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(1, 0).Value
-        secondQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Offset(1, 0).Value
-        totalPremium = -(firstPrice * firstQty + secondPrice * secondQty)
-    ElseIf GetStrategyName() = ST_IC Then
-    End If
-End Function
+
 Function GetManageWinnerAt()
     GetManageWinnerAt = GetInitPremium() * 100 * ManageWinnerRate
 End Function
@@ -97,8 +90,72 @@ Function GetStopLoseAt()
     GetStopLoseAt = stopLose
 End Function
 
+Function GetBuyingPower()
+    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Value
+    firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Value
+    If GetStrategyName() = ST_Strangle Or GetStrategyName() = ST_Straddle Then
+        secondPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(1, 0).Value
+        secondQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Offset(1, 0).Value
+        totalPremium = -(firstPrice * firstQty + secondPrice * secondQty)
+    ElseIf GetStrategyName() = ST_IC Then
+        secondPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(1, 0).Value
+        secondQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Offset(1, 0).Value
+        thirdPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(2, 0).Value
+        thirdQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Offset(2, 0).Value
+        fourthPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(InitPremiumCol)).Offset(3, 0).Value
+        fourthQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(QtyCol)).Offset(3, 0).Value
+        totalPremium = -(firstPrice * firstQty + secondPrice * secondQty + thirdPrice * thirdQty + fourthPrice * fourthQty)
+    ElseIf GetStrategyName() = ST_Naked Then
+        totalPremium = -(firstPrice * firstQty)
+    End If
+    GetBuyingPower = totalPremium
+End Function
+Function GetBreakEven()
+    GetBreakEven = GetBreakEvenUpLow(False)
+End Function
+Function GetBreakEvenUp()
+    GetBreakEvenUp = GetBreakEvenUpLow(False)
+End Function
+Function GetBreakEvenLow()
+    GetBreakEvenLow = GetBreakEvenUpLow(True)
+End Function
+
+Private Function GetBreakEvenUpLow(isLower As Boolean)
+    currentRow = Application.Caller.Row
+    firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(StrikeCol)).Value
+    If GetStrategyName() = ST_Strangle Or GetStrategyName() = ST_Straddle Then
+        If (isLower) Then
+            secondStrikePrice = ActiveSheet.Cells(IIf(currentRow = GetGroupFirstRow(), currentRow + 1, currentRow), Col_Letter_To_Number(StrikeCol)).Value
+            bep = WorksheetFunction.Min(firstStrikePrice, secondStrikePrice) - GetInitPremium()
+        Else
+            secondStrikePrice = ActiveSheet.Cells(IIf(currentRow = GetGroupFirstRow(), currentRow + 1, currentRow - 1), Col_Letter_To_Number(StrikeCol)).Value
+            bep = WorksheetFunction.Max(firstStrikePrice, secondStrikePrice) + GetInitPremium()
+        End If
+    ElseIf GetStrategyName() = ST_IC Then
+        If (isLower) Then
+            thirdStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(StrikeCol)).Offset(2, 0).Value
+            fourthStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(StrikeCol)).Offset(3, 0).Value
+            bep = WorksheetFunction.Min(thirdStrikePrice, fourthStrikePrice) - GetInitPremium()
+        Else
+            secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(StrikeCol)).Offset(1, 0).Value
+            bep = WorksheetFunction.Min(firstStrikePrice, secondStrikePrice) + GetInitPremium()
+        End If
+    ElseIf GetStrategyName() = ST_Naked Then
+        If GetStrategyType() = "PUT" Then
+            bep = firstStrikePrice - GetInitPremium()
+        Else
+            bep = firstStrikePrice + GetInitPremium()
+        End If
+    End If
+    GetBreakEvenUpLow = bep
+End Function
+
 Private Function GetStrategyName()
     GetStrategyName = UCase(ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(StrategyCol)).Value)
+End Function
+
+Private Function GetStrategyType()
+    GetStrategyType = UCase(ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(StrategyTypeCol)).Value)
 End Function
 
 Private Function GetGroupFirstRow()
