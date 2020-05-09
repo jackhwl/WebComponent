@@ -7,12 +7,13 @@ Public Const Col_Strike = "H"
 Public Const Col_StrategyType = "I"
 Public Const Col_InitPremium = "J"
 Public Const Col_PLOpen = "N"
-Public Const Col_Closed = "P"
+Public Const Col_Closing = "P"
 Public Const ST_Strangle = "STRANGLE"
 Public Const ST_Straddle = "STRADDLE"
 Public Const ST_Naked = "SINGLE"
 Public Const ST_IC = "IC"
 Public Const BuyingPower_Rate = 0.2
+Public Const BuyingPower10_Rate = 0.1
 Public Const ManageWinnerRate = 0.5
 Public Const StopLoseRate = -3
 
@@ -88,33 +89,114 @@ Function GetStopLoseAt()
 End Function
 
 Function GetBuyingPower()
-    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_InitPremium)).Value
+    closingPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Closing)).Value
+    firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
     firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Value
-    If GetStrategyName() = ST_Strangle Or GetStrategyName() = ST_Straddle Then
-        secondPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_InitPremium)).Offset(1, 0).Value
-        secondQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Offset(1, 0).Value
-        totalBP = -(firstPrice * firstQty + secondPrice * secondQty)
+    firstStrikeType = GetStrategyType()
+    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_InitPremium)).Value
+    baseBp = closingPrice * BuyingPower_Rate
+    
+    If GetStrategyName() = ST_Strangle Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        
+        If firstStrikeType = "CALL" Then
+            If closingPrice < firstStrikePrice And closingPrice > secondStrikePrice Then
+                ' Healthy
+                totalBP = baseBp - WorksheetFunction.Min(firstStrikePrice - closingPrice, closingPrice - secondStrikePrice) + GetInitPremium()
+            ElseIf closingPrice > firstStrikePrice Then
+                ' Call ITM
+                totalBP = baseBp - (firstStrikePrice - closingPrice) + GetInitPremium()
+            Else
+                ' Put ITM
+                totalBP = baseBp - (secondStrikePrice - closingPrice) + GetInitPremium()
+            End If
+        End If
+        
+        totalBP = totalBP * firstQty * 100
+    ElseIf GetStrategyName() = ST_Straddle Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        
+        If firstStrikeType = "CALL" Then
+            If closingPrice > firstStrikePrice Then
+                ' Call ITM
+                totalBP = baseBp - (firstStrikePrice - closingPrice) + GetInitPremium()
+            Else
+                ' Put ITM
+                totalBP = baseBp - (secondStrikePrice - closingPrice) + GetInitPremium()
+            End If
+        End If
+        
+        totalBP = totalBP * firstQty * 100
     ElseIf GetStrategyName() = ST_IC Then
-        firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
         secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
         thirdStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(2, 0).Value
         fourthStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(3, 0).Value
-        firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Value
         thirdQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Offset(2, 0).Value
         
-        totalBP = WorksheetFunction.Max(Abs(firstQty * (firstStrikePrice - secondStrikePrice)), Abs(thirdQty * (thirdStrikePrice - fourthStrikePrice))) * 100
+        totalBP = WorksheetFunction.Max(firstQty * (secondStrikePrice - firstStrikePrice), thirdQty * (thirdStrikePrice - fourthStrikePrice)) * 100
     ElseIf GetStrategyName() = ST_Naked Then
-        closedPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Closed)).Value
-        strikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
-        qty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Value
-        baseBp = Abs(qty * closedPrice * 100 * BuyingPower_Rate)
-        If GetStrategyType() = "PUT" Then
-            totalBP = baseBp - (closedPrice - strikePrice) * 100
+        If firstStrikeType = "PUT" Then
+            totalBP = baseBp - (closingPrice - firstStrikePrice) + GetInitPremium()
         Else
-            totalBP = baseBp - (strikePrice - closedPrice) * 100
+            totalBP = baseBp - (firstStrikePrice - closingPrice) + GetInitPremium()
         End If
+        
+        totalBP = totalBP * firstQty * 100
     End If
-    GetBuyingPower = totalBP
+    GetBuyingPower = WorksheetFunction.Min(totalBP, GetBuyingPower10())
+End Function
+Private Function GetBuyingPower10()
+    closingPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Closing)).Value
+    firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
+    firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Value
+    firstStrikeType = GetStrategyType()
+    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_InitPremium)).Value
+    
+    If GetStrategyName() = ST_Strangle Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        
+        If firstStrikeType = "CALL" Then
+            baseCallBp = closingPrice * BuyingPower10_Rate
+            basePutBp = secondStrikePrice * BuyingPower10_Rate
+            baseBp = WorksheetFunction.Max(baseCallBp, basePutBp) + GetInitPremium()
+        End If
+        
+        totalBP = baseBp * firstQty * 100
+    ElseIf GetStrategyName() = ST_Straddle Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        
+        If firstStrikeType = "CALL" Then
+            If closingPrice > firstStrikePrice Then
+                ' Call ITM
+                baseBp = closingPrice * BuyingPower10_Rate
+                totalBP = baseBp + GetInitPremium()
+            Else
+                ' Put ITM
+                baseBp = secondStrikePrice * BuyingPower10_Rate
+                totalBP = baseBp + GetInitPremium()
+            End If
+        End If
+        
+        totalBP = totalBP * firstQty * 100
+    ElseIf GetStrategyName() = ST_IC Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        thirdStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(2, 0).Value
+        fourthStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(3, 0).Value
+        thirdQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Offset(2, 0).Value
+        
+        totalBP = WorksheetFunction.Max(firstQty * (secondStrikePrice - firstStrikePrice), thirdQty * (thirdStrikePrice - fourthStrikePrice)) * 100
+    ElseIf GetStrategyName() = ST_Naked Then
+    
+        If firstStrikeType = "PUT" Then
+            baseBp = firstStrikePrice * BuyingPower10_Rate
+        Else
+            baseBp = closingPrice * BuyingPower10_Rate
+        End If
+        
+        totalBP = (baseBp + GetInitPremium()) * firstQty * 100
+    End If
+    
+    GetBuyingPower10 = totalBP
 End Function
 Function GetBreakEven()
     GetBreakEven = GetBreakEvenUpLow(False)
