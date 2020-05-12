@@ -1,14 +1,18 @@
+Public Const Row_BetaWeight = 1
+
 Public Const Col_Time = "A"
 Public Const Col_Strategy = "B"
-Public Const Col_Symbol = "C"
-Public Const Col_Group = "E"
-Public Const Col_Qty = "G"
-Public Const Col_Strike = "I"
-Public Const Col_StrategyType = "J"
-Public Const Col_InitPremium = "K"
-Public Const Col_MarketPremium = "N"
-Public Const Col_PLOpen = "S"
-Public Const Col_Closing = "Y"
+Public Const Col_PLOpen = "F"
+Public Const Col_Closing = "H"
+Public Const Col_Symbol = "J"
+Public Const Col_Group = "K"
+Public Const Col_Qty = "M"
+Public Const Col_Strike = "O"
+Public Const Col_StrategyType = "P"
+Public Const Col_InitPremium = "Q"
+Public Const Col_MarketPremium = "T"
+Public Const Col_Delta = "V"
+Public Const Col_Beta = "W"
 Public Const ST_Strangle = "STRANGLE"
 Public Const ST_Straddle = "STRADDLE"
 Public Const ST_Naked = "SINGLE"
@@ -18,7 +22,17 @@ Public Const BuyingPower10_Rate = 0.1
 Public Const ManageWinnerRate = 0.5
 Public Const StopLoseRate = -3
 
+Function GetBetaWeightedDelta()
+    Application.Volatile
+    currentRow = Application.Caller.Row
+    spyClosingPrice = ActiveSheet.Cells(Row_BetaWeight, Col_Letter_To_Number(Col_Closing)).Value
+    qty = ActiveSheet.Cells(currentRow, Col_Letter_To_Number(Col_Qty)).Value
+    Delta = 100 * ActiveSheet.Cells(currentRow, Col_Letter_To_Number(Col_Delta)).Value
+    beta = ActiveSheet.Cells(currentRow, Col_Letter_To_Number(Col_Beta)).Value
+    strikePrice = ActiveSheet.Cells(currentRow, Col_Letter_To_Number(Col_Strike)).Value
 
+    GetBetaWeightedDelta = qty * strikePrice * beta * Delta * (1 / spyClosingPrice)
+End Function
 
 
 Function GetPLOpenPercentage()
@@ -101,7 +115,24 @@ Function GetBreakEvenLow()
     Application.Volatile
     GetBreakEvenLow = GetBreakEvenUpLow(True)
 End Function
+Function GetNotionValue()
+    firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
+    firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Value
+    firstStrikeType = GetStrategyType()
 
+    If GetStrategyName() = ST_Strangle Then
+        totalNV = firstStrikePrice * firstQty * 100
+    ElseIf GetStrategyName() = ST_Straddle Then
+        totalNV = firstStrikePrice * firstQty * 100
+    ElseIf GetStrategyName() = ST_IC Then
+        totalNV = GetBuyingPower()
+    ElseIf GetStrategyName() = ST_Naked Then
+        totalNV = firstStrikePrice * firstQty * 100
+    End If
+    
+    GetNotionValue = totalNV
+    
+End Function
 Function GetBuyingPower()
     Application.Volatile
     closingPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Closing)).Value
