@@ -1,14 +1,14 @@
 Public Const Col_Time = "A"
 Public Const Col_Strategy = "B"
-Public Const Col_Qty = "D"
-Public Const Col_Symbol = "E"
-Public Const Col_Group = "G"
+Public Const Col_Symbol = "C"
+Public Const Col_Group = "E"
+Public Const Col_Qty = "G"
 Public Const Col_Strike = "I"
 Public Const Col_StrategyType = "J"
 Public Const Col_InitPremium = "K"
 Public Const Col_MarketPremium = "N"
-Public Const Col_PLOpen = "R"
-Public Const Col_Closing = "T"
+Public Const Col_PLOpen = "S"
+Public Const Col_Closing = "Y"
 Public Const ST_Strangle = "STRANGLE"
 Public Const ST_Straddle = "STRADDLE"
 Public Const ST_Naked = "SINGLE"
@@ -79,6 +79,12 @@ Function GetStopLoseAt()
         stopLose = GetInitPremium() * 100 * StopLoseRate
     End If
     GetStopLoseAt = stopLose
+End Function
+
+Function GetBreakEvenPosition()
+    Application.Volatile
+    closingPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Closing)).Value
+    GetBreakEvenPosition = (closingPrice - GetBreakEvenLow()) / (GetBreakEvenUp() - GetBreakEvenLow())
 End Function
 
 Function GetBreakEven()
