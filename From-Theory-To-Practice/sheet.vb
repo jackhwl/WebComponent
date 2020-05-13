@@ -1,8 +1,11 @@
+'https://www.lockeinyoursuccess.com/wp-content/uploads/2016/04/Connecting-ThinkOrSwim-to-Excel.pdf
+
 Public Const Row_BetaWeight = 1
 
 Public Const Col_Time = "A"
 Public Const Col_Strategy = "B"
 Public Const Col_PLOpen = "F"
+Public Const Col_BuyingPowerReduction = "G"
 Public Const Col_Closing = "H"
 Public Const Col_Symbol = "J"
 Public Const Col_Group = "K"
@@ -33,7 +36,21 @@ Function GetBetaWeightedDelta()
 
     GetBetaWeightedDelta = qty * strikePrice * beta * Delta * (1 / spyClosingPrice)
 End Function
+Function GetExpectedROC()
+    Application.Volatile
+    
+    bpr = -ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_BuyingPowerReduction)).Value
+    
+    expectRoc = GetInitPremium() * 100 / (bpr - GetInitPremium() * 100)
 
+    GetExpectedROC = expectRoc
+End Function
+Function GetROC()
+    Application.Volatile
+    plOpen = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_PLOpen)).Value
+    bpr = -ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_BuyingPowerReduction)).Value
+    GetROC = plOpen / (bpr - plOpen)
+End Function
 
 Function GetPLOpenPercentage()
     Application.Volatile
@@ -95,6 +112,28 @@ Function GetStopLoseAt()
     GetStopLoseAt = stopLose
 End Function
 
+Function GetStrikePosition()
+    Application.Volatile
+    closingPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Closing)).Value
+    
+    firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
+    firstStrikeType = GetStrategyType()
+
+    If GetStrategyName() = ST_Strangle Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        strikePosition = (closingPrice - secondStrikePrice) / (firstStrikePrice - secondStrikePrice)
+    ElseIf GetStrategyName() = ST_Straddle Then
+        totalNV = firstStrikePrice * firstQty * 100
+    ElseIf GetStrategyName() = ST_IC Then
+        thirdStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(2, 0).Value
+        strikePosition = (closingPrice - thirdStrikePrice) / (firstStrikePrice - thirdStrikePrice)
+    ElseIf GetStrategyName() = ST_Naked Then
+        totalNV = firstStrikePrice * firstQty * 100
+    End If
+    
+    GetStrikePosition = strikePosition
+End Function
+
 Function GetBreakEvenPosition()
     Application.Volatile
     closingPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Closing)).Value
@@ -115,7 +154,7 @@ Function GetBreakEvenLow()
     Application.Volatile
     GetBreakEvenLow = GetBreakEvenUpLow(True)
 End Function
-Function GetNotionValue()
+Function GetNotionalValue()
     firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
     firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Value
     firstStrikeType = GetStrategyType()
@@ -130,7 +169,7 @@ Function GetNotionValue()
         totalNV = firstStrikePrice * firstQty * 100
     End If
     
-    GetNotionValue = totalNV
+    GetNotionalValue = totalNV
     
 End Function
 Function GetBuyingPower()
