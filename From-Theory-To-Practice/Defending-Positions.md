@@ -74,10 +74,10 @@
    1. Roll up or down the untested
    2. Roll out in time
    3. Go inverted
-      * ![alt text](./img/dp.1.png "Inverted")
+      * ![alt text](./img/00.dp.1.png "Inverted")
       * Going inverted is defensive and limits potential profit:
          * Potential Profit = Total credit - Width between strikes
       * We look to manage this inverted spread around 50% to 75% of potential profit
       * Example of inverted trade managed at about 75%+ of max potential profit.
-        ![alt text](./img/dp.2.png "Inverted")
+        ![alt text](./img/00.dp.2.png "Inverted")
       * Going inverted is no different than just rolling the untested side past the other short strike. It is a defensive move that limits profitability but allows your delta to stay more under control

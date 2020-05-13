@@ -15,3 +15,25 @@
   ![alt text](./img/06.3.png "spy")
   ![alt text](./img/06.4.png "spy")
   ![alt text](./img/06.5.png "spy")
+
+## When the Dust Settles
+ We constantly compare expected outcomes with realized results:
+  * IV vs RV -> implied volatility "overstated"
+  * POP vs POP* -> ex ante and ex post*
+  * ROC vs P/L -> ROC on way in, profit on way out
+
+  So how do ROCs help inform eventual portfolio returns?
+
+2. Expected vs. Realized
+
+  ![alt text](./img/06.b.1.png "spy")
+  ![alt text](./img/06.b.2.png "spy")
+  ![alt text](./img/06.b.3.png "spy")
+
+  wider the wings or lower delta reduce the volatility
+
+  ![alt text](./img/06.b.4.png "spy")
+  ![alt text](./img/06.b.5.png "spy")
+  ![alt text](./img/06.b.6.png "spy")
+
+  only 15% difference compare 50 delta straddle vs. 10 delta strangle
