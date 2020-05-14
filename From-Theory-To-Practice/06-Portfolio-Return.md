@@ -37,3 +37,21 @@
   ![alt text](./img/06.b.6.png "spy")
 
   only 15% difference compare 50 delta straddle vs. 10 delta strangle
+
+## Gimmes and Gotchas
+ As we always like to say...
+   * Portfolio Return -> ceteris paribus, higher = better
+   * Portfolio Risk -> ceteris paribus, lower = better
+   * Together? -> it's never that easy...especially with BP
+
+   When we add capital allocation into the mix, how do things change...?
+
+  ![alt text](./img/06.c.1.png "spy")
+  ![alt text](./img/06.c.2.png "spy")
+  ![alt text](./img/06.c.3.png "spy")
+  ![alt text](./img/06.c.4.png "spy")
+  ![alt text](./img/06.c.5.png "spy")
+  ![alt text](./img/06.c.6.png "spy")
+
+  at 30 delta call, you were wrong for 15 year, still making money
+
