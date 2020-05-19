@@ -22,3 +22,20 @@ So, how does all of this begin to fit inside a portfolio...?
   ![alt text](./img/10.4.png "spy")
 
   maximum reduced Vol to lower end 
+
+* Start: Assets -> multiple eggs, multiple baskets
+* Classic Approach -> stocks and bonds
+* Individual Positions? -> deltas, durations, ets.
+
+Time to break out the scalpel...
+
+  2. Positions level
+      1. Delta
+      2. Direction
+      3. Duration
+      
+  ![alt text](./img/10.b.1.png "spy")
+  ![alt text](./img/10.b.2.png "spy")
+  ![alt text](./img/10.b.3.png "spy")
+  ![alt text](./img/10.b.4.png "spy")
+  ![alt text](./img/10.b.5.png "spy")
