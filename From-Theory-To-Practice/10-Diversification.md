@@ -33,9 +33,32 @@ Time to break out the scalpel...
       1. Delta
       2. Direction
       3. Duration
-      
+
   ![alt text](./img/10.b.1.png "spy")
   ![alt text](./img/10.b.2.png "spy")
   ![alt text](./img/10.b.3.png "spy")
   ![alt text](./img/10.b.4.png "spy")
   ![alt text](./img/10.b.5.png "spy")
+
+  ## Tools in the Toolbox
+    Different jobs require different tools:
+       * Diversifying Assets -> lower correlations
+       * Diversifying Positions -> varying strategy and direction
+       * Diversifying Mechanics -> winners, losers, early...?
+
+    so how can we diversify the management itself..?
+  3. Mechanics
+      1. Winners
+      2. Losers
+      3. Early
+      
+  ![alt text](./img/10.c.1.png "spy")
+  ![alt text](./img/10.c.2.png "spy")
+  ![alt text](./img/10.c.3.png "spy")
+  ![alt text](./img/10.c.4.png "spy")
+  ![alt text](./img/10.c.5.png "spy")
+
+  use combined mechanics will get Vol close to lower one
+
+
+    
