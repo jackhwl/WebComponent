@@ -1,4 +1,5 @@
 'https://www.lockeinyoursuccess.com/wp-content/uploads/2016/04/Connecting-ThinkOrSwim-to-Excel.pdf
+'https://www.lockeinyoursuccess.com/connecting-thinkorswim-to-excel-part-3-of-4/
 
 Public Const Row_BetaWeight = 1
 
@@ -12,18 +13,24 @@ Public Const Col_Group = "K"
 Public Const Col_Qty = "M"
 Public Const Col_Strike = "O"
 Public Const Col_StrategyType = "P"
-Public Const Col_InitPremium = "Q"
+Public Const Col_CostBasis = "Q"
+Public Const Col_InitialCollect = "R"
 Public Const Col_MarketPremium = "T"
 Public Const Col_Delta = "V"
 Public Const Col_Beta = "W"
+Public Const Col_Extra = "Z"
+Public Const Col_ManageWinner = "AD"
+
 Public Const ST_Strangle = "STRANGLE"
 Public Const ST_Straddle = "STRADDLE"
 Public Const ST_Naked = "SINGLE"
 Public Const ST_IC = "IC"
+Public Const ST_VERTICAL = "VERTICAL"
 Public Const BuyingPower_Rate = 0.2
 Public Const BuyingPower10_Rate = 0.1
 Public Const ManageWinnerRate = 0.5
 Public Const StopLoseRate = -3
+
 
 Function GetBetaWeightedDelta()
     Application.Volatile
@@ -39,11 +46,22 @@ End Function
 Function GetExpectedROC()
     Application.Volatile
     
+    manageWinner = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_ManageWinner)).Value
+    
+    bpr = -ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_BuyingPowerReduction)).Value
+    
+    expectRoc = manageWinner / (bpr - manageWinner)
+
+    GetExpectedROC = expectRoc
+End Function
+Function GetMaxROC()
+    Application.Volatile
+    
     bpr = -ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_BuyingPowerReduction)).Value
     
     expectRoc = GetInitPremium() * 100 / (bpr - GetInitPremium() * 100)
 
-    GetExpectedROC = expectRoc
+    GetMaxROC = expectRoc
 End Function
 Function GetROC()
     Application.Volatile
@@ -85,17 +103,25 @@ Function GetGroup()
 End Function
 
 Function GetInitPremium()
-    GetInitPremium = GetPremium(Col_InitPremium)
+    GetInitPremium = GetPremium(Col_CostBasis)
+End Function
+Function GetInitCollect()
+    initialCollectPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_InitialCollect)).Value
+    GetInitCollect = initialCollectPrice
+End Function
+Function GetExtra()
+    extraCollectPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Extra)).Value
+    GetExtra = extraCollectPrice
 End Function
 
 Function GetPLOpen()
     Application.Volatile
-    GetPLOpen = 100 * (GetPremium(Col_InitPremium) - GetPremium(Col_MarketPremium))
+    GetPLOpen = 100 * (GetInitCollect() + GetExtra() - GetPremium(Col_MarketPremium))
 End Function
 
 Function GetManageWinnerAt()
     Application.Volatile
-    GetManageWinnerAt = GetInitPremium() * 100 * ManageWinnerRate
+    GetManageWinnerAt = GetInitCollect() * 100 * ManageWinnerRate
 End Function
 
 Function GetStopLoseAt()
@@ -107,7 +133,7 @@ Function GetStopLoseAt()
         secondQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Offset(1, 0).Value
         stopLose = -(firstStrikePrice * firstQty + secondStrikePrice * secondQty - GetInitPremium()) * 100
     Else
-        stopLose = GetInitPremium() * 100 * StopLoseRate
+        stopLose = GetInitCollect() * 100 * StopLoseRate
     End If
     GetStopLoseAt = stopLose
 End Function
@@ -163,7 +189,7 @@ Function GetNotionalValue()
         totalNV = firstStrikePrice * firstQty * 100
     ElseIf GetStrategyName() = ST_Straddle Then
         totalNV = firstStrikePrice * firstQty * 100
-    ElseIf GetStrategyName() = ST_IC Then
+    ElseIf GetStrategyName() = ST_IC Or GetStrategyName() = ST_VERTICAL Then
         totalNV = GetBuyingPower()
     ElseIf GetStrategyName() = ST_Naked Then
         totalNV = firstStrikePrice * firstQty * 100
@@ -178,7 +204,7 @@ Function GetBuyingPower()
     firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
     firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Value
     firstStrikeType = GetStrategyType()
-    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_InitPremium)).Value
+    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_CostBasis)).Value
     baseBp = closingPrice * BuyingPower_Rate
     
     If GetStrategyName() = ST_Strangle Then
@@ -219,6 +245,10 @@ Function GetBuyingPower()
         thirdQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Offset(2, 0).Value
         
         totalBP = WorksheetFunction.Max(firstQty * (secondStrikePrice - firstStrikePrice), thirdQty * (thirdStrikePrice - fourthStrikePrice)) * 100
+    ElseIf GetStrategyName() = ST_VERTICAL Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        
+        totalBP = WorksheetFunction.Max(firstQty * (secondStrikePrice - firstStrikePrice)) * 100
     ElseIf GetStrategyName() = ST_Naked Then
         If firstStrikeType = "PUT" Then
             totalBP = baseBp - (closingPrice - firstStrikePrice) + GetInitPremium()
@@ -236,7 +266,7 @@ Private Function GetBuyingPower10()
     firstStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Value
     firstQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Value
     firstStrikeType = GetStrategyType()
-    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_InitPremium)).Value
+    firstPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_CostBasis)).Value
     
     If GetStrategyName() = ST_Strangle Then
         secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
@@ -271,6 +301,10 @@ Private Function GetBuyingPower10()
         thirdQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Offset(2, 0).Value
         
         totalBP = WorksheetFunction.Max(firstQty * (secondStrikePrice - firstStrikePrice), thirdQty * (thirdStrikePrice - fourthStrikePrice)) * 100
+    ElseIf GetStrategyName() = ST_VERTICAL Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        
+        totalBP = WorksheetFunction.Max(firstQty * (secondStrikePrice - firstStrikePrice)) * 100
     ElseIf GetStrategyName() = ST_Naked Then
     
         If firstStrikeType = "PUT" Then
@@ -300,6 +334,10 @@ Private Function GetPremium(priceCol As String)
         fourthPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(priceCol)).Offset(3, 0).Value
         fourthQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Offset(3, 0).Value
         totalPremium = -(firstPrice * firstQty + secondPrice * secondQty + thirdPrice * thirdQty + fourthPrice * fourthQty)
+    ElseIf GetStrategyName() = ST_VERTICAL Then
+        secondPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(priceCol)).Offset(1, 0).Value
+        secondQty = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Qty)).Offset(1, 0).Value
+        totalPremium = -(firstPrice * firstQty + secondPrice * secondQty)
     ElseIf GetStrategyName() = ST_Naked Then
         totalPremium = -(firstPrice * firstQty)
     End If
@@ -324,6 +362,13 @@ Private Function GetBreakEvenUpLow(isLower As Boolean)
         Else
             secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
             bep = WorksheetFunction.Min(firstStrikePrice, secondStrikePrice) + GetInitPremium()
+        End If
+    ElseIf GetStrategyName() = ST_VERTICAL Then
+        secondStrikePrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Strike)).Offset(1, 0).Value
+        If (isLower) Then
+            bep = IIf(GetStrategyType() = "CALL", 0, WorksheetFunction.Min(firstStrikePrice, secondStrikePrice) - GetInitPremium())
+        Else
+            bep = IIf(GetStrategyType() = "CALL", WorksheetFunction.Min(firstStrikePrice, secondStrikePrice) + GetInitPremium(), 0)
         End If
     ElseIf GetStrategyName() = ST_Naked Then
         If GetStrategyType() = "PUT" Then
