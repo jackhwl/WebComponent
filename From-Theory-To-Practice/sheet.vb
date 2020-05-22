@@ -18,6 +18,7 @@ Public Const Col_InitialCollect = "R"
 Public Const Col_MarketPremium = "T"
 Public Const Col_Delta = "V"
 Public Const Col_Beta = "W"
+Public Const Col_PROBOTM = "X"
 Public Const Col_Extra = "Z"
 Public Const Col_ManageWinner = "AD"
 
@@ -121,7 +122,7 @@ End Function
 
 Function GetManageWinnerAt()
     Application.Volatile
-    GetManageWinnerAt = GetInitCollect() * 100 * ManageWinnerRate
+    GetManageWinnerAt = GetInitCollect() * 100 * IIf(GetStrategyName() = ST_Straddle, ManageWinnerRate / 2, ManageWinnerRate)
 End Function
 
 Function GetStopLoseAt()
@@ -163,7 +164,9 @@ End Function
 Function GetBreakEvenPosition()
     Application.Volatile
     closingPrice = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_Closing)).Value
-    GetBreakEvenPosition = (closingPrice - GetBreakEvenLow()) / (GetBreakEvenUp() - GetBreakEvenLow())
+    probOTMStr = ActiveSheet.Cells(GetGroupFirstRow(), Col_Letter_To_Number(Col_PROBOTM)).Value
+    probOTM = Left(probOTMStr, Len(probOTMStr) - 1) / 100
+    GetBreakEvenPosition = IIf(GetStrategyName() = ST_Naked, probOTM, (closingPrice - GetBreakEvenLow()) / (GetBreakEvenUp() - GetBreakEvenLow()))
 End Function
 
 Function GetBreakEven()
@@ -371,10 +374,10 @@ Private Function GetBreakEvenUpLow(isLower As Boolean)
             bep = IIf(GetStrategyType() = "CALL", WorksheetFunction.Min(firstStrikePrice, secondStrikePrice) + GetInitPremium(), 0)
         End If
     ElseIf GetStrategyName() = ST_Naked Then
-        If GetStrategyType() = "PUT" Then
-            bep = firstStrikePrice - GetInitPremium()
+        If (isLower) Then
+            bep = IIf(GetStrategyType() = "CALL", 0, firstStrikePrice - GetInitPremium())
         Else
-            bep = firstStrikePrice + GetInitPremium()
+            bep = IIf(GetStrategyType() = "CALL", firstStrikePrice + GetInitPremium(), 1000)
         End If
     End If
     GetBreakEvenUpLow = bep
