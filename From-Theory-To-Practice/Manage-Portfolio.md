@@ -29,10 +29,9 @@
   ![alt text](./img/m.06.png "spy")
 
   
-    |SPY 1SD Strangle|Expiration|50% Winners|
-    ---:|:---:|:---:
-    \# of Occurrences|100|199
-    Avg. P/L per Trade|$48|$43
-    Win Ratio|80%|90%
+|SPY 1SD Strangle|Expiration|50% Winners|
+---:|:---:|:---:
+\# of Occurrences|100|199
+Avg. P/L per Trade|$48|$43
+Win Ratio|80%|90%
 
-    
