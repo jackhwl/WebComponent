@@ -35,3 +35,7 @@
 Avg. P/L per Trade|$48|$43
 Win Ratio|80%|90%
 
+  ![alt text](./img/m.07.png "spy")
+  ![alt text](./img/m.08.png "spy")
+  ![alt text](./img/m.09.png "spy")
+  ![alt text](./img/m.10.png "spy")
