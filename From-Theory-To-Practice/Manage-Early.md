@@ -38,3 +38,14 @@
     \# of Occurrences|100|199|**197**
     Avg. P/L per Trade|$48|$43|**$42**
     Win Ratio|80%|90%|**84%**
+
+    ### Trading (Only) Time...?
+    * Trading the time dimension only is promising
+    * Up? Down? Sideways?
+    * We always talk about trading time
+    * “The volatility of trading time...?"
+
+    ![alt text](./img/me/me.05.png "spy")
+    ![alt text](./img/me/me.06.png "spy")
+    ![alt text](./img/me/me.07.png "spy")
+    ![alt text](./img/me/me.08.png "spy")
