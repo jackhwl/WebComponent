@@ -10,3 +10,4 @@ Boötes is one of the 48 constellations listed by the Greek astronomer Ptolemy i
 |Object|Designation|Name/Meaning|Ojbect Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|Arcturus|"Guardian of the Bear"|Orange Giant Star|-0.04
+2|Izar|"Veil"|Binary Star System|2.37
