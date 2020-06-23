@@ -7,10 +7,10 @@ Hercules is one of the 48 constellations listed by the Greek astronomer Ptolemy 
 ![alt text](./img/her/her.01.png "her")
 ![alt text](./img/her/her.02.jpg "her")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
----:|:---:|:---:|:---:|:---:
-1|M92|N/A|Globular Star Cluster|6.40
-2|M13|N/A|Globular Star Cluster|5.80
-3|Kornephoros|"Club-bearer"|Yellow-White Giant Star|2.77
-4|Zeta Herculis|N/A|Multiple Star System|2.81
+|Object|Designation|Name/Meaning|Ojbect Type|V Mag|Seen
+---:|:---:|:---:|:---:|:---:|:---:
+1|M92|N/A|Globular Star Cluster|6.40|
+2|M13|N/A|Globular Star Cluster|5.80|v
+3|Kornephoros|"Club-bearer"|Yellow-White Giant Star|2.77|
+4|Zeta Herculis|N/A|Multiple Star System|2.81|
 5|
