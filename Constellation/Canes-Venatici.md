@@ -1,4 +1,4 @@
-## [猎犬座 Canes Venatici](http://www.seasky.org/constellations/constellation-canes-venatici.html)
+## [猎犬座 Canes Venatici (The Hunting Dogs)](http://www.seasky.org/constellations/constellation-canes-venatici.html)
 
 The constellation Canes Venatici, the hunting dogs, is visible in the Northern Hemisphere in spring and summer. It is visible at latitudes between 90 degrees and -40 degrees. It is a medium-sized constellation covering 465 square degrees of the sky. It ranks 38th in size among the 88 constellations in the night sky. It is bordered by Ursa Major to the north and west, Coma Berenices to the south, and Boötes to the east.
 
