@@ -30,3 +30,9 @@ ITM BPR = 20% of Underlying Price + ITM Value + Option Price
   ![alt text](./img/bp/bp.10.png "spy")
   ![alt text](./img/bp/bp.11.png "spy")
   ![alt text](./img/bp/bp.12.png "spy")
+
+## A Deeper Dive into Buying Power
+  ![alt text](./img/bp/bp.13.png "spy")
+  ![alt text](./img/bp/bp.14.png "spy")
+  ![alt text](./img/bp/bp.15.png "spy")
+
