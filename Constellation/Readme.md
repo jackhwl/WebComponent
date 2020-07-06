@@ -4,3 +4,5 @@
 
 http://takitoshimi.starfree.jp/
 http://astrowolf.at/en/links/
+
+https://www.skyatnightmagazine.com/advice/how-to-collimate-binoculars/
