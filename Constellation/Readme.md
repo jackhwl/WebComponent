@@ -6,3 +6,5 @@ http://takitoshimi.starfree.jp/
 http://astrowolf.at/en/links/
 
 https://www.skyatnightmagazine.com/advice/how-to-collimate-binoculars/
+
+https://sites.google.com/site/rafaelchamoncobos5/home/collimation-of-binoculars
