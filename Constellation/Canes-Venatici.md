@@ -7,6 +7,6 @@ Canes Venatici was originally included in the constellation Ursa Major by the Gr
 ![alt text](./img/cvn/cvn.01.png "cvn")
 ![alt text](./img/cvn/cvn.02.jpg "cvn")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|M3|N/A|Globular Star Cluster|6.20

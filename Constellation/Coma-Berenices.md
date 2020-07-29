@@ -6,6 +6,6 @@ Coma Berenices was original considered part of the constellation Leo by the seco
 ![alt text](./img/com/com.01.png "com")
 ![alt text](./img/com/com.02.jpg "com")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|M53|N/A|Globular Star Cluster|7.60

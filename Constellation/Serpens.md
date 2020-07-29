@@ -9,7 +9,7 @@ Serpens is one of the 48 constellations first listed by the Greek astronomer Pto
 ![alt text](./img/serpens/serpens.03.png "Serpens")
 ![alt text](./img/serpens/serpens.04.jpg "Serpens")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|M5|N/A|Globular Star Cluster|6.65
 2|M16|Eagle Nebula|Diffuse Nebula|6.00

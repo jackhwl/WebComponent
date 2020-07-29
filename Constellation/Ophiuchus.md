@@ -7,7 +7,7 @@ Ophiuchus is one of the 48 constellations listed by the Greek astronomer Ptolemy
 ![alt text](./img/oph/oph.01.png "oph")
 ![alt text](./img/oph/oph.02.jpg "oph")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|M9|N/A|Globular Star Cluster|7.70
 2|M10|N/A|Globular Star Cluster|6.60

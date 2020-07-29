@@ -8,7 +8,7 @@ Leo is one of the 48 constellation first identified by the Greek astronomer Ptol
 ![alt text](./img/leo/leo.01.png "leo")
 ![alt text](./img/leo/leo.02.jpg "leo")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|M65|N/A|Spiral Galaxy|9.30
 2|M66|N/A|Spiral Galaxy|8.90

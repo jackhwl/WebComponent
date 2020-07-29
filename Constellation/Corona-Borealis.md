@@ -7,7 +7,7 @@ Corona Borealis is one of the 48 constellations listed by the Greek astronomer P
 ![alt text](./img/cb/cb.01.png "Corona Borealis")
 ![alt text](./img/cb/cb.02.jpg "Corona Borealis")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|Alphecca(Gemma)|"Broken Ring"|Binary Star System|2.23
 2|Nusakan|"The Two Series"|Binary Star System|3.68

@@ -7,6 +7,6 @@ Delphinus is one of the 48 constellations cataloged by the Greek astronomer Ptol
 ![alt text](./img/del/del.01.png "del")
 ![alt text](./img/del/del.02.jpg "del")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|Rotanev|"Venator" Spelled Backwards|Binary Star System|3.64

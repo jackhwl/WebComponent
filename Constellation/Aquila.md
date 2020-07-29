@@ -8,6 +8,6 @@ The name Aquila means “Eagle” in Latin. It represents the eagle that carried
 ![alt text](./img/aql/aql.01.png "aql")
 ![alt text](./img/aql/aql.02.jpg "aql")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|Altair|"The Flying Eagle"|Blue Subdwarf Star|0.77

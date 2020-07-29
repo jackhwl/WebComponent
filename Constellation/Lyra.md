@@ -6,7 +6,7 @@ Lyra is one of the 48 constellations listed by the Greek astronomer Ptolemy in t
 ![alt text](./img/lyra/lyra.01.png "leo")
 ![alt text](./img/lyra/lyra.02.jpg "leo")
 
-|Object|Designation|Name/Meaning|Ojbect Type|V Mag|
+|Object|Designation|Name/Meaning|Object Type|V Mag|
 ---:|:---:|:---:|:---:|:---:
 1|M56|N/A|Blobular Star Cluster|8.30
 2|M57|Ring Nebula|Planetary Nebula|8.80
