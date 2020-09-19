@@ -17,6 +17,7 @@ BPR v Lower Risk v
   ![alt text](./img/bp/bp.07.png "spy")
 
 ## BP Expansion at Expiration
+* reviewd @ Sep 19 2020
 
   BP Expansion Ratio Example
   ||50Δ Put|
