@@ -37,4 +37,6 @@ BPR v Lower Risk v
   ![alt text](./img/bp/bp.13.png "spy")
   ![alt text](./img/bp/bp.14.png "spy")
   ![alt text](./img/bp/bp.15.png "spy")
+  ![alt text](./img/bp/bp.16.png "spy")
+  ![alt text](./img/bp/bp.17.png "spy")
 
