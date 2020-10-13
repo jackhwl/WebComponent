@@ -65,28 +65,28 @@ let bb: [number, string, string, number] = [
   10110
 ];
 
-// bb = [1, 2, 3]; // 🚨 ERROR: Type 'number' is not assignable to type 'string'.
+bb = [1, 2, 3]; // 🚨 ERROR: Type 'number' is not assignable to type 'string'.
 
 /**
  * (10) Tuple values often require type annotations (  : [number, number] )
  */
-// const xx = [32, 31]; // number[];
-// const yy: [number, number] = [32, 31];
+const xx = [32, 31]; // number[];
+const yy: [number, number] = [32, 31];
 
 //== OBJECTS ==//
 
 /**
  * (11) object types can be expressed using {} and property names
  */
-// let cc: { houseNumber: number; streetName: string };
-// cc = {
-//   streetName: "Fake Street",
-//   houseNumber: 123
-// };
+let cc: { houseNumber: number; streetName: string };
+cc = {
+  streetName: "Fake Street",
+  houseNumber: 123
+};
 
-// cc = {
-//   houseNumber: 33
-// };
+cc = {
+  houseNumber: 33
+};
 /**
  * 🚨 Property 'streetName'
  * 🚨   is missing in type   '{ houseNumber: number; }'
@@ -97,18 +97,18 @@ let bb: [number, string, string, number] = [
  * (12) You can use the optional operator (?) to
  * indicate that something may or may not be there
  */
-// let dd: { houseNumber: number; streetName?: string };
-// dd = {
-//   houseNumber: 33
-// };
+let dd: { houseNumber: number; streetName?: string };
+dd = {
+  houseNumber: 33
+};
 
 // (13) if we want to re-use this type, we can create an interface
-// interface Address {
-//   houseNumber: number;
-//   streetName?: string;
-// }
-// // and refer to it by name
-// let ee: Address = { houseNumber: 33 };
+interface Address {
+  houseNumber: number;
+  streetName?: string;
+}
+// and refer to it by name
+let ee: Address = { houseNumber: 33 };
 
 //== UNION & INTERSECTION ==//
 
