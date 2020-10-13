@@ -1,0 +1,7 @@
+{
+    "extends": "./tsconfig.json",
+    "comilerOptions": {
+        "types": ["jest"]
+    },
+    "include": ["src", "tests"]
+}
