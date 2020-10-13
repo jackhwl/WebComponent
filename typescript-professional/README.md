@@ -1,5 +1,9 @@
 # Professional TypeScript
 
+## Repo https://github.com/mike-north/professional-ts/
+
+- volta pin node yarn
+
 ![Node.js CI](https://github.com/mike-north/professional-ts/workflows/Node.js%20CI/badge.svg)
 ![ts-nightly compat](https://github.com/mike-north/professional-ts/workflows/TypeScript@Next%20tests/badge.svg)
 
