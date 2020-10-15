@@ -1,0 +1,23 @@
+{
+  "name": "@shlack/utils",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "rimraf dist *.tsbuildinfo",
+    "build": "tsc -b ."
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.52",
+    "jest": "^26.5.3"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "react": "^16.14.0"
+  }
+}
