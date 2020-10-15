@@ -11,5 +11,9 @@
   ],
   "devDependencies": {
     "rimraf": "^3.0.2"
+  },
+  "volta": {
+    "node": "12.19.0",
+    "yarn": "1.22.10"
   }
 }
