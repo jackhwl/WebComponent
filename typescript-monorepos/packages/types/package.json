@@ -8,9 +8,9 @@
   },
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
-    "test": "jest",
-    "lint": "eslint src --ext js,ts",
-    "build": "tsc -b ."
+    "test": "scripty",
+    "lint": "scripty",
+    "build": "scripty"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.0",
@@ -22,5 +22,10 @@
   "volta": {
     "node": "12.19.0",
     "yarn": "1.22.10"
+  },  
+  "scripty": {
+    "path": "../../scripts/packages",
+    "windowsPath": "../../scripts-win/packages"
   }
+
 }
