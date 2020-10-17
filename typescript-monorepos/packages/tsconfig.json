@@ -1,6 +1,8 @@
 {
     "references": [
         {"path": "utils"},
-        {"path": "types"}
+        {"path": "types"},
+        {"path": "data"},
+        {"path": "ui"}
     ]
 }
