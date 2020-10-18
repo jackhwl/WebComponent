@@ -28,3 +28,11 @@ hoisted|✅😫
     30 + 7; // 37          '37' + 7; // '377'          '37' - 7;   // 30
 * the unary + operator converts the operand to a Number
     (+ '37'); // 37             (+ false); // 0
+
+# Explict Typing:
+* let x:number = 33;
+* let input = document.querySelector('input#name_field') as HTMLInputElement;
+* let input = <HTMLInputElement>document.querySelector('input#name_field');  // doesn't mix well with JSX
+
+* function login(username: string, password: string) : User {}
+* const login = (username: string, password: string) : User => {}
