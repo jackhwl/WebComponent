@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   Grid,
   Typography,
@@ -8,69 +8,25 @@ import {
 } from "@material-ui/core";
 import "../styles.css";
 import { AppHeader } from "./AppHeader";
-import { useHistory } from "react-router-dom";
-import { constructHeader, isMember, updateAppSettings } from "../util";
-
-const url = "http://localhost:5000/book";
 
 export const AddBook = () => {
   const [book, setBookName] = useState("");
   const [author, setAuthorName] = useState("");
-  const [open, setOpen] = useState(false);
-  const [message, setMessage] = useState("");
-  const history = useHistory();
-  const showPage = !isMember();
-
-  useEffect(() => {
-    if (!localStorage.getItem("token")) history.push("/login");
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  const [bookAdded, setBookAdded] = useState(false);
 
   const onChangeBookName = (book) => setBookName(book);
-
   const onChangeAuthorName = (author) => setAuthorName(author);
-
-  const redirect = () => {
-    localStorage.clear();
-    history.push("/login");
-  };
-
-  const clearTextFields = () => {
+  const onClick = () => {
+    setBookAdded(true);
     setBookName("");
     setAuthorName("");
   };
 
-  const onClick = () => {
-    const bookData = { name: book, author: author };
-    fetch(url, {
-      headers: constructHeader("application/json"),
-      method: "POST",
-      body: JSON.stringify(bookData),
-    })
-      .then((res) => {
-        if (res.status === 401) redirect();
-        else {
-          setOpen(true);
-          if (res.status === 200) clearTextFields();
-        }
-        return res.json();
-      })
-      .then((json) => {
-        if (json) {
-          updateAppSettings(json.token || "");
-          setMessage(json.message || "");
-        }
-      })
-      .catch((err) => console.log("Error adding book ", err.message));
-  };
-
-  const handleClose = () => setOpen(false);
+  const handleClose = () => setBookAdded(false);
 
   return (
     <div className="AddBook">
       <AppHeader tabValue={2} />
-      {!showPage && <div />}
-      {showPage && (
       <Grid container direction="column" alignItems="center">
         <Grid item style={{ marginBottom: "5vh" }}>
           <Typography variant="h3" gutterBottom>
@@ -111,14 +67,13 @@ export const AddBook = () => {
         </Grid>
         <Grid>
           <Snackbar
-            open={open}
-            message={message}
+            open={bookAdded}
+            message="The book is added!"
             autoHideDuration={2000}
             onClose={handleClose}
           />
         </Grid>
       </Grid>
-      )}
     </div>
   );
 };

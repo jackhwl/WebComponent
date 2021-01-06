@@ -1,35 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Grid, Paper, Typography } from "@material-ui/core";
 import "../styles.css";
 import { AppHeader } from "./AppHeader";
-import { useHistory } from "react-router-dom";
-import { constructHeader, updateAppSettings } from "../util";
-const url = "http://localhost:5000/favorite";
+
+const books = [
+  {
+    name: "Surrounded by idiots",
+    author: "Thomas Erikson",
+  },
+  {
+    name: "The Tipping Point",
+    author: "Malcolm Gladwell",
+  },
+  {
+    name: "Stillness is the key",
+    author: "Ryan Holiday",
+  },
+];
 
 export const MyFavorite = () => {
-  const [favBooks, setFavBooks] = useState([]);
-  const history = useHistory();
-
-  const redirect = () => {
-    localStorage.clear();
-    history.push("/login");
-  };
-
-  useEffect(() => {
-    fetch(url, { headers: constructHeader() })
-      .then((res) => (res.status === 401 ? redirect() : res.json()))
-      .then((json) => {
-        if (json) {
-          updateAppSettings(json.token);
-          setFavBooks([...json.favorites]);
-        }
-      })
-      .catch((err) =>
-        console.log("Error getting favorite books ", err.message)
-      );
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   return (
     <div className="Content">
       <AppHeader tabValue={1} />
@@ -43,7 +32,7 @@ export const MyFavorite = () => {
           </Typography>
         </Grid>
         <Grid item>
-          {favBooks.map((book, key) => {
+          {books.map((book, key) => {
             return (
               <Paper key={key} elevation={2} className="Book">
                 <Grid container direction="column">

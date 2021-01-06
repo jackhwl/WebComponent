@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Grid, Typography, TextField, Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
-import { updateAppSettings } from "../util";
 let base64 = require("base-64");
 let headers = new Headers();
 const url = "http://localhost:5000/login";
@@ -10,10 +9,10 @@ export const Login = () => {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const [loginError, setLoginError] = useState("");
-  const history = useHistory();
 
   const onChangeUsername = (username) => setUserName(username);
   const onChangePassword = (password) => setPassword(password);
+  const history = useHistory();
 
   const onClickLogin = () => {
     headers.set(
@@ -21,14 +20,8 @@ export const Login = () => {
       "Basic " + base64.encode(userName + ":" + password)
     );
     fetch(url, { headers: headers, method: "POST" })
-      .then((res) => res.json())
-      .then((json) => {
-        if (json.message) setLoginError(json.message);
-        else {
-          updateAppSettings(json.token);
-          history.push("/books");
-        }
-      })
+      .then((res) => (res.status === 200 ? history.push("/books") : res.json()))
+      .then((json) => setLoginError(json.message))
       .catch((err) => console.log("Error logging into app ", err.message));
   };
 
