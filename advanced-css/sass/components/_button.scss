@@ -1,5 +1,5 @@
 .btn {
-
+    &,
     &:link, &:visited {
         text-transform: uppercase;
         text-decoration: none;
@@ -9,6 +9,10 @@
         transition: all .2s;
         position: relative;
         font-size: $default-font-size;
+
+        //Change for the <button> element
+        border: none;
+        cursor:  pointer;
     }
 
     &:hover {
