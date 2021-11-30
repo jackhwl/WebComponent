@@ -9,7 +9,7 @@
       font-size: 15px;
       font-family: sans-serif;
       color: white;
-    }  
+    }   
     
     display: grid;
     grid-template-rows: 1fr 3fr 5fr 1fr;
@@ -29,5 +29,40 @@
   .main {
     grid-row: 3/4;
     grid-column: 1/4;
+  }
+  
+  //================= Grid Names
+
+  .container {
+    background-color: #ccc;
+    width: 1000px;
+    margin: 30px auto;
+    
+    & > * {
+      background-color: #f00;
+      padding: 20px;
+      font-size: 15px;
+      font-family: sans-serif;
+      color: white;
+    }  
+    
+    display: grid;
+    grid-template-rows: [header-start] 1fr [header-end box-start sidebar-start] 3fr [box-end main-start] 5fr [main-end sidebar-end footer-start] 1fr [footer-end];
+    grid-template-columns: repeat(3, [col-start] 3fr [col-end]) 2fr [grid-end];
+    
+    //grid-row-gap: 30px;
+    //grid-column-gap: 30px;
+    grid-gap: 15px;
+  }
+  .header, .footer {
+    grid-column: col-start 1 / grid-end;
+  }
+  .sidebar {
+    grid-row: sidebar-start / sidebar-end;
+    grid-column: col-end 3 / grid-end;
+  }
+  .main {
+    grid-row: main-start/main-end;
+    grid-column: col-start 1/ col-end 3;
   }
   
