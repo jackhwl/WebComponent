@@ -1,0 +1,33 @@
+.container {
+    background-color: #ccc;
+    width: 1000px;
+    margin: 30px auto;
+    
+    & > * {
+      background-color: #f00;
+      padding: 20px;
+      font-size: 15px;
+      font-family: sans-serif;
+      color: white;
+    }  
+    
+    display: grid;
+    grid-template-rows: 1fr 3fr 5fr 1fr;
+    grid-template-columns: repeat(3, 3fr) 2fr;
+    
+    //grid-row-gap: 30px;
+    //grid-column-gap: 30px;
+    grid-gap: 15px;
+  }
+  .header, .footer {
+    grid-column: 1 / -1;
+  }
+  .sidebar {
+    grid-row: 2 / 4;
+    grid-column: 2fr;
+  }
+  .main {
+    grid-row: 3/4;
+    grid-column: 1/4;
+  }
+  
